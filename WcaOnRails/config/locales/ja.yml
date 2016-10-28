@@ -1,0 +1,695 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  countries:
+    XA: "Multiple Countries (Asia)"
+    XE: "Multiple Countries (Europe)"
+    XS: "Multiple Countries (South America)"
+    MO: "Macao"
+    HK: "Hong Kong"
+    KR: "Korea"
+  continents:
+    AfR: "Africa"
+    AsR: "Asia"
+    ER: "Europe"
+    NAR: "North America"
+    OcR: "Oceania"
+    SAR: "South America"
+  events:
+    "333": "Rubik's Cube"
+    "444": "4x4 Cube"
+    "555": "5x5 Cube"
+    "222": "2x2 Cube"
+    333bf: "Rubik's Cube: Blindfolded"
+    333oh: "Rubik's Cube: One-handed"
+    333fm: "Rubik's Cube: Fewest moves"
+    333ft: "Rubik's Cube: With feet"
+    minx: "Megaminx"
+    pyram: "Pyraminx"
+    sq1: "Square-1"
+    clock: "Rubik's Clock"
+    skewb: "Skewb"
+    "666": "6x6 Cube"
+    "777": "7x7 Cube"
+    444bf: "4x4 Cube: Blindfolded"
+    555bf: "5x5 Cube: Blindfolded"
+    333mbf: "Rubik's Cube: Multiple Blindfolded"
+    magic: "Rubik's Magic"
+    mmagic: "Master Magic"
+    333mbo: "Rubik's Cube: Multiple blind old style"
+  common:
+    continent: "Continent"
+    country: "Country"
+    here: "here"
+    best: "Best"
+    single: "Single"
+    average: "Average"
+    solves: "Solves"
+    user:
+      wca_id: "WCA ID"
+      citizen_of: "Citizen of"
+    all_regions: "All regions"
+    errors:
+      invalid: "invalid"
+    days:
+      one: "1 day"
+      other: "%{count} days"
+    these_events:
+      one: "this event"
+      other: "these %{count} events"
+  oauth:
+    applications:
+      your_apps: "Your OAuth Applications"
+      new: "New"
+      name: "Name"
+      callback_url: "Callback Url"
+      owner: "Owner"
+      application_id: "Application ID"
+      actions: "Actions"
+      secret: "Secret"
+      scopes: "Scopes"
+      callback_urls: "Callback Urls"
+  activerecord:
+    attributes:
+      user:
+        name: "Full name"
+        wca_id: "WCA ID"
+        unconfirmed_wca_id: "Unconfirmed WCA ID"
+        login: "Email or WCA ID"
+        country_iso2: "Citizenship"
+        dob: "Birthdate"
+        dob_verification: "Birthdate"
+        gender: "Gender"
+        email: "Email"
+        password: "Password"
+        current_password: "Current password"
+        password_confirmation: "Password confirmation"
+        remember_me: "Remember me"
+        pending_avatar: "Upload new avatar"
+        remove_avatar: "Remove avatar"
+        results_notifications_enabled: "Email me when my results are posted."
+        delegate_status: "Delegate status"
+        region: "Region"
+      competition:
+        id: "ID"
+
+        isConfirmed: "Do not let organizers edit this competition"
+        showAtAll: "Make competition visible to the public"
+
+        name: "Name"
+        cellName: "Competition nickname"
+        countryId: "Country"
+        cityName: "City name"
+        venue: "Venue"
+        venueAddress: "Venue address"
+        venueDetails: "Venue details"
+
+        start_date: "Start date"
+        end_date: "End date"
+
+        external_website: "Website"
+        generate_website: "I would like to use WCA website instead of an external one for additional informations."
+
+        delegate_ids: "WCA delegate(s)"
+        organizer_ids: "Organizers(s)"
+        contact: "Contact"
+        information: "Informations"
+
+        use_wca_registration: "I would like to use the WCA website for registration"
+        guests_enabled: "Guests"
+        receive_registration_emails: "Notify me by email when someone registers for this competition"
+        registration_open: "Registration open"
+        registration_close: "Registration close"
+        remarks: "Remarks"
+        clone_tabs: "I would like to clone all tabs with additional informations as well"
+      registration:
+        countryId: "Country"
+        guests: "Guests"
+        comments: "Comments"
+        status: "Status"
+        # We can remove the following 3 keys once https://github.com/thewca/worldcubeassociation.org/issues/275 is done! (spec will complain anyway)
+        name: "Name"
+        birthday: "Birthday"
+        gender: "Gender"
+      competition_tab:
+        content: "Content"
+        name: "Name"
+      delegate_report:
+        discussion_url: "Discussion's url on the Google Group"
+        schedule_url: "Schedule url"
+        equipment: "Equipment"
+        venue: "Venue"
+        organisation: "Organisation"
+        incidents: "Incidents"
+        remarks: "Remarks"
+      person:
+        wca_id: "Person"
+        countryId: "Country"
+        dob: "Birthdate"
+        gender: "Gender"
+        name: "Name"
+      poll:
+        question: "Question"
+        deadline: "Deadline"
+      post:
+        title: "Title"
+        body: "Body"
+        sticky: "Sticky"
+      team:
+        name: "Name"
+        description: "Description"
+      vote:
+        comment: "Comment"
+  simple_form:
+    "yes": "Yes"
+    "no": "No"
+    required:
+      text: 'required'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      html: ''
+    error_notification:
+      default_message: "Please review the problems below:"
+    labels:
+      contact:
+        name: "Name"
+        your_email: "Your email"
+        message: "Message"
+    hints:
+      user:
+        dob: "Enter your date of birth in the format YYYY-MM-DD."
+        name: "Enter your full name correctly, for example <strong>Stefan Pochmann</strong>. Not sloppily like <strong>s pochman</strong>."
+        email: "Changing your email will require confirming the new email."
+        pending_avatar: "After uploading a new avatar, you will have to wait for the Board to approve it."
+        country_iso2: ""
+        current_password: ""
+        delegate_status: ""
+        dob_verification: ""
+        gender: ""
+        login: ""
+        password: ""
+        password_confirmation: ""
+        region: ""
+        remember_me: ""
+        remove_avatar: ""
+        results_notifications_enabled: ""
+        unconfirmed_wca_id: ""
+        wca_id: ""
+      competition:
+        name: "The full name of the competition including the year at the end (e.g., Danish Open 2016). Be sure to capitalize. The name must contain only alphanumeric characters, dashes(-), ampersands(&), periods(.), colons(:), apostrophes('), and spaces( )."
+        cellName: "A short name for displaying. If the name of the competition is already short, you can re-use the name (e.g., Europe 2006)."
+        cityName: "Name of the city and state (if applicable) where the competition takes place. Do not include country (e.g., Paris OR San Francisco, California)."
+        information: "Some information text about the competition (e.g., Euro 2006 is open to citizens of the European countries and Israel)."
+        delegate_ids: "WCA delegates for the competition."
+        organizer_ids: "Competition organizers (they need an account to be listed here)."
+        external_website: "The website of the competition. Must be a valid http(s) url."
+        registration_open: "Note: Registration open and close are in UTC time"
+        remarks: "Some additional information you want to pass on to the board. For example, reasons why this competition was requested less than one month away, if applicable."
+        clone_tabs: ""
+        countryId: ""
+        end_date: ""
+        generate_website: ""
+        guests_enabled: ""
+        id: ""
+        isConfirmed: ""
+        receive_registration_emails: ""
+        registration_close: ""
+        showAtAll: ""
+        start_date: ""
+        use_wca_registration: ""
+        venueAddress: ""
+      contact:
+        message: ""
+        name: ""
+        your_email: ""
+      post:
+        body: "Use the &lt;!-- break --&gt; tag to show a preview on the home page. Any post on the home page will show all text before this divider. The actual post will display the full body."
+        sticky: ""
+        title: ""
+      delegate_report:
+        schedule_url: "Full link to the published schedule (e.g., https://www.cubingusa.com/usnationals2016/schedule.php)"
+        equipment: "Number and type of timers and displays used in the competition. Please remove the line(s) of equipment which you didn't use."
+        venue: "Talk about rooms, light, public access, distribution of the zones (solving, scrambling, waiting, score-taking), if you set up different solving stages, problems that arose (for example, noise) and how you solved them... Please, be concise and do not report irrelevant details."
+        organisation: "Talk about the organisation team and how they worked out the competition, if you got involved on it, their previous experience and if you noticed progress on their work, if they were professional and active the competition days, problems that arose (e.g., getting behind schedule) and how they solved them... Please, be concise and do not report irrelevant details."
+        incidents: "Report any incidents that you consider worth mentioning. Number the incidents starting from 1., so that other delegates can comment referring to them by their numbers. Please make sure to mention only concrete cases, not generic events (e.g., regular +2 and DNF). Feel free to ask for delegates' or WRC's  feedback on any of them. If you'd like to have the WDC involved in some of them, make sure to state this request clearly."
+        remarks: "Talk about any other detail that you'd like to share (e.g., improvement/regression within the community, future plans for this region). If for the sake of conciseness you left something unsaid in the previous sections, feel free to comment them here."
+        discussion_url: ""
+      competition_tab:
+        name: "Examples: Travel, Payments, Awards, Accommodation"
+        content: ""
+      person:
+        dob: "Date of birth should have the format YYYY-MM-DD."
+        countryId: ""
+        gender: ""
+        name: ""
+        person1_wca_id: ""
+        person2_wca_id: ""
+        wca_id: ""
+      poll:
+        comment: ""
+        multiple: ""
+        question: ""
+      registration:
+        birthday: ""
+        comments: ""
+        countryId: ""
+        gender: ""
+        guests: ""
+        name: ""
+        status: ""
+      team:
+        description: ""
+        friendly_id: ""
+        name: ""
+      vote:
+        comment: ""
+    options:
+      registration:
+        status:
+          a: "Accepted"
+          p: "Waiting list"
+      competition:
+        guests_enabled:
+          "true": "Ask about guests"
+          "false": "Do NOT ask about guests"
+  errors:
+    #These are locales used in lib/ (ignored by configuration)
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "is too big (should be at most %{file_size})"
+  wca:
+    # These are locales used in WCA's app relevant to external gems, but which are not present in the gem's default locale file.
+    # Putting them under "wca" ensures we can check through i18n-tasks that we define and use them properly.
+    errors:
+      messages:
+        form_error:
+          one: "The form contains one error:"
+          other: "The form contains %{count} errors:"
+    successes:
+      messages:
+        account_updated: "Account updated"
+        wca_id_claimed: "Successfully claimed WCA ID %{wca_id}. Check your email, and wait for %{user} to approve it!"
+        account_updated_confirm: "Account updated, emailed %{email} to confirm your new email address."
+    doorkeeper:
+      authorizations:
+        new:
+          title: "Authorization required"
+      scopes:
+        public: 'Access your public data (name, WCA ID, gender, citizenship, and profile picture)'
+        dob: 'Access your date of birth'
+        email: 'Access your email address'
+
+    # Views-related keys
+    devise:
+      no_account: "No account?"
+      sign_up: "Sign up"
+      have_competed: "I have competed in a WCA competition."
+      have_never_competed: "I have never competed in a WCA competition."
+      let_us_know: "Please let us know if you have competed in a WCA competition before."
+      welcome_back: "Welcome back! To create your WCA website account, we need to know the WCA ID under which you competed."
+      welcome: "Welcome! Before you can compete in your first WCA competition, we need some additional information for records keeping purposes. Please note that your birthdate will never be released without your permission."
+      gender:
+        male: "Male"
+        female: "Female"
+        other: "Other"
+  layouts:
+    navigation:
+      information: "Information"
+      about: "About the WCA"
+      delegates: "WCA Delegates"
+      organisations: "National Organisations"
+      faq: "Frequently Asked Questions"
+      contact: "Contact Information"
+      forum: "Forum"
+      tools: "Tools"
+      logo: "Logo"
+      competitions: "Competitions"
+      all: "All"
+      my_competitions: "My Competitions"
+      new_competition: "New Competition"
+      results: "Results"
+      rankings: "Rankings"
+      records: "Records"
+      persons: "Persons"
+      my_results: "My Results"
+      statistics: "Statistics"
+      multimedia: "Multimedia"
+      db_export: "Database Export"
+      regulations: "Regulations"
+      guidelines: "Guidelines"
+      scrambles: "Scrambles"
+      history: "History"
+      translations: "Translations"
+      administration: "Administration"
+      manage_users: "Manage users"
+      delegate: "Delegate"
+      panel: "Panel"
+      results_team: "Results team"
+      results_admin: "Admin"
+      results_phpmyadmin: "phpMyAdmin"
+      new_post: "New post"
+      team_leader: "Team leader"
+      sign_in: "Sign in"
+      sign_out: "Sign out"
+      sign_up: "Sign up"
+      notifications: "Notifications"
+      edit_profile: "Edit profile"
+      api: "API"
+      manage_app: "Manage your applications"
+      manage_auth_app: "Manage authorized applications"
+  users:
+    claim_wca_id:
+      title: "Claim WCA ID"
+      competition: "competition"
+      already_have_html: "You already have WCA ID %{wca_id}."
+      already_claimed_html: "You've claimed WCA ID %{wca_id}. Contact %{delegate} if you have any questions."
+      info_competed_before: "If you've competed before, you can request to have your WCA ID connected to your account."
+      info_never_competed_html: "If you've never competed before, go to a %{comp}! A WCA ID will be created for you when the results from your first competition are uploaded."
+      submit_value: "Claim WCA ID"
+    edit_avatar_thumbnail:
+      current: "Current thumbnail:"
+      new: "New thumbnail:"
+      save: "Save"
+    edit:
+      general: "General"
+      email: "Email"
+      preferences: "Preferences"
+      password: "Password"
+      member_of: "Member of"
+      preferred_events: "Preferred events"
+      preferred_events_desc: "Selecting your preferred events makes registration for competitions quicker."
+      please_fix_profile: "In order to register for competitions, you need to fix the following problems:"
+      unconfirmed_wca_id: "Unconfirmed WCA ID"
+      profile: "Profile"
+      approve: "Approve"
+      unconfirmed_email: "This account's email address (%{email}) is not confirmed."
+      pending_mail_confirmation: "This account is pending confirmation of new email address %{email}."
+      pending_avatar_confirmation: "This account is pending confirmation of a new avatar."
+      pending_claim_confirmation_html: "This account is waiting for %{delegate} to confirm their claimed WCA ID %{wca_id}."
+      pending_claim_mail_confirmation_html: "This user has claimed WCA ID %{wca_id}. Their delegate %{delegate} will be notified of this request as soon as this account's email address is confirmed."
+      your_thumbnail: "Your account thumbnail:"
+      edit_thumbnail: "Click to edit thumbnail"
+      manage_pending: "Manage pending avatars"
+      have_no_wca_id_html: "You do not have a WCA ID assigned yet. If you have competed before, request to have your WCA ID connected to your account %{here}!"
+      have_wca_id_html: "Your WCA ID is %{link_id}."
+      cannot_edit:
+        msg: "You cannot change your name, birthdate, gender, or country because %{reason}. Contact your <a href='%{delegate_url}'>delegate</a> if you need to change any of these."
+        reason:
+          assigned: "you have a WCA ID assigned"
+          registered: "you have registered for a competition"
+      save: "Save"
+      guidelines: "Guidelines"
+      avatar_guidelines:
+        1: "All avatars should be pictures of real persons."
+        2: "The person shown must be you."
+        3: "If there is more than one person on the avatar, it should be clear who of them is you."
+        4: "Your head, but not necessarily the full face, should be visible."
+        5: "The avatar must not include texts other than regular background texts."
+        6: "The avatar must be submitted in correct orientation."
+
+    errors:
+      not_found: "not found"
+      already_assigned: "already assigned to a different user"
+      dob_incorrect: "incorrect"
+      unique: "must be unique"
+      dob_past: "must be in the past"
+      must_be_senior: "must be a senior delegate"
+      must_not_be_present: "must not be present"
+      senior_has_delegate: "cannot demote senior delegate with subordinate delegates"
+      already_have_id: "cannot claim a WCA ID because you already have WCA ID %{wca_id}"
+      wca_id_no_birthdate: "WCA ID does not have a birthdate. Contact the Results team to resolve this."
+      board_member_cannot_resign: "You cannot resign from your role as a board member! Find another board member to fire you."
+      avatar_requires_wca_id: "requires a WCA ID to be assigned"
+    select_nearby_delegate:
+      select_delegate: "In order to assign you your WCA ID, we need a delegate to confirm your identify. Please enter your birthdate and select the delegate you think knows you best."
+      already_assigned_html: "WCA ID %{link_id} is already assigned to a different account. If you believe this was done in error, contact your local %{link_delegate}."
+      missing_dob_html: "WCA ID %{link_id} does not have a birthdate assigned. Please contact the %{link_result_team} to fix this."
+      unknown_wca_id_html: "WCA ID %{link_id} does not exist."
+  registrations:
+    events: "Events"
+    errors:
+      need_name: "Need a name"
+      need_gender: "Need a gender"
+      need_dob: "Need a birthdate"
+      need_country: "Need a country"
+      comp_not_found: "Competition not found"
+      registration_closed: "Competition registration is closed"
+      can_register: "User must be able to register for competition"
+      must_register: "must register for at least one event"
+    registration_info_people:
+      newcomer:
+        one: "first-timer"
+        other: "first-timers"
+      returner:
+        one: "returner"
+        other: "returners"
+      people: "people"
+    flash:
+      not_using_wca: "This competition is not using WCA registration"
+      accepted_and_mailed:
+        one: "Registration accepted! Email notification sent."
+        other: "Registrations accepted! Email notifications sent."
+      rejected_and_mailed:
+        one: "Registration moved to waiting list"
+        other: "Registrations moved to waiting list"
+      deleted_and_mailed:
+        one: "Registration deleted"
+        other: "Registrations deleted"
+      single_deletion_and_mail: "Deleted registration and emailed %{mail}"
+      cannot_delete: "You cannot delete your registration."
+      updated: "Updated registration"
+      failed: "Could not update registration"
+      deleted: "Successfully deleted your registration for %{comp}"
+      registered: "Successfully registered!"
+    edit_registration:
+      title: "%{person} for %{comp}"
+    list:
+      title: "Registrations for %{comp}"
+      country: "country"
+      edit: "Edit"
+      export_csv: "Export to CSV"
+      email: "Email"
+      approve: "Approve"
+      reject: "Reject"
+      delete: "Delete"
+      waiting_list: "Waiting List"
+      approved_registrations: "Approved registrations"
+      registered: "Registered"
+      total: "Total"
+    new_registration:
+      title: "Register for %{comp}"
+    registered_with_account_html: "This person registered with an account. You can edit their personal information %{here}."
+    sign_in: "Sign in"
+    profile: "profile"
+    register: "Register!"
+    update: "Update Registration"
+    delete: "Delete"
+    delete_tooltip: "Delete registration. This will email %{name} at %{mail}."
+    delete_confirm: "Are you sure you want to delete your registration?"
+    admin_delete_confirm: "Are you sure you want to delete %{name}'s registration?"
+    delete_registration: "Delete registration."
+    will_open_html: "Registration will open in <strong>%{days}</strong> on %{time}."
+    will_close_html: "Registration closes in <strong>%{days}</strong> on %{time}."
+    closed_html: "Registration closed <strong>%{days}</strong> ago on %{time}."
+    please_sign_in_past_html: "%{sign_in} to check the status of your registration. If you do not yet have a WCA account, you can create one %{here}, but it is too late to register for this competition."
+    please_sign_in_not_yet_open_html: "%{sign_in} to check the status of your registration. If you do not yet have a WCA account, you can create one %{here}, but its registration is not yet open."
+    please_sign_in_html: "%{sign_in} to register for %{comp}. If you do not yet have a WCA account, you can create one %{here}"
+    greeting: "Hi, %{name}!"
+    please_fix_profile_html: "In order to register for this %{comp}, you must fix the following problems with your %{profile}:"
+    can_register: "You can register for %{comp} below."
+    have_registered: "You have registered for %{comp}. You can see your registration information below."
+    contact_organizer: "Contact the organizer if you wish to make a change."
+    waiting_list: "You are currently number %{i} of %{n} on the waiting list."
+    accepted: "Your registration has been accepted!"
+    preferred_events_prompt_html: "To speed up registration in the future, you can set your preferred events %{link}."
+  competitions:
+    messages:
+      not_visible: "This competition is not visible to the public."
+      name_too_long: "The competition name is longer than 32 characters. We prefer shorter ones and we will be glad if you change it."
+      must_have_events: "Please add at least one event before confirming the competition."
+      create_success: "Successfully created new competition!"
+      results_preview_alert: "You are viewing results that have not been posted yet."
+      upload_results: "This competition is over, we are working to upload the results as soon as possible!"
+      in_progress: "This competition is ongoing. Come back after %{date} to see the results!"
+      tooltip_registered: "You are registered."
+      tooltip_waiting_list: "You are currently on the waiting list."
+      confirmed_visible: "This competition is confirmed and visible"
+      confirmed_not_visible: "This competition is confirmed but not visible"
+      not_confirmed_visible: "This competition is not confirmed but visible"
+      not_confirmed_not_visible: "This competition is not confirmed and not visible"
+    my_competitions:
+      title: "My competitions"
+      disclaimer: "Only competitions which use the WCA registration system will be shown here."
+      past_competitions: "Past competitions"
+    competition_info:
+      date: "Date"
+      city: "City"
+      venue: "Venue"
+      address: "Address"
+      details: "Details"
+      website: "Website"
+      organizer: "Organizer"
+      delegate:
+        one: "WCA Delegate"
+        other: "WCA Delegates"
+      contact: "Contact"
+      information: "Information"
+    index:
+      title: "Competitions"
+    index_form:
+      all: "All"
+      all_years: "All Years"
+      clear: "Clear"
+      list: "List"
+      map: "Map"
+      region: "Region"
+      search: "Search"
+      state: "State"
+      search_tooltip: "Name, city, venue, delegate(s), country or month"
+      present: "Present"
+      recent: "Recent"
+      recent_tooltip: "Last %{count} days"
+      past: "Past"
+      past_from: "Past from %{year}"
+      past_all: "Past from all years"
+    index_competitions_list:
+      in_progress: "Competitions in progress"
+      past: "Past competitions from %{year}"
+      recent: "Recent competitions (last %{count} days)"
+      upcoming: "Upcoming competitions"
+      no_access: "You don't have access to this page!"
+    index_table:
+      ended: "Ended %{days} ago"
+      in_progress: "In progress!"
+      posted: "Results are posted!"
+      starts_in: "Starts in %{days}"
+    no_competitions_found:
+      no_found: "No competitions found."
+      no_match: "We didn't find any competitions with %{events}! Try searching for fewer events."
+    my_competitions_table:
+      edit: "Edit"
+      registrations: "Registrations"
+      results_up: "Results are up!"
+      report: "Report"
+      no_upcoming_competitions_html: "You currently have no upcoming competitions! Check out the %{link}."
+      no_past_competitions: "You have no past competitions."
+    competition_form:
+      supports_md_html: "Supports <a href='https://daringfireball.net/projects/markdown/basics' target='_blank'>Markdown</a>"
+      venue_html: "The venue where the competition takes place. %{md}. For example: [Cité des Sciences et de l'Industrie](http://www.cite-sciences.fr)"
+      venue_details_html: "Details about the venue (e.g., On the first floor far in the back, follow the signs). %{md}"
+      contact_html: "Optional contact information. If you do not fill this in, organizer emails will be shown to the public. %{md}. Example: [Text to display](mailto:some@email.com)"
+      events: "Events"
+      unoff_events: "Events that are no longer official"
+      locked_edit_html: "This competition is publicly visible and locked for editing. If you need to make a change, contact the %{board}."
+      confirmed_not_visible_html: "You've confirmed this competition, but it is not yet visible to the public. Wait for the %{board} to make it visible."
+      is_visible: "This competition is publicly visible, any changes you make will show up to the public!"
+      awaiting_confirmation_html: "Fill in all the fields and click Confirm when you're ready for the %{board} to approve this competition."
+      submit_modify_value: "Modify Events"
+      submit_create_value: "Create Competition"
+      submit_update_value: "Update Competition"
+      submit_confirm_value: "Confirm"
+      submit_delete_value: "Delete"
+      submit_confirm: "Are you sure you're ready to confirm? After confirming, you won't be able to modify any information. Check your email after this to verify that the Board was notified."
+      submit_delete: "Are you sure you want to delete this competition? There is no going back."
+      coordinates: "Coordinates"
+    errors:
+      invalid_name_message: "must end with a year and must contain only alphnumeric characters, dashes(-), ampersands(&), periods(.), colons(:), apostrophes('), and spaces( )"
+      cannot_manage: "Cannot manage competition."
+      cannot_delete_public: "Cannot delete a competition that is publicly visible."
+      cannot_delete_confirmed: "Cannot delete a confirmed competition."
+      must_contain_event: "must contain at least one event for this competition"
+      must_contain_delegate: "must contain at least one WCA delegate"
+      not_all_delegates: "are not all delegates"
+      registration_close_after_open: "registration close must be after registration open"
+      end_date_before_start: "End date cannot be before start date."
+      span_multiple_years: "Competition dates cannot span multiple years."
+    unscheduled: "unscheduled"
+    new:
+      create_competition: "Create competition"
+      note_clone: "To clone an existing competition visit the information page for that competition and click the \"Clone\" link in the menu."
+    update_events:
+      update_success: "Successfully updated the competition events."
+    update:
+      save_success: "Successfully saved competition."
+      confirm_success: "Successfully confirmed competition. Check your email, and wait for the Board to announce it!"
+      delete_success: "Successfully deleted competition %{id}."
+    time_until_competition:
+      competition_in: "Competition is in %{n_days}."
+      competition_was: "Competition was %{n_days} ago."
+    nearby_competitions:
+      comp: "competition"
+      label: "Nearby competitions (within %{days} days and %{kms} km)"
+      label_admin: "Last %{days} days"
+      nearby_admin: "%{comps} %{comp} within %{kms} km and %{days} days."
+      no_comp_nearby: "No nearby competitions!"
+      no_date_yet: "You have not assigned a date for this competition yet."
+      no_location_yet: "You have not assigned a location for this competition yet."
+      within: "Within %{days} days"
+      show: "Show"
+    nearby_competitions_table:
+      name: "Name"
+      delegates: "Delegate(s)"
+      date: "Date"
+      location: "Location"
+      distance: "Distance"
+      before: "before"
+      after: "after"
+    announcements: "Announcements"
+    upload_results: "Upload results"
+    post_announcement: "Post competition announcement"
+    show:
+      general_info: "General info"
+    nav:
+      menu:
+        results: "Results"
+        podiums: "Podiums"
+        all: "All"
+        by_person: "By Person"
+        info: "Info"
+        edit: "Edit"
+        clone: "Clone"
+        orga_view: "Organizer view"
+        event_view: "Manage events"
+        admin_view: "Admin view"
+        tabs: "Manage tabs"
+        delegate_report: "Delegate report"
+        registration: "Registration"
+        register: "Register"
+        competitors: "Competitors"
+    results_table:
+      wca_profile: "WCA profile"
+      event: "Event"
+      round: "Round"
+      name: "Name"
+  notifications:
+    connect_wca_id: "Connect your WCA ID to your account!"
+  persons:
+    index:
+      name_or_wca_id: "Name parts or WCA ID"
+      name: "Name"
+      country: "Country"
+      podiums: "Podiums"
+      no_persons_found: "No person matches the given criteria."
+  posts:
+    confirm_delete_post: "Are you sure you want to delete this post? This action is not reversible."
