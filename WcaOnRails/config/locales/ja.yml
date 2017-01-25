@@ -95,12 +95,12 @@ ja:
       invalid: invalid
     #original_hash: 49d0140
     days:
-      zero: null
-      other: null
+      one: "1 day"
+      other: "%{count} days"
     #original_hash: 203e1b3
     these_events:
-      zero: null
-      other: null
+      one: "this event"
+      other: "these %{count} events"
   oauth:
     applications:
       #original_hash: 0c4ea38
@@ -564,8 +564,8 @@ ja:
       messages:
         #original_hash: e88f903
         form_error:
-          zero: null
-          other: null
+          one: "The form contains one error:"
+          other: "The form contains %{count} errors:"
     doorkeeper:
       applications:
         help:
@@ -903,31 +903,31 @@ ja:
     registration_info_people:
       #original_hash: bdf1f11
       newcomer:
-        zero: null
-        other: null
+        one: "first-timer"
+        other: "first-timers"
       #original_hash: bc010e3
       returner:
-        zero: null
-        other: null
+        one: "returner"
+        other: "returners"
       #original_hash: b7da17a
       person:
-        zero: null
-        other: null
+        one: "person"
+        other: "people"
     flash:
       #original_hash: da7ec53
       not_using_wca: This competition is not using WCA registration
       #original_hash: d528030
       accepted_and_mailed:
-        zero: null
-        other: null
+        one: "Registration accepted! Email notification sent."
+        other: "Registrations accepted! Email notifications sent."
       #original_hash: 42ea8de
       rejected_and_mailed:
-        zero: null
-        other: null
+        one: "Registration moved to waiting list"
+        other: "Registrations moved to waiting list"
       #original_hash: a360b31
       deleted_and_mailed:
-        zero: null
-        other: null
+        one: "Registration deleted"
+        other: "Registrations deleted"
       #original_hash: c3aa289
       single_deletion_and_mail: 'Deleted registration and emailed %{mail}'
       #original_hash: d8f067f
@@ -1093,8 +1093,8 @@ ja:
       organizer: Organizer
       #original_hash: 6afa61e
       delegate:
-        zero: null
-        other: null
+        one: "WCA Delegate"
+        other: "WCA Delegates"
       #original_hash: b37456c
       contact: Contact
       #original_hash: a428739
