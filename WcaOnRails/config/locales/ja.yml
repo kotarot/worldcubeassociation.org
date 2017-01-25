@@ -960,121 +960,115 @@ ja:
   competitions:
     messages:
       #original_hash: 7b80062
-      not_visible: This competition is not visible to the public.
+      not_visible: この大会は非公開です。
       #original_hash: c1d4926
-      name_too_long: >-
-        The competition name is longer than 32 characters. We prefer shorter
-        ones and we will be glad if you change it.
+      name_too_long: 大会名が32文字を超えています。短い名前が好ましいので変更してください。
       #original_hash: 1a20fae
-      must_have_events: Please add at least one event before confirming the competition.
+      must_have_events: 大会内容を確認する前に1個以上の競技種目を追加してください。
       #original_hash: e390250
-      create_success: Successfully created new competition!
+      create_success: 大会が新規作成されました！
       #original_hash: afe3a23
-      results_preview_alert: You are viewing results that have not been posted yet.
+      results_preview_alert: まだ送信されていない結果を表示しています。
       #original_hash: 07de612
-      upload_results: >-
-        This competition is over, we are working to upload the results as soon
-        as possible!
+      upload_results: この大会は終了しています。現在、結果をアップロードする作業中です。
       #original_hash: a0168ee
-      in_progress: 'This competition is ongoing. Come back after %{date} to see the results!'
+      in_progress: 'この大会は進行中です。%{date} より後に結果が表示されます。'
       #original_hash: 3322400
-      tooltip_registered: You are registered.
+      tooltip_registered: すでに登録済みです。
       #original_hash: f2d092f
-      tooltip_waiting_list: You are currently on the waiting list.
+      tooltip_waiting_list: 現在キャンセル待ちです。
       #original_hash: 9ecd976
-      confirmed_visible: This competition is confirmed and visible
+      confirmed_visible: この大会は承認済みで公開されています。
       #original_hash: fa186a9
-      confirmed_not_visible: This competition is confirmed but not visible
+      confirmed_not_visible: この大会は承認済みですが非公開です。
       #original_hash: a66bbe3
-      not_confirmed_visible: This competition is not confirmed but visible
+      not_confirmed_visible: この大会は未承認ですが公開されています。
       #original_hash: 0f44e45
-      not_confirmed_not_visible: This competition is not confirmed and not visible
+      not_confirmed_not_visible: この大会は未承認で非公開です。
     my_competitions:
       #original_hash: 5c6d3ea
-      title: My competitions
+      title: 自分の大会
       #original_hash: 6e79aaf
-      disclaimer: >-
-        Only competitions which use the WCA registration system will be shown
-        here.
+      disclaimer: WCA申し込みシステムを使用した大会のみここに表示されます。
       #original_hash: 94a2fc8
-      past_competitions: Past competitions
+      past_competitions: 過去の大会
     competition_info:
       #original_hash: eb9a4bc
-      date: Date
+      date: 日付
       #original_hash: 4271627
-      city: City
+      city: 都市
       #original_hash: 67cd406
-      venue: Venue
+      venue: 会場
       #original_hash: d70f93d
-      address: Address
+      address: 住所
       #original_hash: dc3decb
-      details: Details
+      details: 詳細
       #original_hash: 2e8a57c
-      website: Website
+      website: Webサイト
       #original_hash: debd172
-      organizer: Organizer
+      organizer: 主催者
       #original_hash: 6afa61e
       delegate:
-        one: "WCA Delegate"
-        other: "WCA Delegates"
+        zero: WCA代理人
+        other: WCA代理人
       #original_hash: b37456c
-      contact: Contact
+      contact: 連絡先
       #original_hash: a428739
-      entry_fee: Entry Fee
+      entry_fee: 参加費
       #original_hash: 0eb5ed5
-      information: Information
+      information: 関連情報
     index:
       #original_hash: db98a68
-      title: Competitions
+      title: 大会一覧
       #original_hash: 6a72085
-      all_events: All
+      all_events: 全種目
       #original_hash: 6d76b81
-      all_years: All Years
+      all_years: 全ての年
       #original_hash: 719ea39
-      clear: Clear
+      clear: クリア
       #original_hash: a1fffaa
-      list: List
+      list: リスト
       #original_hash: ab478f3
-      map: Map
+      map: 地図
       #original_hash: 0f21717
-      region: Region
+      region: 地域
       #original_hash: bce0641
-      search: Search
+      search: 検索
       #original_hash: a725020
-      state: State
+      state: ステータス
       #original_hash: 4e9f7a3
-      present: Present
+      present: 現在
       #original_hash: 76eec76
-      recent: Recent
+      recent: 最近
       #original_hash: 405c12f
-      past: Past
+      past: 過去
       #original_hash: 52c30f8
-      past_from: 'Past from %{year}'
+      past_from: '%{year} 年の大会'
       #original_hash: 7cff459
-      past_all: Past from all years
+      past_all: 過去の全ての大会
       titles:
         #original_hash: 69447c9
-        in_progress: Competitions in progress
+        in_progress: 進行中の大会
         #original_hash: 9e66032
-        past: 'Past competitions from %{year}'
+        past: '%{year} 年の大会'
         #original_hash: cbe8a54
-        recent: 'Recent competitions (last %{count} days)'
+        recent: '%{count} 日以内に開催された最近の大会'
         #original_hash: 914742f
-        upcoming: Upcoming competitions
+        upcoming: 予定されている大会
       #original_hash: 6684214
-      no_access: You don't have access to this page!
+      no_access: null
       tooltips:
         hourglass:
           #original_hash: b5183e1
-          ended: 'Ended %{days} ago'
+          ended: '%{days} 日前に終了しました。'
           #original_hash: 1dccb27
-          in_progress: In progress!
+          in_progress: 進行中です！
           #original_hash: 1157462
-          posted: Results are posted!
+          posted: 大会結果は送信済みです。
           #original_hash: 89bcc37
-          starts_in: 'Starts in %{days}'
+          starts_in: '%{days} 日後に開始します。'
         #original_hash: a418217
-        search: 'Name, city, venue, country or month'
+        search: 大会名、都市名、会場名、国、月
         #original_hash: 3bc8082
         recent: 'Last %{count} days'
       #original_hash: 8b09d74
