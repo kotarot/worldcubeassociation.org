@@ -289,41 +289,39 @@ ja:
         comment: Comment
   simple_form:
     #original_hash: 5397e05
-    'yes': 'Yes'
+    'yes': はい
     #original_hash: 816c52f
-    'no': 'No'
+    'no': いいえ
     required:
       #original_hash: 1a77d41
-      text: required
+      text: 要求された
       #original_hash: df58248
-      mark: '*'
+      mark: ※
       #original_hash: da39a3e
       html: ''
     error_notification:
       #original_hash: d70e9cb
-      default_message: 'Please review the problems below:'
+      default_message: '以下のエラー内容をご確認ください :'
     labels:
       contact:
         #original_hash: 709a232
-        name: Name
+        name: 氏名
         #original_hash: 3fa6f5f
-        your_email: Your email
+        your_email: メールアドレス
         #original_hash: 68f4145
-        message: Message
+        message: 備考
     hints:
       user:
         #original_hash: 87e1e6f
-        dob: Enter your date of birth in the format YYYY-MM-DD.
+        dob: '生年月日をすべて半角で記入してください。 (2000年1月23日生の場合 :2000-01-23)'
         #original_hash: 5106479
         name: >-
-          Enter your full name correctly, for example <strong>Stefan
-          Pochmann</strong>. Not sloppily like <strong>s pochman</strong>.
+          氏名 (英字) を「名姓」の順に記入してください。姓名ともに頭文字のみ大文字にしてください (鈴木 一郎の場合 :Ichiro
+          Suzuki)  。
         #original_hash: c03b949
-        email: Changing your email will require confirming the new email.
+        email: メールアドレスを変更する場合は、確認メールによる認証が必要となります。
         #original_hash: bfd11f4
-        pending_avatar: >-
-          After uploading a new avatar, you will have to wait for the Board to
-          approve it.
+        pending_avatar: プロフィール画像の変更は、 WCA 理事の承認後に反映されます。
         #original_hash: da39a3e
         country_iso2: ''
         #original_hash: da39a3e
@@ -361,36 +359,26 @@ ja:
       competition:
         #original_hash: 2c812a0
         name: >-
-          The full name of the competition including the year at the end (e.g.,
-          Danish Open 2016). Be sure to capitalize. The name must contain only
-          alphanumeric characters, dashes(-), ampersands(&), periods(.),
-          colons(:), apostrophes('), and spaces( ).
+          大会の正式名称 (英名) 。ただし、 (1) 必ず末尾に年号を含める (例 : JRCA Kansai Winter 2017) (2)
+          語頭を大文字にする (3) 英数字と - & . : ' および半角スペースのみ使用可。
         #original_hash: 525fcc8
-        cellName: >-
-          A short name for displaying. If the name of the competition is already
-          short, you can re-use the name (e.g., Europe 2006).
+        cellName: 大会名の略称 (Kansai 2017 など正式名が短い場合は正式名と重複可)
         #original_hash: bce4589
-        cityName: >-
-          Name of the city and state (if applicable) where the competition takes
-          place. Do not include country (e.g., Paris OR San Francisco,
-          California).
+        cityName: '開催都市名 (例 : Kawasaki, Kanagawa や Shibuya, Tokyo など「市区町村, 都道府県」の順)'
         #original_hash: 17c8ff8
         information: >-
-          Some information text about the competition (e.g., Euro 2006 is open
-          to citizens of the European countries and Israel).
+          大会の概要 (例 : UT Open 2010 is the first students-organized competition in
+          Japan.)
         #original_hash: 0708400
-        delegate_ids: WCA delegates for the competition.
+        delegate_ids: 'WCA 代理人 (例 : Yuji Suse)'
         #original_hash: 517d376
-        organizer_ids: Competition organizers (they need an account to be listed here).
+        organizer_ids: 大会運営チーム (WCA アカウントが必要です)
         #original_hash: cabe7fb
-        external_website: The website of the competition. Must be a valid http(s) url.
+        external_website: 大会ホームページURL
         #original_hash: 9965635
-        registration_open: 'Note: Registration open and close are in UTC time'
+        registration_open: 申込受付期間 (世界標準時。日本時間 -9 時間)
         #original_hash: f688881
-        remarks: >-
-          Some additional information you want to pass on to the board. For
-          example, reasons why this competition was requested less than one
-          month away, if applicable.
+        remarks: WCA 理事へのコメント (大会期日 1 ヶ月以内の申請の場合の理由など、特別必要な場合のみ)
         #original_hash: da39a3e
         clone_tabs: ''
         #original_hash: da39a3e
@@ -400,16 +388,9 @@ ja:
         #original_hash: da39a3e
         generate_website: ''
         #original_hash: b61cbfa
-        base_entry_fee_lowest_denomination: >-
-          The base entry fee for the competition. This is recorded in the lowest
-          denomination for the specified currency. Eg. cents for USD. The entry
-          fee will be displayed on the competition information page and the
-          registration page if used. Note that the WCA site does not yet have
-          payment support. The software team is working towards this and you can
-          track the progress on <a
-          href="https://github.com/thewca/worldcubeassociation.org/issues?q=is%3Aopen+is%3Aissue+label%3Apayments">GitHub</a>.
+        base_entry_fee_lowest_denomination: '最低参加費 (例 : 1,000 JPY)'
         #original_hash: 866bc05
-        currency_code: The currency code for entry fees.
+        currency_code: 通貨単位 (日本円の場合 JPY)
         #original_hash: da39a3e
         guests_enabled: ''
         #original_hash: da39a3e
@@ -447,53 +428,29 @@ ja:
         title: ''
       delegate_report:
         #original_hash: 4eefb60
-        schedule_url: >-
-          Full link to the published schedule (e.g.,
-          https://www.cubingusa.com/usnationals2016/schedule.php)
+        schedule_url: タイムスケジュールページのURL
         #original_hash: 1a68719
-        equipment: >-
-          Number and type of timers and displays used in the competition. Please
-          remove the line(s) of equipment which you didn't use.
+        equipment: 使用ディスプレイのバージョンおよび数 (使用しなかったものについては - を削除してください)
         #original_hash: 4658dd9
-        venue: >-
-          Talk about rooms, light, public access, distribution of the zones
-          (solving, scrambling, waiting, score-taking), if you set up different
-          solving stages, problems that arose (for example, noise) and how you
-          solved them... Please, be concise and do not report irrelevant
-          details.
+        venue: 会場に関する事項 (部屋、照明、アクセス、本部や導線など会場配置、騒音等) とその対処法
         #original_hash: f8de509
-        organization: >-
-          Talk about the organization team and how they worked out the
-          competition, if you got involved on it, their previous experience and
-          if you noticed progress on their work, if they were professional and
-          active the competition days, problems that arose (e.g., getting behind
-          schedule) and how they solved them... Please, be concise and do not
-          report irrelevant details.
+        organization: 運営チームに関する事項 (運営にあたっての働きや問題点、運営能力の成長等)
         #original_hash: 715f020
         incidents: >-
-          Report any incidents that you consider worth mentioning. Number the
-          incidents starting from 1., so that other delegates can comment
-          referring to them by their numbers. Please make sure to mention only
-          concrete cases, not generic events (e.g., regular +2 and DNF). Feel
-          free to ask for delegates' or WRC's  feedback on any of them. If you'd
-          like to have the WDC involved in some of them, make sure to state this
-          request clearly.
+          インシデントに関する事項 (1. や 2.
+          など番号をつけて箇条書きにしてください。通常の+2やDNFなどは除きます。フィードバックを求める記述も可。WDCの裁定を求める場合それを明記してください)
         #original_hash: f30abdc
-        remarks: >-
-          Talk about any other detail that you'd like to share (e.g.,
-          improvement/regression within the community, future plans for this
-          region). If for the sake of conciseness you left something unsaid in
-          the previous sections, feel free to comment them here.
+        remarks: その他報告事項 (コミュニティーの変化、地域的の今後の計画等ほか、前項までで省いた軽微な事項も構いません)
         #original_hash: da39a3e
         discussion_url: ''
       competition_tab:
         #original_hash: e396d28
-        name: 'Examples: Travel, Payments, Awards, Accommodation'
+        name: '例 : 参加費徴収、表彰、渡航、宿泊施設等'
         #original_hash: da39a3e
         content: ''
       person:
         #original_hash: 498f4c5
-        dob: Date of birth should have the format YYYY-MM-DD.
+        dob: '生年月日は半角英数で (西暦)-(月)-(日) の形式で記入してください (2000年1月23日生の場合 :2000-01-23) 。'
         #original_hash: da39a3e
         countryId: ''
         #original_hash: da39a3e
@@ -534,11 +491,11 @@ ja:
       registration:
         status:
           #original_hash: 61a0572
-          accepted: Accepted
+          accepted: 受理しました。
           #original_hash: a6b2452
-          pending: Waiting list
+          pending: キャンセル待ちリスト
           #original_hash: 441bda6
-          deleted: Deleted
+          deleted: 削除
       competition:
         guests_enabled:
           #original_hash: cb8809d
@@ -548,24 +505,24 @@ ja:
   errors:
     messages:
       #original_hash: dc2367c
-      wrong_size: 'is the wrong size (should be %{file_size})'
+      wrong_size: 'はファイルサイズが非適正です (%{file_size} に変更してください) 。'
       #original_hash: 1531237
-      size_too_small: 'is too small (should be at least %{file_size})'
+      size_too_small: 'はファイルサイズが小さすぎます (%{file_size} 以上にしてください)'
       #original_hash: a2a43b3
-      size_too_big: 'is too big (should be at most %{file_size})'
+      size_too_big: 'はファイルサイズが大きすぎます (%{file_size} 以下にしてください) 。'
   devise:
     failure:
       #original_hash: 1186218
-      invalid: 'Invalid email, WCA ID, or password.'
+      invalid: メールアドレス、 WCA ID 、パスワードのいずれかに誤りがあります。
       #original_hash: 1186218
-      not_found_in_database: 'Invalid email, WCA ID, or password.'
+      not_found_in_database: メールアドレス、 WCA ID 、パスワードのいずれかに誤りがあります。
   wca:
     errors:
       messages:
         #original_hash: e88f903
         form_error:
-          one: "The form contains one error:"
-          other: "The form contains %{count} errors:"
+          other: '%{count} 件の誤りがあります。'
+          zero: 1 件の誤りがあります。
     doorkeeper:
       applications:
         help:
@@ -588,87 +545,82 @@ ja:
       #original_hash: 06184f5
       no_account: No account?
       #original_hash: a268696
-      have_competed: I have competed in a WCA competition.
+      have_competed: WCA 公式大会に参加したことがあります (JRCA の大会情報にて告知される大会・公式記録会は WCA 公式大会です) 。
       #original_hash: dcd1d70
-      have_never_competed: I have never competed in a WCA competition.
+      have_never_competed: WCA 公式大会に参加したことがありません。
       #original_hash: 86a60c9
-      let_us_know: Please let us know if you have competed in a WCA competition before.
+      let_us_know: 以前に WCA 公式大会に参加したことがありますか？
       #original_hash: f9f512b
-      welcome_back: >-
-        Welcome back! To create your WCA website account, we need to know the
-        WCA ID under which you competed.
+      welcome_back: ようこそ！WCA アカウントの作成には WCA ID が必要です。
       #original_hash: 669fb57
-      welcome: >-
-        Welcome! Before you can compete in your first WCA competition, we need
-        some additional information for records keeping purposes. Please note
-        that your birthdate will never be released without your permission.
+      welcome: 'ようこそ ! はじめに、個人情報収集についてご確認ください : 生年月日は本人の許可なく公開されることはありません。'
       gender:
         #original_hash: 3f3a489
-        male: Male
+        male: 男性
         #original_hash: b7c17e9
-        female: Female
+        female: 女性
         #original_hash: 6e6a6f2
-        other_gender: Other
+        other_gender: その他
   layouts:
     navigation:
       #original_hash: 0eb5ed5
       information: Information
       #original_hash: 9ac918a
-      about: About the WCA
+      about: WCA について
       #original_hash: d8fd3e4
-      delegates: WCA Delegates
+      delegates: WCA 代理人
       #original_hash: 0ef06c8
-      organizations: National Organizations
+      organizations: 各国の協会組織
       #original_hash: d790b40
-      faq: Frequently Asked Questions
+      faq: よくある質問
       #original_hash: a34b69f
-      contact: Contact Information
+      contact: お問い合わせ
       #original_hash: cf1d2c9
-      forum: Forum
+      forum: フォーラム
       #original_hash: 4fa8cc8
-      tools: Tools
+      tools: ツール
       #original_hash: 83fce83
-      logo: Logo
+      logo: ロゴ
       #original_hash: db98a68
-      competitions: Competitions
+      competitions: 大会
       #original_hash: 6a72085
-      all: All
+      all: 全ての大会
       #original_hash: 775d458
-      my_competitions: My Competitions
+      my_competitions: 参加した大会
       #original_hash: 32fde96
-      new_competition: New Competition
+      new_competition: 新着
       #original_hash: 612e12d
-      results: Results
+      results: 大会結果
       #original_hash: f5fe73c
-      rankings: Rankings
+      rankings: ランキング
       #original_hash: e51c552
-      records: Records
+      records: 記録
       #original_hash: f3cf96e
-      persons: Persons
+      persons: 競技者検索
       #original_hash: 5b72b5a
-      my_results: My Results
+      my_results: 自分の記録
       #original_hash: 2086b21
-      statistics: Statistics
+      statistics: 統計情報
       #original_hash: 82dabd0
       multimedia: Multimedia
       #original_hash: 4fd2a7f
       db_export: Database Export
       #original_hash: 1fa73f3
-      regulations: Regulations
+      regulations: 規約
       #original_hash: 141d1d7
-      guidelines: Guidelines
+      guidelines: ガイドライン
       #original_hash: c4622c3
-      scrambles: Scrambles
+      scrambles: スクランブル
       #original_hash: 90ccd64
-      history: History
+      history: 過去の規約
       #original_hash: 8ad8302
-      translations: Translations
+      translations: 各国語訳 / Translations
       #original_hash: b8be3d1
-      administration: Administration
+      administration: 管理
       #original_hash: b7ee3c4
-      manage_users: Manage users
+      manage_users: ユーザー管理
       #original_hash: 12ab214
-      delegate: Delegate
+      delegate: 代理人
       #original_hash: 2f4bd74
       panel: Panel
       #original_hash: d3a928c
@@ -678,15 +630,15 @@ ja:
       #original_hash: f158a5a
       results_phpmyadmin: phpMyAdmin
       #original_hash: aee74b8
-      new_post: New post
+      new_post: New Post
       #original_hash: 0d67445
       team_leader: Team leader
       #original_hash: dc1649a
-      sign_out: Sign out
+      sign_out: ログアウト
       #original_hash: 753a22b
-      notifications: Notifications
+      notifications: お知らせ
       #original_hash: 15141ea
-      edit_profile: Edit profile
+      edit_profile: プロフィール編集
       #original_hash: d93d10f
       api: API
       #original_hash: 5524aab
