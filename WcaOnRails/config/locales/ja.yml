@@ -855,108 +855,98 @@ ja:
       #original_hash: d8f067f
       cannot_delete: 登録を削除できません。
       #original_hash: 82b3899
-      updated: Updated registration
+      updated: 申し込み内容を更新しました
       #original_hash: 856484a
-      failed: Could not update registration
+      failed: 申込内容を更新できません
       #original_hash: 016b4ae
-      deleted: 'Successfully deleted your registration for %{comp}'
+      deleted: '%{comp}の参加申し込みを削除しました'
       #original_hash: 648424f
-      registered: Successfully registered!
+      registered: 参加申込みが完了しました。
     edit_registration:
       #original_hash: 2d15eae
       title: '%{person} for %{comp}'
     list:
       #original_hash: 8b7631c
-      title: 'Registrations for %{comp}'
+      title: '%{comp}の参加申し込み一覧'
       #original_hash: 8e68b3e
-      country: country
+      country: 国籍
       #original_hash: 5301648
-      edit: Edit
+      edit: 編集
       #original_hash: 1feee0e
-      export_csv: Export to CSV
+      export_csv: CSVに出力
       #original_hash: 84add5b
-      email: Email
+      email: メールアドレス
       #original_hash: 7b2c7f1
-      approve: Approve
+      approve: 承認
       #original_hash: 2b03b59
-      reject: Reject
+      reject: 否認
       #original_hash: f6fdbe4
-      delete: Delete
+      delete: 削除
       #original_hash: 92d40dc
-      waiting_list: Waiting List
+      waiting_list: キャンセル待ちリスト
       #original_hash: 06f7d1a
-      approved_registrations: Approved registrations
+      approved_registrations: 承認済み参加申し込み
       #original_hash: bff04e8
-      deleted_registrations: Deleted registrations
+      deleted_registrations: 削除済み参加申し込み
       #original_hash: a844fcf
-      registered: Registered
+      registered: 申し込み済み
       #original_hash: b25928c
-      total: Total
+      total: トータル
     new_registration:
       #original_hash: 8b9f726
-      title: 'Register for %{comp}'
+      title: '%{comp} 参加申し込み'
     #original_hash: 7cae988
-    registered_with_account_html: >-
-      This person registered with an account. You can edit their personal
-      information %{here}.
+    registered_with_account_html: 'WCAアカウントを利用して申し込み済みです。プロフィール情報の変更はこちら %{here}。'
     #original_hash: ada2e9e
-    sign_in: Sign in
+    sign_in: ログイン
     #original_hash: 5d45a00
-    profile: profile
+    profile: プロフィール
     #original_hash: c0063c3
-    register: Register!
+    register: 申し込み実行
     #original_hash: a9af643
-    update: Update Registration
+    update: 申込みが更新されました
     #original_hash: f6fdbe4
-    delete: Delete
+    delete: 削除
     #original_hash: b72119a
-    delete_confirm: Are you sure you want to delete your registration?
+    delete_confirm: 本当に参加申し込みを削除してよろしいですか？
     #original_hash: cfc4865
-    delete_registration: Delete registration.
+    delete_registration: 参加申し込みを削除しました
     #original_hash: e9ddc6e
-    will_open_html: 'Registration will open in <strong>%{days}</strong> on %{time}.'
+    will_open_html: '参加申し込みは<strong>%{days}</strong>日後 %{time} に開始されます。'
     #original_hash: 34eb009
-    will_close_html: 'Registration closes in <strong>%{days}</strong> on %{time}.'
+    will_close_html: '参加申込みは <strong>%{days}</strong> 日後 %{time} に終了します。'
     #original_hash: dc8a520
-    closed_html: 'Registration closed <strong>%{days}</strong> ago on %{time}.'
+    closed_html: '参加申込みは <strong>%{days}</strong> 日前の %{time} に終了しました。'
     #original_hash: 2e7024d
     please_sign_in_past_html: >-
-      %{sign_in} to check the status of your registration. If you do not yet
-      have a WCA account, you can create one %{here}, but it is too late to
-      register for this competition.
+      申し込み状況の確認にはログインが必要です %{sign_in} 。WCA アカウントをを持っていない場合は %{here}
+      で作成できますが、この大会の申し込みは終了しています。
     #original_hash: 7753b2e
     please_sign_in_not_yet_open_html: >-
-      %{sign_in} to check the status of your registration. If you do not yet
-      have a WCA account, you can create one %{here}, but its registration is
-      not yet open.
+      申し込み状況の確認にはログインが必要です %{sign_in} 。WCA アカウントをを持っていない場合は %{here}
+      で作成できますが、この大会の申し込みはまだ開始していません。
     #original_hash: e1301c4
     please_sign_in_html: >-
-      %{sign_in} to register for %{comp}. If you do not yet have a WCA account,
-      you can create one %{here}
+      %{comp} の参加申し込みにはログインが必要です %{sign_in} 。WCA アカウントをを持っていない場合は %{here}
+      で作成できます。
     #original_hash: 89b4e7f
-    greeting: 'Hi, %{name}!'
+    greeting: 'こんにちは、%{name}さん！'
     #original_hash: fb34a17
-    please_fix_profile_html: >-
-      In order to register for this %{comp}, you must fix the following problems
-      with your %{profile}:
+    please_fix_profile_html: '%{comp} に参加申し込みするには、%{profile} 中の次の問題を解消してください:'
     #original_hash: 855ca9c
-    can_register: 'You can register for %{comp} below.'
+    can_register: '下で %{comp} に参加申し込みできます。'
     #original_hash: ea2b586
-    have_registered: >-
-      You have registered for %{comp}. You can see your registration information
-      below.
+    have_registered: '%{comp} に参加申し込み済みです。申し込み情報は下部に記載されています。'
     #original_hash: 4d966e0
-    entry_fee: 'The entry fee is '
+    entry_fee: '参加費:'
     #original_hash: 3c9141f
-    contact_organizer: Contact the organizer if you wish to make a change.
+    contact_organizer: 変更が必要な場合は運営チームにお尋ねください。
     #original_hash: 06d52b5
-    waiting_list: 'You are currently number %{i} of %{n} on the waiting list.'
+    waiting_list: 'あなたはキャンセル待ちリスト %{n} 人中 %{i} 番目です。'
     #original_hash: 58b1a3c
-    accepted: Your registration has been accepted!
+    accepted: 参加申込みが完了しました！
     #original_hash: 4cf01a2
-    preferred_events_prompt_html: >-
-      To speed up registration in the future, you can set your preferred events
-      %{link}.
+    preferred_events_prompt_html: '参加申し込み簡略化のため、お気に入り種目を登録できます %{link}。'
   competitions:
     messages:
       #original_hash: 7b80062
