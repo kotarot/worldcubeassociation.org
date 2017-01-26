@@ -292,14 +292,14 @@ ja:
     'no': いいえ
     required:
       #original_hash: 1a77d41
-      text: 要求された
+      text: 必須
       #original_hash: df58248
-      mark: ※
+      mark: '*'
       #original_hash: da39a3e
       html: ''
     error_notification:
       #original_hash: d70e9cb
-      default_message: '以下のエラー内容をご確認ください :'
+      default_message: '以下のエラー内容をご確認ください:'
     labels:
       contact:
         #original_hash: 709a232
@@ -314,8 +314,8 @@ ja:
         dob: '生年月日をすべて半角で記入してください。 (2000年1月23日生の場合 :2000-01-23)'
         #original_hash: 5106479
         name: >-
-          氏名 (英字) を「名姓」の順に記入してください。姓名ともに頭文字のみ大文字にしてください (鈴木 一郎の場合 :Ichiro
-          Suzuki)  。
+          氏名 (英字) を「名姓」の順に記入してください。姓名ともに頭文字のみ大文字にしてください (中島 悠 の場合: Yu
+          Nakajima)  。
         #original_hash: c03b949
         email: メールアドレスを変更する場合は、確認メールによる認証が必要となります。
         #original_hash: bfd11f4
@@ -372,7 +372,7 @@ ja:
         #original_hash: 517d376
         organizer_ids: 大会運営チーム (WCA アカウントが必要です)
         #original_hash: cabe7fb
-        external_website: 大会ホームページURL
+        external_website: 大会ウェブサイトの URL
         #original_hash: 9965635
         registration_open: 申込受付期間 (世界標準時。日本時間 -9 時間)
         #original_hash: f688881
@@ -386,9 +386,9 @@ ja:
         #original_hash: da39a3e
         generate_website: ''
         #original_hash: b61cbfa
-        base_entry_fee_lowest_denomination: '最低参加費 (例 : 1,000 JPY)'
+        base_entry_fee_lowest_denomination: '最低参加費 (1000)'
         #original_hash: 866bc05
-        currency_code: 通貨単位 (日本円の場合 JPY)
+        currency_code: 通貨単位
         #original_hash: da39a3e
         guests_enabled: ''
         #original_hash: da39a3e
@@ -430,7 +430,7 @@ ja:
         #original_hash: 1a68719
         equipment: 使用ディスプレイのバージョンおよび数 (使用しなかったものについては - を削除してください)
         #original_hash: 4658dd9
-        venue: 会場に関する事項 (部屋、照明、アクセス、本部や導線など会場配置、騒音等) とその対処法
+        venue: 会場に関する事項 (部屋、照明、アクセス、本部や導線など会場配置、騒音等) とその対処
         #original_hash: f8de509
         organization: 運営チームに関する事項 (運営にあたっての働きや問題点、運営能力の成長等)
         #original_hash: 715f020
@@ -489,7 +489,7 @@ ja:
       registration:
         status:
           #original_hash: 61a0572
-          accepted: 受理しました。
+          accepted: 登録済
           #original_hash: a6b2452
           pending: キャンセル待ちリスト
           #original_hash: 441bda6
@@ -503,9 +503,9 @@ ja:
   errors:
     messages:
       #original_hash: dc2367c
-      wrong_size: 'はファイルサイズが非適正です (%{file_size} に変更してください) 。'
+      wrong_size: 'はファイルサイズが不適切です (%{file_size} に変更してください) 。'
       #original_hash: 1531237
-      size_too_small: 'はファイルサイズが小さすぎます (%{file_size} 以上にしてください)'
+      size_too_small: 'はファイルサイズが小さすぎます (%{file_size} 以上にしてください)。'
       #original_hash: a2a43b3
       size_too_big: 'はファイルサイズが大きすぎます (%{file_size} 以下にしてください) 。'
   devise:
@@ -584,7 +584,7 @@ ja:
       #original_hash: 6a72085
       all: 全ての大会
       #original_hash: 775d458
-      my_competitions: 参加した大会
+      my_competitions: 自分の大会
       #original_hash: 32fde96
       new_competition: 新着
       #original_hash: 612e12d
@@ -604,21 +604,21 @@ ja:
       #original_hash: 4fd2a7f
       db_export: Database Export
       #original_hash: 1fa73f3
-      regulations: 規約
+      regulations: 大会規則
       #original_hash: 141d1d7
       guidelines: ガイドライン
       #original_hash: c4622c3
       scrambles: スクランブル
       #original_hash: 90ccd64
-      history: 過去の規約
+      history: 過去の大会規則
       #original_hash: 8ad8302
-      translations: 各国語訳 / Translations
+      translations: 各国語訳
       #original_hash: b8be3d1
       administration: 管理
       #original_hash: b7ee3c4
       manage_users: ユーザー管理
       #original_hash: 12ab214
-      delegate: 代理人
+      delegate: 代理人メニュー
       #original_hash: 2f4bd74
       panel: Panel
       #original_hash: d3a928c
@@ -653,19 +653,19 @@ ja:
       unavailable: その言語は指定できません。
     claim_wca_id:
       #original_hash: f28bf87
-      title: WCA ID の登録
+      title: WCA ID 連携
       #original_hash: 1b44f6d
       competition: 大会
       #original_hash: b396bfa
       already_have_html: '既に WCA ID %{wca_id} が登録されています'
       #original_hash: 87f1062
-      already_claimed_html: 'WCA ID %{wca_id} を登録しました。ご不明な点は%{delegate}にお問い合わせください。'
+      already_claimed_html: 'WCA ID %{wca_id} との連携を申請しました。ご不明な点は %{delegate} にお問い合わせください。'
       #original_hash: 0660b5d
       info_competed_before: 大会に参加したことがある場合は、WCA ID をアカウントに連携することができます。
       #original_hash: 7d605f8
       info_never_competed_html: '大会に参加したことがない場合、ぜひ %{comp} に参加しましょう！初めて参加した大会結果の公表の際に WCA ID が発行されます。'
       #original_hash: f28bf87
-      submit_value: WCA IDを登録する
+      submit_value: WCA ID と連携する
     edit_avatar_thumbnail:
       #original_hash: 79f14eb
       current: '現在のプロフィール画像:'
@@ -679,7 +679,7 @@ ja:
       #original_hash: 84add5b
       email: メールアドレス
       #original_hash: 9dfd349
-      preferences: Preferences (翻訳TODO)
+      preferences: お気に入り種目
       #original_hash: 8be3c94
       password: パスワード
       #original_hash: 3fc6dbe
@@ -732,13 +732,13 @@ ja:
       guidelines: ガイドライン
       avatar_guidelines:
         #original_hash: 255f28c
-        '1': プロフィール画像は人物の写真を利用してください
+        '1': プロフィール画像は実在の人物の写真を利用してください。
         #original_hash: 9126b0c
-        '2': 写っている人はあなた本人でなくてはいけません
+        '2': 写っている人はあなた本人でなくてはいけません。
         #original_hash: de9b742
-        '3': もしプロフィール画像に複数人が写っている場合は、どれがあなたかわかるようにしてください
+        '3': もしプロフィール画像に複数人が写っている場合は、どれがあなたかわかるようにしてください。
         #original_hash: 4083c00
-        '4': あなたの顔が見えるようにしてください
+        '4': あなたの顔が見えるようにしてください。
         #original_hash: ebbbf8a
         '5': プロフィール画像は文字を含んではいけません (背景に写り込んでいる場合を除く)。
         #original_hash: cc5f23a
@@ -781,7 +781,7 @@ ja:
         #original_hash: 31bd401
         account_updated: アカウント更新完了
         #original_hash: 49e5851
-        wca_id_claimed: 'WCA ID %{wca_id} を連携しました。メールを確認し、%{user}の承認をお待ちください。'
+        wca_id_claimed: 'WCA ID %{wca_id} を連携を申請しました。メールを確認し、%{user}の承認をお待ちください。'
         #original_hash: dc89669
         account_updated_confirm: 'アカウントが更新されました。%{email}にメールを送信しました。新しいメールアドレスをの確認が必要です。'
     select_nearby_delegate:
@@ -791,7 +791,7 @@ ja:
         target='_blank'>WCA 代理人</a>による本人確認が必要です。生年月日を入力し、最も身近な WCA 代理人を選択してください。
       #original_hash: d69cf94
       already_assigned_html: >-
-        WCA ID %{link_id}は既に別のアカウントと連携されています。これが誤りと思われる場合は<a
+        WCA ID %{link_id}は既に別のアカウントと連携されています。これが誤りと思われる場合は <a
         href='%{link_delegate}' target='_blank'>WCA 代理人</a>にご連絡ください。
       #original_hash: 3391b0b
       missing_dob_html: 'WCA ID %{link_id} は生年月日が登録されていません。%{link_result_team} にご連絡ください。'
@@ -822,12 +822,12 @@ ja:
     registration_info_people:
       #original_hash: bdf1f11
       newcomer:
-        zero: 初参加者
-        other: 初参加者
+        zero: 人の初参加者
+        other: 人の初参加者
       #original_hash: bc010e3
       returner:
-        zero: 大会経験者
-        other: 大会経験者
+        zero: 人の大会経験者
+        other: 人の大会経験者
       #original_hash: b7da17a
       person:
         zero: 人
@@ -848,7 +848,7 @@ ja:
         zero: 参加申し込みが削除されました。
         other: 参加申し込みが削除されました。
       #original_hash: c3aa289
-      single_deletion_and_mail: '参加申し込みが削除されました。%{mail}にメールを送信しました。'
+      single_deletion_and_mail: '参加申し込みが削除されました。%{mail} にメールを送信しました。'
       #original_hash: d8f067f
       cannot_delete: 参加申し込みを削除できません。
       #original_hash: 82b3899
@@ -856,7 +856,7 @@ ja:
       #original_hash: 856484a
       failed: 申し込み内容を更新できません
       #original_hash: 016b4ae
-      deleted: '%{comp}の参加申し込みを削除しました'
+      deleted: '%{comp} の参加申し込みを削除しました'
       #original_hash: 648424f
       registered: 参加申し込みが完了しました。
     edit_registration:
@@ -949,9 +949,9 @@ ja:
       #original_hash: 7b80062
       not_visible: この大会は非公開です。
       #original_hash: c1d4926
-      name_too_long: 大会名が32文字を超えています。短い名前が好ましいので変更してください。
+      name_too_long: 大会名が 32 文字を超えています。短い名前が好ましいので変更してください。
       #original_hash: 1a20fae
-      must_have_events: 大会内容を確認する前に1個以上の競技種目を追加してください。
+      must_have_events: 大会内容を確定する前に 1 個以上の競技種目を追加してください。
       #original_hash: e390250
       create_success: 大会が新規作成されました！
       #original_hash: afe3a23
@@ -959,7 +959,7 @@ ja:
       #original_hash: 07de612
       upload_results: この大会は終了しています。現在、結果をアップロードする作業中です。
       #original_hash: a0168ee
-      in_progress: 'この大会は進行中です。%{date} より後に結果が表示されます。'
+      in_progress: 'この大会は開催中です。%{date} より後に結果が表示されます。'
       #original_hash: 3322400
       tooltip_registered: すでに登録済みです。
       #original_hash: f2d092f
@@ -976,7 +976,7 @@ ja:
       #original_hash: 5c6d3ea
       title: 自分の大会
       #original_hash: 6e79aaf
-      disclaimer: WCA申し込みシステムを使用した大会のみここに表示されます。
+      disclaimer: WCA 申し込みシステムを使用した大会のみここに表示されます。
       #original_hash: 94a2fc8
       past_competitions: 過去の大会
     competition_info:
@@ -996,14 +996,14 @@ ja:
       organizer: 主催者
       #original_hash: 6afa61e
       delegate:
-        other: WCA代理人
-        zero: WCA代理人
+        other: WCA 代理人
+        zero: WCA 代理人
       #original_hash: b37456c
       contact: 連絡先
       #original_hash: a428739
       entry_fee: 参加費
       #original_hash: 0eb5ed5
-      information: 関連情報
+      information: 情報
     index:
       #original_hash: db98a68
       title: 大会一覧
@@ -1035,7 +1035,7 @@ ja:
       past_all: 過去の全ての大会
       titles:
         #original_hash: 69447c9
-        in_progress: 進行中の大会
+        in_progress: 開催中の大会
         #original_hash: 9e66032
         past: '%{year} 年の大会'
         #original_hash: cbe8a54
@@ -1049,7 +1049,7 @@ ja:
           #original_hash: b5183e1
           ended: '%{days} 日前に終了しました。'
           #original_hash: 1dccb27
-          in_progress: 進行中です！
+          in_progress: 開催中！
           #original_hash: 1157462
           posted: 大会結果は送信済みです。
           #original_hash: 89bcc37
