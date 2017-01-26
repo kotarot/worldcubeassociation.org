@@ -652,27 +652,27 @@ ja:
       #original_hash: dcc2f49
       failure: プロフィールを更新できません。
       #original_hash: c29870c
-      unavailable: その言語は指定できません
+      unavailable: その言語は指定できません。
     claim_wca_id:
       #original_hash: f28bf87
-      title: WCA IDの登録
+      title: WCA ID の登録
       #original_hash: 1b44f6d
       competition: 大会
       #original_hash: b396bfa
       already_have_html: '既に WCA ID %{wca_id} が登録されています'
       #original_hash: 87f1062
-      already_claimed_html: 'WCA ID %{wca_id} を登録しました。質問があれば%{delegate}にお尋ねください。'
+      already_claimed_html: 'WCA ID %{wca_id} を登録しました。ご不明な点は%{delegate}にお問い合わせください。'
       #original_hash: 0660b5d
-      info_competed_before: 大会に参加したことがある場合は、WCA IDをアカウントに紐付けることができます。
+      info_competed_before: 大会に参加したことがある場合は、WCA ID をアカウントに連携することができます。
       #original_hash: 7d605f8
-      info_never_competed_html: '大会に参加したことがない場合、ぜひ%{comp} に参加しましょう！初めて参加した大会結果の公表の際にWCA IDが発行されます。'
+      info_never_competed_html: '大会に参加したことがない場合、ぜひ %{comp} に参加しましょう！初めて参加した大会結果の公表の際に WCA ID が発行されます。'
       #original_hash: f28bf87
       submit_value: WCA IDを登録する
     edit_avatar_thumbnail:
       #original_hash: 79f14eb
-      current: '現在のサムネイル:'
+      current: '現在のプロフィール画像:'
       #original_hash: b42ba27
-      new: 新しいサムネイル
+      new: 新しいプロフィール画像
       #original_hash: efc007a
       save: 保存
     edit:
@@ -681,19 +681,19 @@ ja:
       #original_hash: 84add5b
       email: メールアドレス
       #original_hash: 9dfd349
-      preferences: Preferences
+      preferences: Preferences (翻訳TODO)
       #original_hash: 8be3c94
-      password: Password
+      password: パスワード
       #original_hash: 3fc6dbe
       member_of: 所属
       #original_hash: 57eaf24
-      preferred_events: Preferred events
+      preferred_events: お気に入り種目
       #original_hash: 42619dd
-      preferred_events_desc: 好きな競技種目を登録しておくと、大会申込が簡単です
+      preferred_events_desc: お気に入り種目を登録しておくと、大会申込が簡単です
       #original_hash: b402e03
       please_fix_profile: '大会申し込みのためには、以下の問題を修正してください:'
       #original_hash: cb77bea
-      unconfirmed_wca_id: Unconfirmed WCA ID
+      unconfirmed_wca_id: 未確認 WCA ID
       #original_hash: ff4fc02
       profile: プロフィール
       #original_hash: 7b2c7f1
@@ -703,29 +703,29 @@ ja:
       #original_hash: 8a770cf
       pending_mail_confirmation: '新しいメールアドレス %{email} の確認を待っています'
       #original_hash: 0340b0b
-      pending_avatar_confirmation: 新しいアバターの確認を待っています
+      pending_avatar_confirmation: 新しいプロフィール画像の確認を待っています
       #original_hash: 7b06f03
-      pending_claim_confirmation_html: '%{delegate}がWCA ID %{wca_id} を確認するのを待っています。'
+      pending_claim_confirmation_html: '%{delegate} による WCA ID %{wca_id} の確認待ちです。'
       #original_hash: fc7269a
-      pending_claim_mail_confirmation_html: 'WCA ID %{wca_id}の登録をリクエストしました。メールアドレスが確認でき次第、WCA代理人%{delegate}に通知されます。'
+      pending_claim_mail_confirmation_html: 'WCA ID %{wca_id}の連携をリクエストしました。メールアドレスが確認でき次第、WCA 代理人 %{delegate} に通知されます。'
       #original_hash: 1cde7e6
       your_thumbnail: 'サムネイル:'
       #original_hash: af18820
       edit_thumbnail: クリックでサムネイルの編集
       #original_hash: cf65c6e
-      manage_pending: Manage pending avatars
+      manage_pending: Manage pending avatars (翻訳TODO)
       #original_hash: 2d2ae5d
-      have_no_wca_id_html: 'WCA IDが登録されていません。大会に参加したことがある場合は、WCA IDをアカウント %{here} に登録してください。'
+      have_no_wca_id_html: 'WCA ID が登録されていません。大会に参加したことがある場合は、%{here} で WCA ID をアカウントを登録してください。'
       #original_hash: 29e25b5
-      have_wca_id_html: 'あなたのWCA IDは %{link_id} です。'
+      have_wca_id_html: 'あなたの WCA IDは %{link_id} です。'
       cannot_edit:
         #original_hash: b98c0cf
         msg: >-
           氏名、生年月日、性別、国籍は変更できません (理由: %{reason})。変更が必要な場合は、<a
-          href='%{delegate_url}'>WCA代理人</a> に連絡してください。
+          href='%{delegate_url}'> WCA 代理人</a>に連絡してください。
         reason:
           #original_hash: 370ff12
-          assigned: WCA IDが登録されています
+          assigned: WCA ID が登録されています
           #original_hash: 1c4670f
           registered: 大会に参加申し込み済みです
       #original_hash: efc007a
@@ -734,17 +734,17 @@ ja:
       guidelines: ガイドライン
       avatar_guidelines:
         #original_hash: 255f28c
-        '1': アバターは人物の写真を利用してください
+        '1': プロフィール画像は人物の写真を利用してください
         #original_hash: 9126b0c
         '2': 写っている人はあなた本人でなくてはいけません
         #original_hash: de9b742
-        '3': もしアバターに複数人が写っている場合は、どれがあなたかわかるようにしてください
+        '3': もしプロフィール画像に複数人が写っている場合は、どれがあなたかわかるようにしてください
         #original_hash: 4083c00
         '4': あなたの顔が見えるようにしてください
         #original_hash: ebbbf8a
-        '5': アバターは文字を含んではいけません (背景を除く)。
+        '5': プロフィール画像は文字を含んではいけません (背景に写り込んでいる場合を除く)。
         #original_hash: cc5f23a
-        '6': アバターは正しい向きで登録しなければいけません。
+        '6': プロフィール画像は正しい向きで登録しなければいけません。
     errors:
       #original_hash: 094b763
       not_found: not found
@@ -761,43 +761,42 @@ ja:
       #original_hash: 26f70ed
       dob_past: 過去の日付を入力してください
       #original_hash: f599dc5
-      must_be_senior: must be a senior delegate
+      must_be_senior: must be a senior delegate (翻訳TODO)
       #original_hash: 2e582eb
-      must_not_be_present: must not be present
+      must_not_be_present: must not be present (翻訳TODO)
       #original_hash: b2c4ecc
-      senior_has_delegate: cannot demote senior delegate with subordinate delegates
+      senior_has_delegate: cannot demote senior delegate with subordinate delegates (翻訳TODO)
       #original_hash: 48653a9
-      already_have_id: '既にWCA ID %{wca_id} が登録されているため、WCA IDが登録できません'
+      already_have_id: '既に WCA ID %{wca_id} が登録されているため、WCA ID が登録できません'
       #original_hash: eeb76a7
       wca_id_no_birthdate_html: >-
-        このWCA IDには生年月日が登録されていません。氏名と生年月日が確認できる身分証明書 (運転免許証など) の写真を<a
+        この WCA ID には生年月日が登録されていません。氏名と生年月日が確認できる身分証明書 (運転免許証など) の写真を<a
         href='mailto:results@worldcubeassociation.org' target='_blank'>WCA
         Results Team</a>にメールしてください
       #original_hash: 49083d8
       board_member_cannot_resign: >-
-        You cannot resign from your role as a board member! Find another board
-        member to fire you.
+        WCA 理事登録を自分自身で解除することはできません。他の理事に依頼してください。
       #original_hash: d02c03b
-      avatar_requires_wca_id: WCA IDの登録が必要です
+      avatar_requires_wca_id: WCA ID の連携が必要です
     successes:
       messages:
         #original_hash: 31bd401
         account_updated: アカウント更新完了
         #original_hash: 49e5851
-        wca_id_claimed: 'WCA ID %{wca_id} を登録しました。メールを確認し、%{user}の承認をお待ちください。'
+        wca_id_claimed: 'WCA ID %{wca_id} を連携しました。メールを確認し、%{user}の承認をお待ちください。'
         #original_hash: dc89669
         account_updated_confirm: 'アカウントが更新されました。%{email}にメールを送信しました。新しいメールアドレスをの確認が必要です。'
     select_nearby_delegate:
       #original_hash: 2b11120
       select_delegate_html: >-
         WCA IDの登録には、<a href='%{link_delegate}'
-        target='_blank'>WCA代理人</a>による本人確認が必要です。生年月日を入力し、最も身近なWCA代理人を選択してください。
+        target='_blank'>WCA 代理人</a>による本人確認が必要です。生年月日を入力し、最も身近な WCA 代理人を選択してください。
       #original_hash: d69cf94
       already_assigned_html: >-
         WCA ID %{link_id}は既に別のアカウントと連携されています。これが誤りと思われる場合は<a
-        href='%{link_delegate}' target='_blank'>WCA代理人</a>にご連絡ください。
+        href='%{link_delegate}' target='_blank'>WCA 代理人</a>にご連絡ください。
       #original_hash: 3391b0b
-      missing_dob_html: 'WCA ID %{link_id} は生年月日が登録されていません。%{link_result_team}に連絡してください。'
+      missing_dob_html: 'WCA ID %{link_id} は生年月日が登録されていません。%{link_result_team} にご連絡ください。'
       #original_hash: 92aa857
       unknown_wca_id_html: 'WCA ID %{link_id} は存在しません'
   registrations:
@@ -817,11 +816,11 @@ ja:
       #original_hash: cb763b8
       registration_closed: 大会申し込みは終了しています
       #original_hash: e0bb243
-      cannot_be_deleted_and_accepted: A registration cannot be deleted and accepted at the same time.
+      cannot_be_deleted_and_accepted: 参加申し込みの削除と承認を同時に行うことはできません。
       #original_hash: bf9a828
-      can_register: User must be able to register for competition
+      can_register: User must be able to register for competition (翻訳TODO)
       #original_hash: a38d024
-      must_register: 1つ以上の競技種目の選択が必要です
+      must_register: 1 つ以上の競技種目の選択が必要です
     registration_info_people:
       #original_hash: bdf1f11
       newcomer:
@@ -837,43 +836,43 @@ ja:
         other: 人
     flash:
       #original_hash: da7ec53
-      not_using_wca: この大会はWCA大会申し込みフォームを利用していません
+      not_using_wca: この大会は WCA 大会申し込みシステムを利用していません
       #original_hash: d528030
       accepted_and_mailed:
-        zero: 登録が完了しました。メールをご確認ください。
-        other: 登録が完了しました。メールをご確認ください。
+        zero: 参加申し込みが完了しました。メールをご確認ください。
+        other: 参加申し込みが完了しました。メールをご確認ください。
       #original_hash: 42ea8de
       rejected_and_mailed:
         zero: 申し込みはキャンセル待ちに登録されました。
         other: 申し込みはキャンセル待ちに登録されました。
       #original_hash: a360b31
       deleted_and_mailed:
-        zero: 参加登録が削除されました。
-        other: 参加登録が削除されました。
+        zero: 参加申し込みが削除されました。
+        other: 参加申し込みが削除されました。
       #original_hash: c3aa289
-      single_deletion_and_mail: '登録が削除されました。%{mail}にメールを送信しました。'
+      single_deletion_and_mail: '参加申し込みが削除されました。%{mail}にメールを送信しました。'
       #original_hash: d8f067f
-      cannot_delete: 登録を削除できません。
+      cannot_delete: 参加申し込みを削除できません。
       #original_hash: 82b3899
       updated: 申し込み内容を更新しました
       #original_hash: 856484a
-      failed: 申込内容を更新できません
+      failed: 申し込み内容を更新できません
       #original_hash: 016b4ae
       deleted: '%{comp}の参加申し込みを削除しました'
       #original_hash: 648424f
-      registered: 参加申込みが完了しました。
+      registered: 参加申し込みが完了しました。
     edit_registration:
       #original_hash: 2d15eae
-      title: '%{person} for %{comp}'
+      title: '%{person} for %{comp} (翻訳TODO)'
     list:
       #original_hash: 8b7631c
-      title: '%{comp}の参加申し込み一覧'
+      title: '%{comp} の参加申し込み一覧'
       #original_hash: 8e68b3e
       country: 国籍
       #original_hash: 5301648
       edit: 編集
       #original_hash: 1feee0e
-      export_csv: CSVに出力
+      export_csv: CSV に出力
       #original_hash: 84add5b
       email: メールアドレス
       #original_hash: 7b2c7f1
@@ -896,7 +895,7 @@ ja:
       #original_hash: 8b9f726
       title: '%{comp} 参加申し込み'
     #original_hash: 7cae988
-    registered_with_account_html: 'WCAアカウントを利用して申し込み済みです。プロフィール情報の変更はこちら %{here}。'
+    registered_with_account_html: 'WCA アカウントを利用して申し込み済みです。プロフィール情報の変更はこちら %{here}。'
     #original_hash: ada2e9e
     sign_in: ログイン
     #original_hash: 5d45a00
@@ -904,23 +903,23 @@ ja:
     #original_hash: c0063c3
     register: 申し込み実行
     #original_hash: a9af643
-    update: 申込みが更新されました
+    update: 申し込みが更新されました
     #original_hash: f6fdbe4
     delete: 削除
     #original_hash: b72119a
     delete_confirm: 本当に参加申し込みを削除してよろしいですか？
     #original_hash: cfc4865
-    delete_registration: 参加申し込みを削除しました
+    delete_registration: 参加申し込みを削除しました。
     #original_hash: e9ddc6e
-    will_open_html: '参加申し込みは<strong>%{days}</strong>日後 %{time} に開始されます。'
+    will_open_html: '参加申し込みは <strong>%{days}</strong> 日後 %{time} に開始します。'
     #original_hash: 34eb009
-    will_close_html: '参加申込みは <strong>%{days}</strong> 日後 %{time} に終了します。'
+    will_close_html: '参加申し込みは <strong>%{days}</strong> 日後 %{time} に終了します。'
     #original_hash: dc8a520
-    closed_html: '参加申込みは <strong>%{days}</strong> 日前の %{time} に終了しました。'
+    closed_html: '参加申し込みは <strong>%{days}</strong> 日前の %{time} に終了しました。'
     #original_hash: 2e7024d
     please_sign_in_past_html: >-
       申し込み状況の確認にはログインが必要です %{sign_in} 。WCA アカウントをを持っていない場合は %{here}
-      で作成できますが、この大会の申し込みは終了しています。
+      で作成できますが、この大会の申し込みは既に終了しています。
     #original_hash: 7753b2e
     please_sign_in_not_yet_open_html: >-
       申し込み状況の確認にはログインが必要です %{sign_in} 。WCA アカウントをを持っていない場合は %{here}
@@ -934,7 +933,7 @@ ja:
     #original_hash: fb34a17
     please_fix_profile_html: '%{comp} に参加申し込みするには、%{profile} 中の次の問題を解消してください:'
     #original_hash: 855ca9c
-    can_register: '下で %{comp} に参加申し込みできます。'
+    can_register: 'この下で %{comp} に参加申し込みできます。'
     #original_hash: ea2b586
     have_registered: '%{comp} に参加申し込み済みです。申し込み情報は下部に記載されています。'
     #original_hash: 4d966e0
@@ -944,7 +943,7 @@ ja:
     #original_hash: 06d52b5
     waiting_list: 'あなたはキャンセル待ちリスト %{n} 人中 %{i} 番目です。'
     #original_hash: 58b1a3c
-    accepted: 参加申込みが完了しました！
+    accepted: 参加申し込みが完了しました！
     #original_hash: 4cf01a2
     preferred_events_prompt_html: '参加申し込み簡略化のため、お気に入り種目を登録できます %{link}。'
   competitions:
@@ -990,11 +989,11 @@ ja:
       #original_hash: 67cd406
       venue: 会場
       #original_hash: d70f93d
-      address: 住所
+      address: 所在地
       #original_hash: dc3decb
       details: 詳細
       #original_hash: 2e8a57c
-      website: Webサイト
+      website: ウェブサイト
       #original_hash: debd172
       organizer: 主催者
       #original_hash: 6afa61e
