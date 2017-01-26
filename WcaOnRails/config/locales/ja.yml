@@ -1,292 +1,290 @@
 ja:
   countries:
     #original_hash: 3f8c9de
-    XA: Multiple Countries (Asia)
+    XA: 複数国（アジア）
     #original_hash: 090f3ce
-    XE: Multiple Countries (Europe)
+    XE: 複数国（ヨーロッパ）
     #original_hash: 459f987
-    XS: Multiple Countries (South America)
+    XS: 複数国（南アメリカ）
     #original_hash: 918c53a
-    MO: Macao
+    MO: マカオ
     #original_hash: 2f488ff
-    HK: Hong Kong
+    HK: 香港
     #original_hash: 4e8bd04
-    KR: Korea
+    KR: 韓国
   continents:
     #original_hash: 1d35114
-    AfR: Africa
+    AfR: アフリカ
     #original_hash: a173e72
-    AsR: Asia
+    AsR: アジア
     #original_hash: 576347e
-    ER: Europe
+    ER: ヨーロッパ
     #original_hash: 247ce5d
-    NAR: North America
+    NAR: 北アメリカ
     #original_hash: 3642950
-    OcR: Oceania
+    OcR: オセアニア
     #original_hash: b1ffb4c
-    SAR: South America
+    SAR: 南アメリカ
   events:
     #original_hash: 3732390
-    '222': 2x2x2 Cube
+    '222': 2x2x2 キューブ
     #original_hash: bfbe360
-    '333': Rubik's Cube
+    '333': ルービックキューブ
     #original_hash: 2ee5b5a
-    '444': 4x4x4 Cube
+    '444': 4x4x4 キューブ
     #original_hash: b7a99fa
-    '555': 5x5x5 Cube
+    '555': 5x5x5 キューブ
     #original_hash: 4e3ea57
-    '666': 6x6x6 Cube
+    '666': 6x6x6 キューブ
     #original_hash: b567fc4
-    '777': 7x7x7 Cube
+    '777': 7x7x7 キューブ
     #original_hash: 29d5411
-    333bf: 3x3x3 Blindfolded
+    333bf: 3x3x3 目隠し
     #original_hash: 31ed23f
-    333oh: 3x3x3 One-Handed
+    333oh: 3x3x3 片手
     #original_hash: 0a5e7bf
-    333fm: 3x3x3 Fewest Moves
+    333fm: 3x3x3 最少手数
     #original_hash: be41d70
-    333ft: 3x3x3 With Feet
+    333ft: 3x3x3 足
     #original_hash: d542376
-    minx: Megaminx
+    minx: メガミンクス
     #original_hash: 8216a66
-    pyram: Pyraminx
+    pyram: ピラミンクス
     #original_hash: 1551a2c
-    sq1: Square-1
+    sq1: スクエア 1
     #original_hash: 23c2fdf
-    clock: Rubik's Clock
+    clock: ルービッククロック
     #original_hash: 64a56a2
-    skewb: Skewb
+    skewb: スキューブ
     #original_hash: 5bae501
-    444bf: 4x4x4 Blindfolded
+    444bf: 4x4x4 目隠し
     #original_hash: aea5216
-    555bf: 5x5x5 Blindfolded
+    555bf: 5x5x5 目隠し
     #original_hash: cedbf87
-    333mbf: 3x3x3 Multi-Blind
+    333mbf: 3x3x3 複数目隠し
     #original_hash: 3988358
-    magic: Rubik's Magic
+    magic: ルービックマジック
     #original_hash: c962425
-    mmagic: Master Magic
+    mmagic: マスターマジック
     #original_hash: c6ad2af
-    333mbo: 'Rubik''s Cube: Multiple blind old style'
+    333mbo: 旧 3x3x3 複数目隠し
   common:
     #original_hash: 2513cf0
-    continent: Continent
+    continent: 大陸
     #original_hash: d523ebb
-    country: Country
+    country: 国
     #original_hash: 0154c0d
-    here: here
+    here: こちら
     #original_hash: 77003d0
-    best: Best
+    best: ベスト
     #original_hash: dd11868
-    single: Single
+    single: 単発
     #original_hash: 15f86c0
-    average: Average
+    average: 平均
     #original_hash: e7f6fc5
-    solves: Solves
+    solves: ソルブ
     user:
       #original_hash: 603a218
       wca_id: WCA ID
       #original_hash: e0f64f7
-      citizen_of: Citizen of
+      citizen_of: 国籍
     #original_hash: 3fc0ba1
-    all_regions: All regions
+    all_regions: 全地域
     errors:
       #original_hash: 81f344a
-      invalid: invalid
+      invalid: 無効
     #original_hash: 49d0140
     days:
-      one: "1 day"
-      other: "%{count} days"
+      other: 日
+      zero: 日
     #original_hash: 203e1b3
     these_events:
-      one: "this event"
-      other: "these %{count} events"
+      zero: 種目
+      other: 種目
   oauth:
     applications:
       #original_hash: 0c4ea38
-      your_apps: Your OAuth Applications
+      your_apps: OAuth アプリケーション
       #original_hash: 6403f2b
-      new: New
+      new: 新規登録
       #original_hash: 709a232
-      name: Name
+      name: アプリ名
       #original_hash: f6f1389
-      callback_url: Callback Url
+      callback_url: コールバック Url
       #original_hash: 89ff312
-      owner: Owner
+      owner: 所有者
       #original_hash: 557031c
-      application_id: Application ID
+      application_id: アプリケーション ID
       #original_hash: c3cd636
-      actions: Actions
+      actions: 操作
       #original_hash: f4e7a87
-      secret: Secret
+      secret: シークレットキー
       #original_hash: c23540e
-      scopes: Scopes
+      scopes: スコープ
       #original_hash: 3b0d449
-      callback_urls: Callback Urls
+      callback_urls: コールバック URls
   activerecord:
     attributes:
       user:
         #original_hash: eeb6920
-        name: Full name
+        name: フルネーム
         #original_hash: 603a218
         wca_id: WCA ID
         #original_hash: cb77bea
-        unconfirmed_wca_id: Unconfirmed WCA ID
+        unconfirmed_wca_id: WCA ID（未確認）
         #original_hash: 8ed8874
-        login: Email or WCA ID
+        login: メールアドレスまたは WCA ID
         #original_hash: 1528d10
-        country_iso2: Citizenship
+        country_iso2: 市民権
         #original_hash: ab58155
-        dob: Birthdate
+        dob: 生年月日
         #original_hash: ab58155
-        dob_verification: Birthdate
+        dob_verification: 生年月日
         #original_hash: 8a754c6
-        gender: Gender
+        gender: 性別
         #original_hash: 84add5b
-        email: Email
+        email: メールアドレス
         #original_hash: 8be3c94
-        password: Password
+        password: パスワード
         #original_hash: 19dff4d
-        current_password: Current password
+        current_password: 現在のパスワード
         #original_hash: 786b8af
-        password_confirmation: Password confirmation
+        password_confirmation: パスワード確認
         #original_hash: ced7b30
-        remember_me: Remember me
+        remember_me: 保存する
         #original_hash: 102efae
-        pending_avatar: Upload new avatar
+        pending_avatar: 新しいプロフィール画像をアップロードする
         #original_hash: 58e0c56
-        remove_avatar: Remove avatar
+        remove_avatar: プロフィール画像を削除する
         #original_hash: 9af9099
-        results_notifications_enabled: Email me when my results are posted.
+        results_notifications_enabled: 自分の結果が投稿されたらメールを送信する。
         #original_hash: de60ab8
-        delegate_status: Delegate status
+        delegate_status: 代理人ステータス
         #original_hash: 0f21717
-        region: Region
+        region: 国籍
         #original_hash: a10b651
-        location_description: Location description
+        location_description: 所在地
         #original_hash: 8961d3b
-        phone_number: Phone number
+        phone_number: 電話番号
         #original_hash: 7044004
-        notes: Notes
+        notes: メモ
       competition:
         #original_hash: 89f89c0
         id: ID
         #original_hash: 7f3d889
-        isConfirmed: Do not let organizers edit this competition
+        isConfirmed: 主催者がこの大会を編集することを許可しない
         #original_hash: d493e6a
-        showAtAll: Make competition visible to the public
+        showAtAll: 大会を一般公開する
         #original_hash: 709a232
-        name: Name
+        name: 大会名
         #original_hash: b649210
-        cellName: Competition nickname
+        cellName: 大会名略称
         #original_hash: d523ebb
-        countryId: Country
+        countryId: 開催国
         #original_hash: 25b7b06
-        cityName: City name
+        cityName: 都市名
         #original_hash: 67cd406
-        venue: Venue
+        venue: 会場
         #original_hash: 486f8fb
-        venueAddress: Venue address
+        venueAddress: 会場住所
         #original_hash: 08767af
-        venueDetails: Venue details
+        venueDetails: 会場詳細
         #original_hash: ff99f5b
-        start_date: Start date
+        start_date: 開始日
         #original_hash: 89d10cd
-        end_date: End date
+        end_date: 終了日
         #original_hash: 2e8a57c
-        external_website: Website
+        external_website: ウェブサイト
         #original_hash: 692e1f9
-        generate_website: >-
-          I would like to use WCA website instead of an external one for
-          additional information.
+        generate_website: 追加情報のために外部のウェブサイトの代わりに WCA ウェブサイトを使用する
         #original_hash: 3d53469
-        base_entry_fee_lowest_denomination: Base entry fee in the lowest denomination
+        base_entry_fee_lowest_denomination: 基本参加費
         #original_hash: 28a6fbb
-        currency_code: Currency code
+        currency_code: 通貨コード
         #original_hash: 5b2fe69
-        delegate_ids: WCA delegate(s)
+        delegate_ids: WCA 代理人
         #original_hash: 958562e
-        organizer_ids: Organizer(s)
+        organizer_ids: 主催者
         #original_hash: b37456c
-        contact: Contact
+        contact: 連絡先
         #original_hash: 0eb5ed5
-        information: Information
+        information: 情報
         #original_hash: 87b7d5f
-        use_wca_registration: I would like to use the WCA website for registration
+        use_wca_registration: 参加登録に WCA ウェブサイトを使用する
         #original_hash: 3c23a67
-        guests_enabled: Guests
+        guests_enabled: ゲスト
         #original_hash: 089cbfd
-        receive_registration_emails: Notify me by email when someone registers for this competition
+        receive_registration_emails: 大会に参加登録があったとき電子メールで通知する
         #original_hash: d4aeed9
-        registration_open: Registration open
+        registration_open: 登録を開始する
         #original_hash: f8153a2
-        registration_close: Registration close
+        registration_close: 登録を停止する
         #original_hash: d7020f4
-        remarks: Remarks
+        remarks: 備考
         #original_hash: c305010
-        clone_tabs: I would like to clone all tabs with additional information as well
+        clone_tabs: すべてのタブを追加情報とともに複製する
       registration:
         #original_hash: 3c23a67
-        guests: Guests
+        guests: ゲスト
         #original_hash: fce06e2
-        comments: Comments
+        comments: コメント
         #original_hash: bae7d5b
-        status: Status
+        status: ステータス
         #original_hash: 709a232
-        name: Name
+        name: 名前
         #original_hash: a6b9d69
-        birthday: Birthday
+        birthday: 誕生日
       competition_tab:
         #original_hash: 4f9be05
-        content: Content
+        content: 内容
         #original_hash: 709a232
-        name: Name
+        name: 名前
       delegate_report:
         #original_hash: 983d541
-        discussion_url: Discussion's url on the Google Group
+        discussion_url: Google グループ上のディスカッション Url
         #original_hash: 65a9b28
-        schedule_url: Schedule url
+        schedule_url: スケジュール url
         #original_hash: 36155d4
-        equipment: Equipment
+        equipment: 備品
         #original_hash: 67cd406
-        venue: Venue
+        venue: 開催地
         #original_hash: 519255a
-        organization: Organization
+        organization: 組織
         #original_hash: 5e326b1
-        incidents: Incidents
+        incidents: インシデント
         #original_hash: d7020f4
-        remarks: Remarks
+        remarks: 備考
       person:
         #original_hash: 8c41ae8
-        wca_id: Person
+        wca_id: 個人
         #original_hash: d523ebb
-        countryId: Country
+        countryId: 国
         #original_hash: ab58155
-        dob: Birthdate
+        dob: 誕生日
         #original_hash: 8a754c6
-        gender: Gender
+        gender: 性別
         #original_hash: 709a232
-        name: Name
+        name: 名前
       poll:
         #original_hash: 002ff59
-        question: Question
+        question: 質問
         #original_hash: 2b12f36
-        deadline: Deadline
+        deadline: 締切
       post:
         #original_hash: 768e0c1
-        title: Title
+        title: タイトル
         #original_hash: 718a7e8
-        body: Body
+        body: 本文
         #original_hash: 6f915a2
-        sticky: Sticky
+        sticky: 付箋
       team:
         #original_hash: 709a232
-        name: Name
+        name: 名前
         #original_hash: 55f8ebc
-        description: Description
+        description: 説明
       vote:
         #original_hash: 153d7a5
-        comment: Comment
+        comment: コメント
   simple_form:
     #original_hash: 5397e05
     'yes': はい
