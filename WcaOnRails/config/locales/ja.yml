@@ -95,12 +95,12 @@ ja:
       invalid: 無効
     #original_hash: 49d0140
     days:
-      other: 日
-      zero: 日
+      one: '1 日'
+      other: "%{count} 日"
     #original_hash: 203e1b3
     these_events:
-      zero: 種目
-      other: 種目
+      one: "この種目"
+      other: "これら %{count} 種目"
   oauth:
     applications:
       #original_hash: 0c4ea38
@@ -519,8 +519,8 @@ ja:
       messages:
         #original_hash: e88f903
         form_error:
-          other: '%{count} 件の誤りがあります。'
-          zero: 1 件の誤りがあります。
+          one: "1 件の誤りがあります。"
+          other: "%{count} 件の誤りがあります。"
     doorkeeper:
       applications:
         help:
@@ -822,30 +822,30 @@ ja:
     registration_info_people:
       #original_hash: bdf1f11
       newcomer:
-        zero: 人の初参加者
+        one: 人の初参加者
         other: 人の初参加者
       #original_hash: bc010e3
       returner:
-        zero: 人の大会経験者
+        one: 人の大会経験者
         other: 人の大会経験者
       #original_hash: b7da17a
       person:
-        zero: 人
+        one: 人
         other: 人
     flash:
       #original_hash: da7ec53
       not_using_wca: この大会は WCA 大会申し込みシステムを利用していません
       #original_hash: d528030
       accepted_and_mailed:
-        zero: 参加申し込みが完了しました。メールをご確認ください。
+        one: 参加申し込みが完了しました。メールをご確認ください。
         other: 参加申し込みが完了しました。メールをご確認ください。
       #original_hash: 42ea8de
       rejected_and_mailed:
-        zero: 申し込みはキャンセル待ちに登録されました。
+        one: 申し込みはキャンセル待ちに登録されました。
         other: 申し込みはキャンセル待ちに登録されました。
       #original_hash: a360b31
       deleted_and_mailed:
-        zero: 参加申し込みが削除されました。
+        one: 参加申し込みが削除されました。
         other: 参加申し込みが削除されました。
       #original_hash: c3aa289
       single_deletion_and_mail: '参加申し込みが削除されました。%{mail} にメールを送信しました。'
@@ -996,8 +996,8 @@ ja:
       organizer: 主催者
       #original_hash: 6afa61e
       delegate:
+        one: WCA 代理人
         other: WCA 代理人
-        zero: WCA 代理人
       #original_hash: b37456c
       contact: 連絡先
       #original_hash: a428739
