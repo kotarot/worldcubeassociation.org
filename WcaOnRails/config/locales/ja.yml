@@ -1,329 +1,325 @@
 ja:
   countries:
     #original_hash: 3f8c9de
-    XA: Multiple Countries (Asia)
+    XA: 複数国（アジア）
     #original_hash: 090f3ce
-    XE: Multiple Countries (Europe)
+    XE: 複数国（ヨーロッパ）
     #original_hash: 459f987
-    XS: Multiple Countries (South America)
+    XS: 複数国（南アメリカ）
     #original_hash: 918c53a
-    MO: Macao
+    MO: マカオ
     #original_hash: 2f488ff
-    HK: Hong Kong
+    HK: 香港
     #original_hash: 4e8bd04
-    KR: Korea
+    KR: 韓国
   continents:
     #original_hash: 1d35114
-    AfR: Africa
+    AfR: アフリカ
     #original_hash: a173e72
-    AsR: Asia
+    AsR: アジア
     #original_hash: 576347e
-    ER: Europe
+    ER: ヨーロッパ
     #original_hash: 247ce5d
-    NAR: North America
+    NAR: 北アメリカ
     #original_hash: 3642950
-    OcR: Oceania
+    OcR: オセアニア
     #original_hash: b1ffb4c
-    SAR: South America
+    SAR: 南アメリカ
   events:
     #original_hash: 3732390
-    '222': 2x2x2 Cube
+    '222': 2x2x2 キューブ
     #original_hash: bfbe360
-    '333': Rubik's Cube
+    '333': ルービックキューブ
     #original_hash: 2ee5b5a
-    '444': 4x4x4 Cube
+    '444': 4x4x4 キューブ
     #original_hash: b7a99fa
-    '555': 5x5x5 Cube
+    '555': 5x5x5 キューブ
     #original_hash: 4e3ea57
-    '666': 6x6x6 Cube
+    '666': 6x6x6 キューブ
     #original_hash: b567fc4
-    '777': 7x7x7 Cube
+    '777': 7x7x7 キューブ
     #original_hash: 29d5411
-    333bf: 3x3x3 Blindfolded
+    333bf: 3x3x3 目隠し
     #original_hash: 31ed23f
-    333oh: 3x3x3 One-Handed
+    333oh: 3x3x3 片手
     #original_hash: 0a5e7bf
-    333fm: 3x3x3 Fewest Moves
+    333fm: 3x3x3 最少手数
     #original_hash: be41d70
-    333ft: 3x3x3 With Feet
+    333ft: 3x3x3 足
     #original_hash: d542376
-    minx: Megaminx
+    minx: メガミンクス
     #original_hash: 8216a66
-    pyram: Pyraminx
+    pyram: ピラミンクス
     #original_hash: 1551a2c
-    sq1: Square-1
+    sq1: スクエア 1
     #original_hash: 23c2fdf
-    clock: Rubik's Clock
+    clock: ルービッククロック
     #original_hash: 64a56a2
-    skewb: Skewb
+    skewb: スキューブ
     #original_hash: 5bae501
-    444bf: 4x4x4 Blindfolded
+    444bf: 4x4x4 目隠し
     #original_hash: aea5216
-    555bf: 5x5x5 Blindfolded
+    555bf: 5x5x5 目隠し
     #original_hash: cedbf87
-    333mbf: 3x3x3 Multi-Blind
+    333mbf: 3x3x3 複数目隠し
     #original_hash: 3988358
-    magic: Rubik's Magic
+    magic: ルービックマジック
     #original_hash: c962425
-    mmagic: Master Magic
+    mmagic: マスターマジック
     #original_hash: c6ad2af
-    333mbo: 'Rubik''s Cube: Multiple blind old style'
+    333mbo: 旧 3x3x3 複数目隠し
   common:
     #original_hash: 2513cf0
-    continent: Continent
+    continent: 大陸
     #original_hash: d523ebb
-    country: Country
+    country: 国
     #original_hash: 0154c0d
-    here: here
+    here: こちら
     #original_hash: 77003d0
-    best: Best
+    best: ベスト
     #original_hash: dd11868
-    single: Single
+    single: 単発
     #original_hash: 15f86c0
-    average: Average
+    average: 平均
     #original_hash: e7f6fc5
-    solves: Solves
+    solves: 内訳
     user:
       #original_hash: 603a218
       wca_id: WCA ID
       #original_hash: e0f64f7
-      citizen_of: Citizen of
+      citizen_of: 国籍
     #original_hash: 3fc0ba1
-    all_regions: All regions
+    all_regions: 全地域
     errors:
       #original_hash: 81f344a
-      invalid: invalid
+      invalid: 無効
     #original_hash: 49d0140
     days:
-      one: "1 day"
-      other: "%{count} days"
+      one: '1 日'
+      other: "%{count} 日"
     #original_hash: 203e1b3
     these_events:
-      one: "this event"
-      other: "these %{count} events"
+      one: "この種目"
+      other: "これら %{count} 種目"
   oauth:
     applications:
       #original_hash: 0c4ea38
-      your_apps: Your OAuth Applications
+      your_apps: OAuth アプリケーション
       #original_hash: 6403f2b
-      new: New
+      new: 新規登録
       #original_hash: 709a232
-      name: Name
+      name: アプリ名
       #original_hash: f6f1389
-      callback_url: Callback Url
+      callback_url: コールバック Url
       #original_hash: 89ff312
-      owner: Owner
+      owner: 所有者
       #original_hash: 557031c
-      application_id: Application ID
+      application_id: アプリケーション ID
       #original_hash: c3cd636
-      actions: Actions
+      actions: 操作
       #original_hash: f4e7a87
-      secret: Secret
+      secret: シークレットキー
       #original_hash: c23540e
-      scopes: Scopes
+      scopes: スコープ
       #original_hash: 3b0d449
-      callback_urls: Callback Urls
+      callback_urls: コールバック Urls
   activerecord:
     attributes:
       user:
         #original_hash: eeb6920
-        name: Full name
+        name: フルネーム
         #original_hash: 603a218
         wca_id: WCA ID
         #original_hash: cb77bea
-        unconfirmed_wca_id: Unconfirmed WCA ID
+        unconfirmed_wca_id: WCA ID（未確認）
         #original_hash: 8ed8874
-        login: Email or WCA ID
+        login: メールアドレスまたは WCA ID
         #original_hash: 1528d10
-        country_iso2: Citizenship
+        country_iso2: 国籍
         #original_hash: ab58155
-        dob: Birthdate
+        dob: 生年月日
         #original_hash: ab58155
-        dob_verification: Birthdate
+        dob_verification: 生年月日
         #original_hash: 8a754c6
-        gender: Gender
+        gender: 性別
         #original_hash: 84add5b
-        email: Email
+        email: メールアドレス
         #original_hash: 8be3c94
-        password: Password
+        password: パスワード
         #original_hash: 19dff4d
-        current_password: Current password
+        current_password: 現在のパスワード
         #original_hash: 786b8af
-        password_confirmation: Password confirmation
+        password_confirmation: パスワード確認
         #original_hash: ced7b30
-        remember_me: Remember me
+        remember_me: 保存する
         #original_hash: 102efae
-        pending_avatar: Upload new avatar
+        pending_avatar: 新しいプロフィール画像をアップロードする
         #original_hash: 58e0c56
-        remove_avatar: Remove avatar
+        remove_avatar: プロフィール画像を削除する
         #original_hash: 9af9099
-        results_notifications_enabled: Email me when my results are posted.
+        results_notifications_enabled: 自分の結果が反映されたらメール通知を受信する。
         #original_hash: de60ab8
-        delegate_status: Delegate status
+        delegate_status: 代理人ステータス
         #original_hash: 0f21717
-        region: Region
+        region: 国籍
         #original_hash: a10b651
-        location_description: Location description
+        location_description: 所在地
         #original_hash: 8961d3b
-        phone_number: Phone number
+        phone_number: 電話番号
         #original_hash: 7044004
-        notes: Notes
+        notes: メモ
       competition:
         #original_hash: 89f89c0
         id: ID
         #original_hash: 7f3d889
-        isConfirmed: Do not let organizers edit this competition
+        isConfirmed: 主催者がこの大会を編集することを許可しない
         #original_hash: d493e6a
-        showAtAll: Make competition visible to the public
+        showAtAll: 大会を一般公開する
         #original_hash: 709a232
-        name: Name
+        name: 大会名
         #original_hash: b649210
-        cellName: Competition nickname
+        cellName: 大会名略称
         #original_hash: d523ebb
-        countryId: Country
+        countryId: 開催国
         #original_hash: 25b7b06
-        cityName: City name
+        cityName: 都市名
         #original_hash: 67cd406
-        venue: Venue
+        venue: 会場
         #original_hash: 486f8fb
-        venueAddress: Venue address
+        venueAddress: 会場所在地
         #original_hash: 08767af
-        venueDetails: Venue details
+        venueDetails: 会場詳細
         #original_hash: ff99f5b
-        start_date: Start date
+        start_date: 開始日
         #original_hash: 89d10cd
-        end_date: End date
+        end_date: 終了日
         #original_hash: 2e8a57c
-        external_website: Website
+        external_website: ウェブサイト
         #original_hash: 692e1f9
-        generate_website: >-
-          I would like to use WCA website instead of an external one for
-          additional information.
+        generate_website: 追加情報用の外部ウェブサイトを用意せずに WCA ウェブサイトを使用する
         #original_hash: 3d53469
-        base_entry_fee_lowest_denomination: Base entry fee in the lowest denomination
+        base_entry_fee_lowest_denomination: 基本参加費
         #original_hash: 28a6fbb
-        currency_code: Currency code
+        currency_code: 通貨コード
         #original_hash: 5b2fe69
-        delegate_ids: WCA delegate(s)
+        delegate_ids: WCA 代理人
         #original_hash: 958562e
-        organizer_ids: Organizer(s)
+        organizer_ids: 主催者
         #original_hash: b37456c
-        contact: Contact
+        contact: 連絡先
         #original_hash: 0eb5ed5
-        information: Information
+        information: 情報
         #original_hash: 87b7d5f
-        use_wca_registration: I would like to use the WCA website for registration
+        use_wca_registration: 参加申し込みに WCA ウェブサイトを使用する
         #original_hash: 3c23a67
-        guests_enabled: Guests
+        guests_enabled: ゲスト
         #original_hash: 089cbfd
-        receive_registration_emails: Notify me by email when someone registers for this competition
+        receive_registration_emails: 大会に参加申し込みがあったとき電子メールで通知する
         #original_hash: d4aeed9
-        registration_open: Registration open
+        registration_open: 参加申し込みを開始する
         #original_hash: f8153a2
-        registration_close: Registration close
+        registration_close: 参加申し込みを停止する
         #original_hash: d7020f4
-        remarks: Remarks
+        remarks: 備考
         #original_hash: c305010
-        clone_tabs: I would like to clone all tabs with additional information as well
+        clone_tabs: すべてのタブを追加情報とともに複製する
       registration:
         #original_hash: 3c23a67
-        guests: Guests
+        guests: ゲスト
         #original_hash: fce06e2
-        comments: Comments
+        comments: コメント
         #original_hash: bae7d5b
-        status: Status
+        status: ステータス
         #original_hash: 709a232
-        name: Name
+        name: 名前
         #original_hash: a6b9d69
-        birthday: Birthday
+        birthday: 誕生日
       competition_tab:
         #original_hash: 4f9be05
-        content: Content
+        content: 内容
         #original_hash: 709a232
-        name: Name
+        name: 名前
       delegate_report:
         #original_hash: 983d541
-        discussion_url: Discussion's url on the Google Group
+        discussion_url: Google グループ上のディスカッション url
         #original_hash: 65a9b28
-        schedule_url: Schedule url
+        schedule_url: スケジュール url
         #original_hash: 36155d4
-        equipment: Equipment
+        equipment: 備品
         #original_hash: 67cd406
-        venue: Venue
+        venue: 開催地
         #original_hash: 519255a
-        organization: Organization
+        organization: 組織
         #original_hash: 5e326b1
-        incidents: Incidents
+        incidents: インシデント
         #original_hash: d7020f4
-        remarks: Remarks
+        remarks: 備考
       person:
         #original_hash: 8c41ae8
-        wca_id: Person
+        wca_id: 個人
         #original_hash: d523ebb
-        countryId: Country
+        countryId: 国
         #original_hash: ab58155
-        dob: Birthdate
+        dob: 誕生日
         #original_hash: 8a754c6
-        gender: Gender
+        gender: 性別
         #original_hash: 709a232
-        name: Name
+        name: 名前
       poll:
         #original_hash: 002ff59
-        question: Question
+        question: 質問
         #original_hash: 2b12f36
-        deadline: Deadline
+        deadline: 締切
       post:
         #original_hash: 768e0c1
-        title: Title
+        title: タイトル
         #original_hash: 718a7e8
-        body: Body
+        body: 本文
         #original_hash: 6f915a2
-        sticky: Sticky
+        sticky: 付箋
       team:
         #original_hash: 709a232
-        name: Name
+        name: 名前
         #original_hash: 55f8ebc
-        description: Description
+        description: 説明
       vote:
         #original_hash: 153d7a5
-        comment: Comment
+        comment: コメント
   simple_form:
     #original_hash: 5397e05
-    'yes': 'Yes'
+    'yes': はい
     #original_hash: 816c52f
-    'no': 'No'
+    'no': いいえ
     required:
       #original_hash: 1a77d41
-      text: required
+      text: 必須
       #original_hash: df58248
       mark: '*'
       #original_hash: da39a3e
       html: ''
     error_notification:
       #original_hash: d70e9cb
-      default_message: 'Please review the problems below:'
+      default_message: '以下のエラー内容をご確認ください:'
     labels:
       contact:
         #original_hash: 709a232
-        name: Name
+        name: 氏名
         #original_hash: 3fa6f5f
-        your_email: Your email
+        your_email: メールアドレス
         #original_hash: 68f4145
-        message: Message
+        message: 備考
     hints:
       user:
         #original_hash: 87e1e6f
-        dob: Enter your date of birth in the format YYYY-MM-DD.
+        dob: '生年月日をすべて半角で記入してください。 (2000年1月23日生の場合: 2000-01-23)'
         #original_hash: 5106479
         name: >-
-          Enter your full name correctly, for example <strong>Stefan
-          Pochmann</strong>. Not sloppily like <strong>s pochman</strong>.
+          氏名 (英字) を「名姓」の順に記入してください。姓名ともに頭文字のみ大文字にしてください (中島 悠 の場合: Yu
+          Nakajima)  。
         #original_hash: c03b949
-        email: Changing your email will require confirming the new email.
+        email: メールアドレスを変更する場合は、確認メールによる認証が必要となります。
         #original_hash: bfd11f4
-        pending_avatar: >-
-          After uploading a new avatar, you will have to wait for the Board to
-          approve it.
+        pending_avatar: プロフィール画像の変更は、 WCA 理事の承認後に反映されます。
         #original_hash: da39a3e
         country_iso2: ''
         #original_hash: da39a3e
@@ -361,36 +357,26 @@ ja:
       competition:
         #original_hash: 2c812a0
         name: >-
-          The full name of the competition including the year at the end (e.g.,
-          Danish Open 2016). Be sure to capitalize. The name must contain only
-          alphanumeric characters, dashes(-), ampersands(&), periods(.),
-          colons(:), apostrophes('), and spaces( ).
+          大会の正式名称 (英名) 。ただし、 (1) 必ず末尾に年号を含める (例 : JRCA Kansai Winter 2017) (2)
+          語頭を大文字にする (3) 英数字と - & . : ' および半角スペースのみ使用可。
         #original_hash: 525fcc8
-        cellName: >-
-          A short name for displaying. If the name of the competition is already
-          short, you can re-use the name (e.g., Europe 2006).
+        cellName: 大会名の略称 (Kansai 2017 など正式名が短い場合は正式名と重複可)
         #original_hash: bce4589
-        cityName: >-
-          Name of the city and state (if applicable) where the competition takes
-          place. Do not include country (e.g., Paris OR San Francisco,
-          California).
+        cityName: '開催都市名 (例 : Kawasaki, Kanagawa や Shibuya, Tokyo など「市区町村, 都道府県」の順)'
         #original_hash: 17c8ff8
         information: >-
-          Some information text about the competition (e.g., Euro 2006 is open
-          to citizens of the European countries and Israel).
+          大会の概要 (例 : UT Open 2010 is the first students-organized competition in
+          Japan.)
         #original_hash: 0708400
-        delegate_ids: WCA delegates for the competition.
+        delegate_ids: 'WCA 代理人 (例 : Yuji Suse)'
         #original_hash: 517d376
-        organizer_ids: Competition organizers (they need an account to be listed here).
+        organizer_ids: 大会運営チーム (WCA アカウントが必要です)
         #original_hash: cabe7fb
-        external_website: The website of the competition. Must be a valid http(s) url.
+        external_website: 大会ウェブサイトの URL
         #original_hash: 9965635
-        registration_open: 'Note: Registration open and close are in UTC time'
+        registration_open: 申込受付期間 (世界標準時。日本時間 -9 時間)
         #original_hash: f688881
-        remarks: >-
-          Some additional information you want to pass on to the board. For
-          example, reasons why this competition was requested less than one
-          month away, if applicable.
+        remarks: WCA 理事へのコメント (大会期日 1 か月以内の申請の場合の理由など、特別必要な場合のみ)
         #original_hash: da39a3e
         clone_tabs: ''
         #original_hash: da39a3e
@@ -400,16 +386,9 @@ ja:
         #original_hash: da39a3e
         generate_website: ''
         #original_hash: b61cbfa
-        base_entry_fee_lowest_denomination: >-
-          The base entry fee for the competition. This is recorded in the lowest
-          denomination for the specified currency. Eg. cents for USD. The entry
-          fee will be displayed on the competition information page and the
-          registration page if used. Note that the WCA site does not yet have
-          payment support. The software team is working towards this and you can
-          track the progress on <a
-          href="https://github.com/thewca/worldcubeassociation.org/issues?q=is%3Aopen+is%3Aissue+label%3Apayments">GitHub</a>.
+        base_entry_fee_lowest_denomination: '基本参加費 (1000)'
         #original_hash: 866bc05
-        currency_code: The currency code for entry fees.
+        currency_code: 通貨単位
         #original_hash: da39a3e
         guests_enabled: ''
         #original_hash: da39a3e
@@ -447,53 +426,29 @@ ja:
         title: ''
       delegate_report:
         #original_hash: 4eefb60
-        schedule_url: >-
-          Full link to the published schedule (e.g.,
-          https://www.cubingusa.com/usnationals2016/schedule.php)
+        schedule_url: タイムスケジュールページの URL
         #original_hash: 1a68719
-        equipment: >-
-          Number and type of timers and displays used in the competition. Please
-          remove the line(s) of equipment which you didn't use.
+        equipment: 使用ディスプレイのバージョンおよび数 (使用しなかったものについては - を削除してください)
         #original_hash: 4658dd9
-        venue: >-
-          Talk about rooms, light, public access, distribution of the zones
-          (solving, scrambling, waiting, score-taking), if you set up different
-          solving stages, problems that arose (for example, noise) and how you
-          solved them... Please, be concise and do not report irrelevant
-          details.
+        venue: 会場に関する事項 (部屋、照明、アクセス、本部や導線など会場配置、騒音等) とその対処
         #original_hash: f8de509
-        organization: >-
-          Talk about the organization team and how they worked out the
-          competition, if you got involved on it, their previous experience and
-          if you noticed progress on their work, if they were professional and
-          active the competition days, problems that arose (e.g., getting behind
-          schedule) and how they solved them... Please, be concise and do not
-          report irrelevant details.
+        organization: 運営チームに関する事項 (運営にあたっての働きや問題点、運営能力の成長等)
         #original_hash: 715f020
         incidents: >-
-          Report any incidents that you consider worth mentioning. Number the
-          incidents starting from 1., so that other delegates can comment
-          referring to them by their numbers. Please make sure to mention only
-          concrete cases, not generic events (e.g., regular +2 and DNF). Feel
-          free to ask for delegates' or WRC's  feedback on any of them. If you'd
-          like to have the WDC involved in some of them, make sure to state this
-          request clearly.
+          インシデントに関する事項 (1. や 2.
+          など番号をつけて箇条書きにしてください。通常の +2 や DNF などは除きます。フィードバックを求める記述も可。WDC の裁定を求める場合それを明記してください)
         #original_hash: f30abdc
-        remarks: >-
-          Talk about any other detail that you'd like to share (e.g.,
-          improvement/regression within the community, future plans for this
-          region). If for the sake of conciseness you left something unsaid in
-          the previous sections, feel free to comment them here.
+        remarks: その他報告事項 (コミュニティーの変化、地域的の今後の計画等ほか、前項までで省いた軽微な事項も構いません)
         #original_hash: da39a3e
         discussion_url: ''
       competition_tab:
         #original_hash: e396d28
-        name: 'Examples: Travel, Payments, Awards, Accommodation'
+        name: '例: 参加費徴収、表彰、渡航、宿泊施設等'
         #original_hash: da39a3e
         content: ''
       person:
         #original_hash: 498f4c5
-        dob: Date of birth should have the format YYYY-MM-DD.
+        dob: '生年月日は半角英数で (西暦)-(月)-(日) の形式で記入してください (2000年1月23日生の場合: 2000-01-23)。'
         #original_hash: da39a3e
         countryId: ''
         #original_hash: da39a3e
@@ -534,11 +489,11 @@ ja:
       registration:
         status:
           #original_hash: 61a0572
-          accepted: Accepted
+          accepted: 登録済
           #original_hash: a6b2452
-          pending: Waiting list
+          pending: キャンセル待ちリスト
           #original_hash: 441bda6
-          deleted: Deleted
+          deleted: 削除
       competition:
         guests_enabled:
           #original_hash: cb8809d
@@ -548,24 +503,24 @@ ja:
   errors:
     messages:
       #original_hash: dc2367c
-      wrong_size: 'is the wrong size (should be %{file_size})'
+      wrong_size: 'はファイルサイズが不適切です (%{file_size} に変更してください) 。'
       #original_hash: 1531237
-      size_too_small: 'is too small (should be at least %{file_size})'
+      size_too_small: 'はファイルサイズが小さすぎます (%{file_size} 以上にしてください)。'
       #original_hash: a2a43b3
-      size_too_big: 'is too big (should be at most %{file_size})'
+      size_too_big: 'はファイルサイズが大きすぎます (%{file_size} 以下にしてください) 。'
   devise:
     failure:
       #original_hash: 1186218
-      invalid: 'Invalid email, WCA ID, or password.'
+      invalid: メールアドレス、 WCA ID 、パスワード内に誤りがあります。
       #original_hash: 1186218
-      not_found_in_database: 'Invalid email, WCA ID, or password.'
+      not_found_in_database: メールアドレス、 WCA ID 、パスワード内に誤りがあります。
   wca:
     errors:
       messages:
         #original_hash: e88f903
         form_error:
-          one: "The form contains one error:"
-          other: "The form contains %{count} errors:"
+          one: "1 件の誤りがあります。"
+          other: "%{count} 件の誤りがあります。"
     doorkeeper:
       applications:
         help:
@@ -588,87 +543,82 @@ ja:
       #original_hash: 06184f5
       no_account: No account?
       #original_hash: a268696
-      have_competed: I have competed in a WCA competition.
+      have_competed: WCA 公式大会に参加したことがあります (JRCA の大会情報にて告知される大会・公式記録会は WCA 公式大会です) 。
       #original_hash: dcd1d70
-      have_never_competed: I have never competed in a WCA competition.
+      have_never_competed: WCA 公式大会に参加したことがありません。
       #original_hash: 86a60c9
-      let_us_know: Please let us know if you have competed in a WCA competition before.
+      let_us_know: 以前に WCA 公式大会に参加したことがありますか？
       #original_hash: f9f512b
-      welcome_back: >-
-        Welcome back! To create your WCA website account, we need to know the
-        WCA ID under which you competed.
+      welcome_back: こんにちは！WCA アカウントの作成には WCA ID が必要です。
       #original_hash: 669fb57
-      welcome: >-
-        Welcome! Before you can compete in your first WCA competition, we need
-        some additional information for records keeping purposes. Please note
-        that your birthdate will never be released without your permission.
+      welcome: 'こんにちは！はじめに、個人情報収集についてご確認ください。生年月日は本人の許可なく公開されることはありません。'
       gender:
         #original_hash: 3f3a489
-        male: Male
+        male: 男性
         #original_hash: b7c17e9
-        female: Female
+        female: 女性
         #original_hash: 6e6a6f2
-        other_gender: Other
+        other_gender: その他
   layouts:
     navigation:
       #original_hash: 0eb5ed5
       information: Information
       #original_hash: 9ac918a
-      about: About the WCA
+      about: WCA について
       #original_hash: d8fd3e4
-      delegates: WCA Delegates
+      delegates: WCA 代理人
       #original_hash: 0ef06c8
-      organizations: National Organizations
+      organizations: 各国の団体
       #original_hash: d790b40
-      faq: Frequently Asked Questions
+      faq: よくある質問
       #original_hash: a34b69f
-      contact: Contact Information
+      contact: お問い合わせ
       #original_hash: cf1d2c9
-      forum: Forum
+      forum: フォーラム
       #original_hash: 4fa8cc8
-      tools: Tools
+      tools: ツール
       #original_hash: 83fce83
-      logo: Logo
+      logo: ロゴ
       #original_hash: db98a68
-      competitions: Competitions
+      competitions: 大会
       #original_hash: 6a72085
-      all: All
+      all: 全ての大会
       #original_hash: 775d458
-      my_competitions: My Competitions
+      my_competitions: 自分の大会
       #original_hash: 32fde96
-      new_competition: New Competition
+      new_competition: 新着
       #original_hash: 612e12d
-      results: Results
+      results: 大会結果
       #original_hash: f5fe73c
-      rankings: Rankings
+      rankings: ランキング
       #original_hash: e51c552
-      records: Records
+      records: 記録
       #original_hash: f3cf96e
-      persons: Persons
+      persons: 競技者検索
       #original_hash: 5b72b5a
-      my_results: My Results
+      my_results: 自分の記録
       #original_hash: 2086b21
-      statistics: Statistics
+      statistics: 統計情報
       #original_hash: 82dabd0
       multimedia: Multimedia
       #original_hash: 4fd2a7f
       db_export: Database Export
       #original_hash: 1fa73f3
-      regulations: Regulations
+      regulations: 大会規則
       #original_hash: 141d1d7
-      guidelines: Guidelines
+      guidelines: ガイドライン
       #original_hash: c4622c3
-      scrambles: Scrambles
+      scrambles: スクランブル
       #original_hash: 90ccd64
-      history: History
+      history: 過去の大会規則
       #original_hash: 8ad8302
-      translations: Translations
+      translations: 各国語訳
       #original_hash: b8be3d1
-      administration: Administration
+      administration: 管理
       #original_hash: b7ee3c4
-      manage_users: Manage users
+      manage_users: ユーザー管理
       #original_hash: 12ab214
-      delegate: Delegate
+      delegate: 代理人メニュー
       #original_hash: 2f4bd74
       panel: Panel
       #original_hash: d3a928c
@@ -678,15 +628,15 @@ ja:
       #original_hash: f158a5a
       results_phpmyadmin: phpMyAdmin
       #original_hash: aee74b8
-      new_post: New post
+      new_post: New Post
       #original_hash: 0d67445
       team_leader: Team leader
       #original_hash: dc1649a
-      sign_out: Sign out
+      sign_out: ログアウト
       #original_hash: 753a22b
-      notifications: Notifications
+      notifications: お知らせ
       #original_hash: 15141ea
-      edit_profile: Edit profile
+      edit_profile: プロフィール編集
       #original_hash: d93d10f
       api: API
       #original_hash: 5524aab
@@ -696,141 +646,118 @@ ja:
   users:
     update_locale:
       #original_hash: 4cde9bc
-      success: Updated locale.
+      success: 言語を更新しました。
       #original_hash: dcc2f49
-      failure: Unable to update your profile.
+      failure: プロフィールを更新できません。
       #original_hash: c29870c
-      unavailable: Requested locale is not available.
+      unavailable: その言語は指定できません。
     claim_wca_id:
       #original_hash: f28bf87
-      title: Claim WCA ID
+      title: WCA ID 連携
       #original_hash: 1b44f6d
-      competition: competition
+      competition: 大会
       #original_hash: b396bfa
-      already_have_html: 'You already have WCA ID %{wca_id}.'
+      already_have_html: '既に WCA ID %{wca_id} が登録されています'
       #original_hash: 87f1062
-      already_claimed_html: >-
-        You've claimed WCA ID %{wca_id}. Contact %{delegate} if you have any
-        questions.
+      already_claimed_html: 'WCA ID %{wca_id} との連携を申請しました。ご不明な点は %{delegate} にお問い合わせください。'
       #original_hash: 0660b5d
-      info_competed_before: >-
-        If you've competed before, you can request to have your WCA ID connected
-        to your account.
+      info_competed_before: 大会に参加したことがある場合は、WCA ID をアカウントに連携することができます。
       #original_hash: 7d605f8
-      info_never_competed_html: >-
-        If you've never competed before, go to a %{comp}! A WCA ID will be
-        created for you when the results from your first competition are
-        published.
+      info_never_competed_html: '大会に参加したことがない場合、ぜひ %{comp} に参加しましょう！初めて参加した大会結果の公表の際に WCA ID が発行されます。'
       #original_hash: f28bf87
-      submit_value: Claim WCA ID
+      submit_value: WCA ID と連携する
     edit_avatar_thumbnail:
       #original_hash: 79f14eb
-      current: 'Current thumbnail:'
+      current: '現在のプロフィール画像:'
       #original_hash: b42ba27
-      new: 'New thumbnail:'
+      new: '新しいプロフィール画像:'
       #original_hash: efc007a
-      save: Save
+      save: 保存
     edit:
       #original_hash: 9239ee2
-      general: General
+      general: 一般
       #original_hash: 84add5b
-      email: Email
+      email: メールアドレス
       #original_hash: 9dfd349
-      preferences: Preferences
+      preferences: お気に入り種目
       #original_hash: 8be3c94
-      password: Password
+      password: パスワード
       #original_hash: 3fc6dbe
-      member_of: Member of
+      member_of: 所属
       #original_hash: 57eaf24
-      preferred_events: Preferred events
+      preferred_events: お気に入り種目
       #original_hash: 42619dd
-      preferred_events_desc: >-
-        Selecting your preferred events makes registration for competitions
-        quicker.
+      preferred_events_desc: お気に入り種目を登録しておくと、大会申し込みが簡単です。
       #original_hash: b402e03
-      please_fix_profile: >-
-        In order to register for competitions, you need to fix the following
-        problems:
+      please_fix_profile: '大会申し込みのためには、以下の問題を修正してください:'
       #original_hash: cb77bea
-      unconfirmed_wca_id: Unconfirmed WCA ID
+      unconfirmed_wca_id: 未確認 WCA ID
       #original_hash: ff4fc02
-      profile: Profile
+      profile: プロフィール
       #original_hash: 7b2c7f1
-      approve: Approve
+      approve: 承認
       #original_hash: 85de4b8
-      unconfirmed_email: 'This account''s email address (%{email}) is not confirmed.'
+      unconfirmed_email: 'メールアドレス (%{email}) が確認できません。'
       #original_hash: 8a770cf
-      pending_mail_confirmation: 'This account is pending confirmation of new email address %{email}.'
+      pending_mail_confirmation: '新しいメールアドレス %{email} の確認を待っています'
       #original_hash: 0340b0b
-      pending_avatar_confirmation: This account is pending confirmation of a new avatar.
+      pending_avatar_confirmation: 新しいプロフィール画像の確認を待っています
       #original_hash: 7b06f03
-      pending_claim_confirmation_html: >-
-        This account is waiting for %{delegate} to confirm their claimed WCA ID
-        %{wca_id}.
+      pending_claim_confirmation_html: '%{delegate} による WCA ID %{wca_id} の確認待ちです。'
       #original_hash: fc7269a
-      pending_claim_mail_confirmation_html: >-
-        This user has claimed WCA ID %{wca_id}. Their delegate %{delegate} will
-        be notified of this request as soon as this account's email address is
-        confirmed.
+      pending_claim_mail_confirmation_html: 'WCA ID %{wca_id} の連携をリクエストしました。メールアドレスが確認でき次第、WCA 代理人 %{delegate} に通知されます。'
       #original_hash: 1cde7e6
-      your_thumbnail: 'Your account thumbnail:'
+      your_thumbnail: 'サムネイル:'
       #original_hash: af18820
-      edit_thumbnail: Click to edit thumbnail
+      edit_thumbnail: クリックでサムネイルの編集
       #original_hash: cf65c6e
       manage_pending: Manage pending avatars
       #original_hash: 2d2ae5d
-      have_no_wca_id_html: >-
-        You do not have a WCA ID assigned yet. If you have competed before,
-        request to have your WCA ID connected to your account %{here}!
+      have_no_wca_id_html: 'WCA ID が登録されていません。大会に参加したことがある場合は、%{here} で WCA ID をアカウントを登録してください。'
       #original_hash: 29e25b5
-      have_wca_id_html: 'Your WCA ID is %{link_id}.'
+      have_wca_id_html: 'あなたの WCA IDは %{link_id} です。'
       cannot_edit:
         #original_hash: b98c0cf
         msg: >-
-          You cannot change your name, birthdate, gender, or country because
-          %{reason}. Contact your <a href='%{delegate_url}'>delegate</a> if you
-          need to change any of these.
+          氏名、生年月日、性別、国籍は変更できません (理由: %{reason})。変更が必要な場合は、<a
+          href='%{delegate_url}'>WCA 代理人</a>に連絡してください。
         reason:
           #original_hash: 370ff12
-          assigned: you have a WCA ID assigned
+          assigned: WCA ID が登録されています
           #original_hash: 1c4670f
-          registered: you have registered for a competition
+          registered: 大会に参加申し込み済みです
       #original_hash: efc007a
-      save: Save
+      save: 保存
       #original_hash: 141d1d7
-      guidelines: Guidelines
+      guidelines: ガイドライン
       avatar_guidelines:
         #original_hash: 255f28c
-        '1': All avatars should be pictures of real persons.
+        '1': プロフィール画像は実在の人物の写真を利用してください。
         #original_hash: 9126b0c
-        '2': The person shown must be you.
+        '2': 写っている人はあなた本人でなくてはいけません。
         #original_hash: de9b742
-        '3': >-
-          If there is more than one person on the avatar, it should be clear who
-          of them is you.
+        '3': もしプロフィール画像に複数人が写っている場合は、どれがあなたかわかるようにしてください。
         #original_hash: 4083c00
-        '4': 'Your head, but not necessarily the full face, should be visible.'
+        '4': あなたの顔が見えるようにしてください。
         #original_hash: ebbbf8a
-        '5': The avatar must not include texts other than regular background texts.
+        '5': プロフィール画像は文字を含んではいけません (背景に写り込んでいる場合を除く)。
         #original_hash: cc5f23a
-        '6': The avatar must be submitted in correct orientation.
+        '6': プロフィール画像は正しい向きで登録しなければいけません。
     errors:
       #original_hash: 094b763
       not_found: not found
       #original_hash: 49a6fe4
-      already_assigned: already assigned to a different user
+      already_assigned: 既に他のユーザーに登録されています
       #original_hash: 4bef62b
       dob_incorrect_html: >-
-        does not match our database. If you're sure you're providing the correct
-        date in the correct format (YYYY-MM-DD) please email the <a
+        データベースと一致しません。もし正しい日付を正しい形式 (YYYY-MM-DD) で入力しているのにこのエラーが出る場合は、<a
         href='mailto:results@worldcubeassociation.org' target='_blank'>WCA
-        Results Team</a>, report this error and send a picture of any legal
-        document (identity card, driver license,...) where your name and date of
-        birth are visible.
+        Results Team</a> にメールしてください。その際、名前と誕生日の確認できる身分証明書 (運転免許証など)
+        の写真を添付してください。
       #original_hash: 0fbcefd
-      unique: must be unique
+      unique: ユニークな値を入力してください
       #original_hash: 26f70ed
-      dob_past: must be in the past
+      dob_past: 過去の日付を入力してください
       #original_hash: f599dc5
       must_be_senior: must be a senior delegate
       #original_hash: 2e582eb
@@ -838,899 +765,776 @@ ja:
       #original_hash: b2c4ecc
       senior_has_delegate: cannot demote senior delegate with subordinate delegates
       #original_hash: 48653a9
-      already_have_id: 'cannot claim a WCA ID because you already have WCA ID %{wca_id}'
+      already_have_id: '既に WCA ID %{wca_id} が登録されているため、WCA ID が登録できません'
       #original_hash: eeb76a7
       wca_id_no_birthdate_html: >-
-        We do not have a birthdate recorded for this WCA ID. Please email the <a
+        この WCA ID には生年月日が登録されていません。氏名と生年月日が確認できる身分証明書 (運転免許証など) の写真を <a
         href='mailto:results@worldcubeassociation.org' target='_blank'>WCA
-        Results Team</a> with a photo of any legal document (ID card, driver
-        license, etc) where your name and date of birth are visible.
+        Results Team</a> にメールしてください。
       #original_hash: 49083d8
       board_member_cannot_resign: >-
-        You cannot resign from your role as a board member! Find another board
-        member to fire you.
+        WCA 理事登録を自分自身で解除することはできません。他の理事に依頼してください。
       #original_hash: d02c03b
-      avatar_requires_wca_id: requires a WCA ID to be assigned
+      avatar_requires_wca_id: WCA ID の連携が必要です
     successes:
       messages:
         #original_hash: 31bd401
-        account_updated: Account updated
+        account_updated: アカウント更新完了
         #original_hash: 49e5851
-        wca_id_claimed: >-
-          Successfully claimed WCA ID %{wca_id}. Check your email, and wait for
-          %{user} to approve it!
+        wca_id_claimed: 'WCA ID %{wca_id} を連携を申請しました。メールを確認し、%{user} の承認をお待ちください。'
         #original_hash: dc89669
-        account_updated_confirm: 'Account updated, emailed %{email} to confirm your new email address.'
+        account_updated_confirm: 'アカウントが更新されました。%{email} にメールを送信しました。新しいメールアドレスをの確認が必要です。'
     select_nearby_delegate:
       #original_hash: 2b11120
       select_delegate_html: >-
-        In order to assign you your WCA ID, we need a <a href='%{link_delegate}'
-        target='_blank'>WCA delegate</a> to confirm your identify. Please enter
-        your birthdate and select the delegate you think knows you best.
+        WCA IDの登録には、<a href='%{link_delegate}'
+        target='_blank'>WCA 代理人</a>による本人確認が必要です。生年月日を入力し、最も身近な WCA 代理人を選択してください。
       #original_hash: d69cf94
       already_assigned_html: >-
-        WCA ID %{link_id} is already assigned to a different account. If you
-        believe this was done in error, contact your local <a
-        href='%{link_delegate}' target='_blank'>WCA delegate</a>.
+        WCA ID %{link_id} は既に別のアカウントと連携されています。これが誤りと思われる場合は <a
+        href='%{link_delegate}' target='_blank'>WCA 代理人</a>にご連絡ください。
       #original_hash: 3391b0b
-      missing_dob_html: >-
-        WCA ID %{link_id} does not have a birthdate assigned. Please contact the
-        %{link_result_team} to fix this.
+      missing_dob_html: 'WCA ID %{link_id} は生年月日が登録されていません。%{link_result_team} にご連絡ください。'
       #original_hash: 92aa857
-      unknown_wca_id_html: 'WCA ID %{link_id} does not exist.'
+      unknown_wca_id_html: 'WCA ID %{link_id} は存在しません'
   registrations:
     #original_hash: c5497bc
-    events: Events
+    events: 競技種目
     errors:
       #original_hash: 44ab952
-      need_name: Need a name
+      need_name: 名前を入力してください
       #original_hash: 6f64c57
-      need_gender: Need a gender
+      need_gender: 性別を入力してください
       #original_hash: ebf1ecb
-      need_dob: Need a birthdate
+      need_dob: 生年月日を入力してください
       #original_hash: d84a54f
-      need_country: Need a country
+      need_country: 国籍を入力してください
       #original_hash: cec28a0
-      comp_not_found: Competition not found
+      comp_not_found: 大会が見つかりません
       #original_hash: cb763b8
-      registration_closed: Competition registration is closed
+      registration_closed: 大会申し込みは終了しています
       #original_hash: e0bb243
-      cannot_be_deleted_and_accepted: A registration cannot be deleted and accepted at the same time.
+      cannot_be_deleted_and_accepted: 参加申し込みの削除と承認を同時に行うことはできません。
       #original_hash: bf9a828
       can_register: User must be able to register for competition
       #original_hash: a38d024
-      must_register: must register for at least one event
+      must_register: 1 つ以上の競技種目の選択が必要です
     registration_info_people:
       #original_hash: bdf1f11
       newcomer:
-        one: "first-timer"
-        other: "first-timers"
+        one: 人の初参加者
+        other: 人の初参加者
       #original_hash: bc010e3
       returner:
-        one: "returner"
-        other: "returners"
+        one: 人の大会経験者
+        other: 人の大会経験者
       #original_hash: b7da17a
       person:
-        one: "person"
-        other: "people"
+        one: 人
+        other: 人
     flash:
       #original_hash: da7ec53
-      not_using_wca: This competition is not using WCA registration
+      not_using_wca: この大会は WCA 大会申し込みシステムを利用していません
       #original_hash: d528030
       accepted_and_mailed:
-        one: "Registration accepted! Email notification sent."
-        other: "Registrations accepted! Email notifications sent."
+        one: 参加申し込みが完了しました。メールをご確認ください。
+        other: 参加申し込みが完了しました。メールをご確認ください。
       #original_hash: 42ea8de
       rejected_and_mailed:
-        one: "Registration moved to waiting list"
-        other: "Registrations moved to waiting list"
+        one: 申し込みはキャンセル待ちに登録されました。
+        other: 申し込みはキャンセル待ちに登録されました。
       #original_hash: a360b31
       deleted_and_mailed:
-        one: "Registration deleted"
-        other: "Registrations deleted"
+        one: 参加申し込みが削除されました。
+        other: 参加申し込みが削除されました。
       #original_hash: c3aa289
-      single_deletion_and_mail: 'Deleted registration and emailed %{mail}'
+      single_deletion_and_mail: '参加申し込みが削除されました。%{mail} にメールを送信しました。'
       #original_hash: d8f067f
-      cannot_delete: You cannot delete your registration.
+      cannot_delete: 参加申し込みを削除できません。
       #original_hash: 82b3899
-      updated: Updated registration
+      updated: 申し込み内容を更新しました
       #original_hash: 856484a
-      failed: Could not update registration
+      failed: 申し込み内容を更新できません
       #original_hash: 016b4ae
-      deleted: 'Successfully deleted your registration for %{comp}'
+      deleted: '%{comp} の参加申し込みを削除しました'
       #original_hash: 648424f
-      registered: Successfully registered!
+      registered: 参加申し込みが完了しました。
     edit_registration:
       #original_hash: 2d15eae
       title: '%{person} for %{comp}'
     list:
       #original_hash: 8b7631c
-      title: 'Registrations for %{comp}'
+      title: '%{comp} の参加申し込み一覧'
       #original_hash: 8e68b3e
-      country: country
+      country: 国籍
       #original_hash: 5301648
-      edit: Edit
+      edit: 編集
       #original_hash: 1feee0e
-      export_csv: Export to CSV
+      export_csv: CSV に出力
       #original_hash: 84add5b
-      email: Email
+      email: メールアドレス
       #original_hash: 7b2c7f1
-      approve: Approve
+      approve: 承認
       #original_hash: 2b03b59
-      reject: Reject
+      reject: 否認
       #original_hash: f6fdbe4
-      delete: Delete
+      delete: 削除
       #original_hash: 92d40dc
-      waiting_list: Waiting List
+      waiting_list: キャンセル待ちリスト
       #original_hash: 06f7d1a
-      approved_registrations: Approved registrations
+      approved_registrations: 承認済み参加申し込み
       #original_hash: bff04e8
-      deleted_registrations: Deleted registrations
+      deleted_registrations: 削除済み参加申し込み
       #original_hash: a844fcf
-      registered: Registered
+      registered: 申し込み済み
       #original_hash: b25928c
-      total: Total
+      total: トータル
     new_registration:
       #original_hash: 8b9f726
-      title: 'Register for %{comp}'
+      title: '%{comp} 参加申し込み'
     #original_hash: 7cae988
-    registered_with_account_html: >-
-      This person registered with an account. You can edit their personal
-      information %{here}.
+    registered_with_account_html: 'WCA アカウントを利用して申し込み済みです。プロフィール情報の変更はこちら %{here}。'
     #original_hash: ada2e9e
-    sign_in: Sign in
+    sign_in: ログイン
     #original_hash: 5d45a00
-    profile: profile
+    profile: プロフィール
     #original_hash: c0063c3
-    register: Register!
+    register: 申し込み実行
     #original_hash: a9af643
-    update: Update Registration
+    update: 申し込みが更新されました
     #original_hash: f6fdbe4
-    delete: Delete
+    delete: 削除
     #original_hash: b72119a
-    delete_confirm: Are you sure you want to delete your registration?
+    delete_confirm: 本当に参加申し込みを削除してよろしいですか？
     #original_hash: cfc4865
-    delete_registration: Delete registration.
+    delete_registration: 参加申し込みを削除しました。
     #original_hash: e9ddc6e
-    will_open_html: 'Registration will open in <strong>%{days}</strong> on %{time}.'
+    will_open_html: '参加申し込みは <strong>%{days}</strong> 日後 %{time} に開始します。'
     #original_hash: 34eb009
-    will_close_html: 'Registration closes in <strong>%{days}</strong> on %{time}.'
+    will_close_html: '参加申し込みは <strong>%{days}</strong> 日後 %{time} に終了します。'
     #original_hash: dc8a520
-    closed_html: 'Registration closed <strong>%{days}</strong> ago on %{time}.'
+    closed_html: '参加申し込みは <strong>%{days}</strong> 日前の %{time} に終了しました。'
     #original_hash: 2e7024d
     please_sign_in_past_html: >-
-      %{sign_in} to check the status of your registration. If you do not yet
-      have a WCA account, you can create one %{here}, but it is too late to
-      register for this competition.
+      申し込み状況の確認には%{sign_in}が必要です。WCA アカウントをを持っていない場合は %{here}
+      で作成できますが、この大会の申し込みは既に終了しています。
     #original_hash: 7753b2e
     please_sign_in_not_yet_open_html: >-
-      %{sign_in} to check the status of your registration. If you do not yet
-      have a WCA account, you can create one %{here}, but its registration is
-      not yet open.
+      申し込み状況の確認には%{sign_in}が必要です。WCA アカウントをを持っていない場合は %{here}
+      で作成できますが、この大会の申し込みはまだ開始していません。
     #original_hash: e1301c4
     please_sign_in_html: >-
-      %{sign_in} to register for %{comp}. If you do not yet have a WCA account,
-      you can create one %{here}
+      %{comp} の参加申し込みには%{sign_in}が必要です。WCA アカウントをを持っていない場合は %{here}
+      で作成できます。
     #original_hash: 89b4e7f
-    greeting: 'Hi, %{name}!'
+    greeting: 'こんにちは、%{name} さん！'
     #original_hash: fb34a17
-    please_fix_profile_html: >-
-      In order to register for this %{comp}, you must fix the following problems
-      with your %{profile}:
+    please_fix_profile_html: '%{comp} に参加申し込みするには、%{profile} 中の次の問題を解消してください:'
     #original_hash: 855ca9c
-    can_register: 'You can register for %{comp} below.'
+    can_register: 'この下で %{comp} に参加申し込みできます。'
     #original_hash: ea2b586
-    have_registered: >-
-      You have registered for %{comp}. You can see your registration information
-      below.
+    have_registered: '%{comp} に参加申し込み済みです。申し込み情報は下部に記載されています。'
     #original_hash: 4d966e0
-    entry_fee: 'The entry fee is '
+    entry_fee: '基本参加費:'
     #original_hash: 3c9141f
-    contact_organizer: Contact the organizer if you wish to make a change.
+    contact_organizer: 変更が必要な場合は運営チームにお尋ねください。
     #original_hash: 06d52b5
-    waiting_list: 'You are currently number %{i} of %{n} on the waiting list.'
+    waiting_list: 'あなたはキャンセル待ちリスト %{n} 人中 %{i} 番目です。'
     #original_hash: 58b1a3c
-    accepted: Your registration has been accepted!
+    accepted: 参加申し込みが完了しました！
     #original_hash: 4cf01a2
-    preferred_events_prompt_html: >-
-      To speed up registration in the future, you can set your preferred events
-      %{link}.
+    preferred_events_prompt_html: '参加申し込みを簡単にするため、お気に入り種目を設定できます %{link}。'
   competitions:
     messages:
       #original_hash: 7b80062
-      not_visible: This competition is not visible to the public.
+      not_visible: この大会は非公開です。
       #original_hash: c1d4926
-      name_too_long: >-
-        The competition name is longer than 32 characters. We prefer shorter
-        ones and we will be glad if you change it.
+      name_too_long: 大会名が 32 文字を超えています。短い名前が好ましいので変更してください。
       #original_hash: 1a20fae
-      must_have_events: Please add at least one event before confirming the competition.
+      must_have_events: 大会内容を確定する前に 1 個以上の競技種目を追加してください。
       #original_hash: e390250
-      create_success: Successfully created new competition!
+      create_success: 大会が新規作成されました！
       #original_hash: afe3a23
-      results_preview_alert: You are viewing results that have not been posted yet.
+      results_preview_alert: まだ送信されていない結果を表示しています。
       #original_hash: 07de612
-      upload_results: >-
-        This competition is over, we are working to upload the results as soon
-        as possible!
+      upload_results: この大会は終了しています。現在、結果をアップロードする作業中です。
       #original_hash: a0168ee
-      in_progress: 'This competition is ongoing. Come back after %{date} to see the results!'
+      in_progress: 'この大会は開催中です。%{date} より後に結果が表示されます。'
       #original_hash: 3322400
-      tooltip_registered: You are registered.
+      tooltip_registered: すでに登録済みです。
       #original_hash: f2d092f
-      tooltip_waiting_list: You are currently on the waiting list.
+      tooltip_waiting_list: 現在キャンセル待ちです。
       #original_hash: 9ecd976
-      confirmed_visible: This competition is confirmed and visible
+      confirmed_visible: この大会は承認済みで公開されています。
       #original_hash: fa186a9
-      confirmed_not_visible: This competition is confirmed but not visible
+      confirmed_not_visible: この大会は承認済みですが非公開です。
       #original_hash: a66bbe3
-      not_confirmed_visible: This competition is not confirmed but visible
+      not_confirmed_visible: この大会は未承認ですが公開されています。
       #original_hash: 0f44e45
-      not_confirmed_not_visible: This competition is not confirmed and not visible
+      not_confirmed_not_visible: この大会は未承認で非公開です。
     my_competitions:
       #original_hash: 5c6d3ea
-      title: My competitions
+      title: 自分の大会
       #original_hash: 6e79aaf
-      disclaimer: >-
-        Only competitions which use the WCA registration system will be shown
-        here.
+      disclaimer: WCA 申し込みシステムを使用した大会のみここに表示されます。
       #original_hash: 94a2fc8
-      past_competitions: Past competitions
+      past_competitions: 過去の大会
     competition_info:
       #original_hash: eb9a4bc
-      date: Date
+      date: 日付
       #original_hash: 4271627
-      city: City
+      city: 都市
       #original_hash: 67cd406
-      venue: Venue
+      venue: 会場
       #original_hash: d70f93d
-      address: Address
+      address: 所在地
       #original_hash: dc3decb
-      details: Details
+      details: 詳細
       #original_hash: 2e8a57c
-      website: Website
+      website: ウェブサイト
       #original_hash: debd172
-      organizer: Organizer
+      organizer: 主催者
       #original_hash: 6afa61e
       delegate:
-        one: "WCA Delegate"
-        other: "WCA Delegates"
+        one: WCA 代理人
+        other: WCA 代理人
       #original_hash: b37456c
-      contact: Contact
+      contact: 連絡先
       #original_hash: a428739
-      entry_fee: Entry Fee
+      entry_fee: 基本参加費
       #original_hash: 0eb5ed5
-      information: Information
+      information: 情報
     index:
       #original_hash: db98a68
-      title: Competitions
+      title: 大会一覧
       #original_hash: 6a72085
-      all_events: All
+      all_events: 全種目
       #original_hash: 6d76b81
-      all_years: All Years
+      all_years: 全ての年
       #original_hash: 719ea39
-      clear: Clear
+      clear: クリア
       #original_hash: a1fffaa
-      list: List
+      list: リスト
       #original_hash: ab478f3
-      map: Map
+      map: 地図
       #original_hash: 0f21717
-      region: Region
+      region: 地域
       #original_hash: bce0641
-      search: Search
+      search: 検索
       #original_hash: a725020
-      state: State
+      state: ステータス
       #original_hash: 4e9f7a3
-      present: Present
+      present: 現在
       #original_hash: 76eec76
-      recent: Recent
+      recent: 最近
       #original_hash: 405c12f
-      past: Past
+      past: 過去
       #original_hash: 52c30f8
-      past_from: 'Past from %{year}'
+      past_from: '%{year} 年の大会'
       #original_hash: 7cff459
-      past_all: Past from all years
+      past_all: 過去の全ての大会
       titles:
         #original_hash: 69447c9
-        in_progress: Competitions in progress
+        in_progress: 開催中の大会
         #original_hash: 9e66032
-        past: 'Past competitions from %{year}'
+        past: '%{year} 年の大会'
         #original_hash: cbe8a54
-        recent: 'Recent competitions (last %{count} days)'
+        recent: '%{count} 日以内に開催された最近の大会'
         #original_hash: 914742f
-        upcoming: Upcoming competitions
+        upcoming: 予定されている大会
       #original_hash: 6684214
-      no_access: You don't have access to this page!
+      no_access: このページへのアクセス権がありません。
       tooltips:
         hourglass:
           #original_hash: b5183e1
-          ended: 'Ended %{days} ago'
+          ended: '%{days} 日前に終了しました。'
           #original_hash: 1dccb27
-          in_progress: In progress!
+          in_progress: 開催中！
           #original_hash: 1157462
-          posted: Results are posted!
+          posted: 大会結果は送信済みです。
           #original_hash: 89bcc37
-          starts_in: 'Starts in %{days}'
+          starts_in: '%{days} 日後に開始します。'
         #original_hash: a418217
-        search: 'Name, city, venue, country or month'
+        search: 大会名、都市名、会場名、国、月
         #original_hash: 3bc8082
-        recent: 'Last %{count} days'
+        recent: '過去 %{count} 日'
       #original_hash: 8b09d74
-      no_comp_found: No competitions found.
+      no_comp_found: 大会が見つかりませんでした。
       #original_hash: 7008166
-      no_comp_match: >-
-        We didn't find any competitions with %{events}! Try searching for fewer
-        events.
+      no_comp_match: '%{events} が開催される大会はありません。種目数を減らして検索してみてください。'
     my_competitions_table:
       #original_hash: 5301648
-      edit: Edit
+      edit: 編集
       #original_hash: dddbe64
-      registrations: Registrations
+      registrations: 大会申し込み
       #original_hash: 4f98e6d
-      results_up: Results are up!
-      #original_hash: 87ab5db
-      report: View the Delegate report
-      #original_hash: b4ca252
-      edit_report: Edit the report
-      #original_hash: e590657
-      missing_report: Your report is not posted yet!
+      results_up: 競技結果更新！
+      #original_hash: ee45c30
+      report: レポート
       #original_hash: 7fc0b5f
-      no_upcoming_competitions_html: 'You currently have no upcoming competitions! Check out the %{link}.'
+      no_upcoming_competitions_html: '予定されている大会はありません。%{link} をご覧ください。'
       #original_hash: 9104a03
-      no_past_competitions: You have no past competitions.
+      no_past_competitions: 過去に参加した大会はありません。
     competition_form:
       #original_hash: f957dcb
       supports_md_html: >-
-        Supports <a href='https://daringfireball.net/projects/markdown/basics'
-        target='_blank'>Markdown</a>
+        <a href='https://daringfireball.net/projects/markdown/basics'
+        target='_blank'>Markdown</a> が使えます
       #original_hash: 9d9126e
       venue_html: >-
-        The venue where the competition takes place. %{md}. For example: [Cité
-        des Sciences et de l'Industrie](http://www.cite-sciences.fr)
+        大会が開催される会場。%{md}。例: [Takatsu Civic
+        Hall](http://www.city.kawasaki.jp/takatsu/category/111-11-1-0-0-0-0-0-0-0.html)。
       #original_hash: 2651d1a
-      venue_details_html: >-
-        Details about the venue (e.g., On the first floor far in the back,
-        follow the signs). %{md}
+      venue_details_html: '会場の詳細 (例: 12階)。%{md}'
       #original_hash: b727e58
       contact_html: >-
-        Optional contact information. If you do not fill this in, organizer
-        emails will be shown to the public. %{md}. Example: [Text to
+        連絡先 (任意)。記入しない場合、主催者のメールアドレスが公開されます。%{md}。例: [Text to
         display](mailto:some@email.com)
       #original_hash: c5497bc
-      events: Events
+      events: 競技種目
       #original_hash: ae66391
-      unoff_events: Events that are no longer official
+      unoff_events: 非公式競技種目
       #original_hash: 815d5c3
-      locked_edit_html: >-
-        This competition is publicly visible and locked for editing. If you need
-        to make a change, contact the %{board}.
+      locked_edit_html: 'この大会は公開済みで編集できません。変更が必要な場合は %{board} に連絡してください。'
       #original_hash: ce33e21
-      confirmed_not_visible_html: >-
-        You've confirmed this competition, but it is not yet visible to the
-        public. Wait for the %{board} to make it visible.
+      confirmed_not_visible_html: 'この大会は公開準備中です。%{board} が公開するまでお待ちください。'
       #original_hash: e94cba8
-      is_visible: >-
-        This competition is publicly visible, any changes you make will show up
-        to the public!
+      is_visible: この大会は公開済みです。内容の変更は公開情報に反映されます。
       #original_hash: 34862bb
-      awaiting_confirmation_html: >-
-        Fill in all the fields and click Confirm when you're ready for the
-        %{board} to approve this competition.
+      awaiting_confirmation_html: '入力欄をすべて記入して、%{board} に提出する準備ができたら「確定」をクリックしてください。'
       #original_hash: 7586b02
-      submit_modify_value: Modify Events
+      submit_modify_value: 競技種目を編集する
       #original_hash: 8966fd0
-      submit_create_value: Create Competition
+      submit_create_value: 大会を新規作成する
       #original_hash: 40b0dfd
-      submit_update_value: Update Competition
+      submit_update_value: 大会を更新する
       #original_hash: 04a2122
-      submit_confirm_value: Confirm
+      submit_confirm_value: 確定
       #original_hash: f6fdbe4
-      submit_delete_value: Delete
+      submit_delete_value: 削除
       #original_hash: 1ca19b1
-      submit_confirm: >-
-        Are you sure you're ready to confirm? After confirming, you won't be
-        able to modify any information. Check your email after this to verify
-        that the Board was notified.
+      submit_confirm: 内容を確認してください。確定後はすべての情報は変更できなくなります。確定後、理事が受理したことを通知する電子メールを確認してください。
       #original_hash: 4c7deb7
-      submit_delete: >-
-        Are you sure you want to delete this competition? There is no going
-        back.
+      submit_delete: この大会を削除してもいいですか？削除は元に戻せません。
       #original_hash: 8ebebca
-      coordinates: Coordinates
+      coordinates: 緯度・経度
     errors:
       #original_hash: 83795c3
       invalid_name_message: >-
-        must end with a year and must contain only alphnumeric characters,
-        dashes(-), ampersands(&), periods(.), colons(:), apostrophes('), and
-        spaces( )
+        必ず年を末尾にすること。以下の文字のみ使用すること: 英数字、ダッシュ(-)、アンパサンド(&)、ピリオド(.), コロン(:),
+        アポストロフィ('), スペース( )
       #original_hash: 8e8f765
-      cannot_manage: Cannot manage competition.
+      cannot_manage: 大会を管理できません。
       #original_hash: 0acc454
-      cannot_delete_public: Cannot delete a competition that is publicly visible.
+      cannot_delete_public: 公開済みの大会は削除できません。
       #original_hash: 3935fd6
-      cannot_delete_confirmed: Cannot delete a confirmed competition.
+      cannot_delete_confirmed: 確定済みの大会は削除できません。
       #original_hash: 191df37
-      must_contain_event: must contain at least one event for this competition
+      must_contain_event: この大会には 1 個以上の競技種目を追加する必要があります
       #original_hash: 112490b
-      must_contain_delegate: must contain at least one WCA delegate
+      must_contain_delegate: 1 人以上の WCA 代理人を追加する必要があります
       #original_hash: 0b2b56b
-      not_all_delegates: are not all delegates
+      not_all_delegates: は全員代理人ではありません
       #original_hash: 43a23c2
-      registration_close_after_open: registration close must be after registration open
+      registration_close_after_open: 申し込み締め切りは申し込み開始より後である必要があります
       #original_hash: 43a83a9
-      end_date_before_start: End date cannot be before start date.
+      end_date_before_start: 終了日は開始日より後である必要があります
       #original_hash: be3933b
-      span_too_many_days: 'Competition cannot last more than %{max_days} days.'
+      span_too_many_days: '%{max_days} 日間を超える大会は開催できません。'
     #original_hash: f42a238
-    unscheduled: unscheduled
+    unscheduled: スケジュール未定
     new:
       #original_hash: 1208df7
-      create_competition: Create competition
+      create_competition: 大会新規作成
       #original_hash: c02a415
-      note_clone: >-
-        To clone an existing competition visit the information page for that
-        competition and click the "Clone" link in the menu.
+      note_clone: 既存の大会をコピーするには、その大会の情報ページのメニューから「コピーを作成」をクリックしてください。
     update_events:
       #original_hash: 00204fa
-      update_success: Successfully updated the competition events.
+      update_success: 競技種目が更新されました。
     update:
       #original_hash: 5fb2f57
-      save_success: Successfully saved competition.
+      save_success: 大会が保存されました。
       #original_hash: 9d1649e
-      confirm_success: >-
-        Successfully confirmed competition. Check your email, and wait for the
-        Board to announce it!
+      confirm_success: 大会を確定しました。電子メールを確認して理事が公表するまでお待ちください。
       #original_hash: 28567f0
-      delete_success: 'Successfully deleted competition %{id}.'
+      delete_success: '大会 %{id} を削除しました。'
     time_until_competition:
       #original_hash: b0f330f
-      competition_in: 'Competition is in %{n_days}.'
+      competition_in: '大会開始は %{n_days} 後です。'
       #original_hash: e6e096a
-      competition_was: 'Competition was %{n_days} ago.'
+      competition_was: '大会は %{n_days} 前に終了しました。'
     nearby_competitions:
       #original_hash: 1b44f6d
-      comp: competition
+      comp: 大会
       #original_hash: e3528ec
-      label: 'Nearby competitions (within %{days} days and %{kms} km)'
+      label: '周辺で開催される大会 (%{days} 日以内かつ %{kms} km 以内)'
       #original_hash: 3446062
-      label_admin: 'Last %{days} days'
+      label_admin: '過去 %{days} 日'
       #original_hash: 14276ae
-      nearby_admin: '%{comps} %{comp} within %{kms} km and %{days} days.'
+      nearby_admin: '%{comps} %{comp} は、%{kms} km 以内かつ %{days} 日以内に開催されます。'
       #original_hash: feefb46
-      no_comp_nearby: No nearby competitions!
+      no_comp_nearby: 周辺で開催される大会はありません！
       #original_hash: 7e76950
-      no_date_yet: You have not assigned a date for this competition yet.
+      no_date_yet: この大会の日付が設定されていません。
       #original_hash: 82a95d2
-      no_location_yet: You have not assigned a location for this competition yet.
+      no_location_yet: この大会の開催場所が設定されていません。
       #original_hash: 9eb8f46
-      within: 'Within %{days} days'
+      within: '%{days} 日以内'
       #original_hash: d97d1ee
-      show: Show
+      show: 表示
       #original_hash: 709a232
-      name: Name
+      name: 名前
       #original_hash: adc24b7
-      delegates: Delegate(s)
+      delegates: 代理人
       #original_hash: eb9a4bc
-      date: Date
+      date: 日付
       #original_hash: d219c68
-      location: Location
+      location: 場所
       #original_hash: 4232080
-      distance: Distance
+      distance: 距離
       #original_hash: 51de2b8
-      before: before
+      before: 前
       #original_hash: 405906c
-      after: after
+      after: 後
     #original_hash: 06b01c4
-    announcements: Announcements
+    announcements: 告知
     #original_hash: 5b9523f
-    upload_results: Upload results
+    upload_results: 結果をアップロード
     #original_hash: 47dfd90
-    post_announcement: Post competition announcement
+    post_announcement: 大会告知を投稿する
     show:
       #original_hash: b0fe391
-      general_info: General info
+      general_info: お知らせ
     nav:
       menu:
         #original_hash: 612e12d
-        results: Results
+        results: 大会結果
         #original_hash: 02ae2bd
-        podiums: Podiums
+        podiums: 入賞者
         #original_hash: 6a72085
-        all: All
+        all: 全ての結果
         #original_hash: aaefdb6
-        by_person: By Person
+        by_person: 競技者ごと
         #original_hash: 4b631f6
-        info: Info
+        info: 情報
         #original_hash: 5301648
-        edit: Edit
+        edit: 編集
         #original_hash: d8cdb57
-        clone: Clone
+        clone: コピーを作成
         #original_hash: 2b92094
-        orga_view: Organizer view
+        orga_view: 主催者モード
         #original_hash: c6171f8
-        event_view: Manage events
+        event_view: 競技種目を編集
         #original_hash: 76bfdcf
-        admin_view: Admin view
+        admin_view: 管理者モード
         #original_hash: a857eb4
-        tabs: Manage tabs
+        tabs: タブ管理
         #original_hash: 4c9f914
-        delegate_report: Delegate report
+        delegate_report: 代理人レポート
         #original_hash: b233e77
-        registration: Registration
+        registration: 申し込み
         #original_hash: d672995
-        register: Register
+        register: 申し込む
         #original_hash: 855bd26
-        competitors: Competitors
+        competitors: 競技者一覧
     results_table:
       #original_hash: 3e9a6b5
-      wca_profile: WCA profile
+      wca_profile: WCAプロフィール
       #original_hash: ad8919a
-      event: Event
+      event: 種目
       #original_hash: ec7b598
-      round: Round
+      round: ラウンド
       #original_hash: 709a232
-      name: Name
+      name: 名前
   notifications:
     #original_hash: 10bcdbd
-    connect_wca_id: Connect your WCA ID to your account!
+    connect_wca_id: WCA ID をアカウントに連携しましょう！
   persons:
     index:
       #original_hash: 5934b4c
-      name_or_wca_id: Name parts or WCA ID
+      name_or_wca_id: 名前または WCA ID
       #original_hash: 709a232
-      name: Name
+      name: 名前
       #original_hash: d523ebb
-      country: Country
+      country: 国
       #original_hash: 02ae2bd
-      podiums: Podiums
+      podiums: 入賞者
       #original_hash: 56656a0
-      no_persons_found: No person matches the given criteria.
+      no_persons_found: キーワードにマッチする検索結果はありません。
   posts:
     #original_hash: 2a7da42
-    confirm_delete_post: Are you sure you want to delete this post? This action is not reversible.
+    confirm_delete_post: この投稿を削除してよいですか？削除は元に戻せません。
   faq:
     #original_hash: d790b40
-    title: Frequently Asked Questions
+    title: よくある質問
     #original_hash: 3451241
-    contact_html: 'If none of these answers helped, please %{contact_us}!'
+    contact_html: 'このページで解決しない問題がある場合、%{contact_us}!'
     #original_hash: 6cf2723
-    contact_us: contact us
+    contact_us: お問い合わせください
     #original_hash: 9100be3
-    search_for_competition: 'Search for a competition here:'
+    search_for_competition: '大会を検索するにはここから:'
     #original_hash: cba12bc
-    already_logged_in: You are already logged in with a WCA account.
+    already_logged_in: すでに WCA アカウントにログインしています。
     #original_hash: 5b7fa52
-    create_an_account: 'You can create an account %{here}.'
+    create_an_account: 'ここからアカウントを作成できます: %{here}'
     #original_hash: f8c910c
-    claim_your_wca_id: 'You can claim your WCA ID %{here}.'
+    claim_your_wca_id: 'ここで WCA ID を連携できます: %{here}'
     #original_hash: 4dfb4c7
-    create_an_account_and_claim: >-
-      Create an account %{here}. After you log in with your new account, you
-      will be asked to claim your WCA ID.
+    create_an_account_and_claim: 'アカウントを作成してください: %{here}。作成したアカウントにログインした後、WCA ID 連携を申請できます。'
     answers:
       '1':
         #original_hash: f79b522
-        title: How do I obtain a WCA ID and a WCA profile?
+        title: WCA ID と WCA プロフィールはどのように取得できますか？
         content:
           #original_hash: b645fe1
           '1': >-
-            If you have never competed before, go to a <a
-            href='/competitions'>competition</a>!  A WCA ID and WCA profile will
-            be created for you when the results from your first competition are
-            published.
+            まだ公式大会に出場したことが無い場合、<a
+            href='/competitions'>大会ページ</a>から最寄りの大会を検索しましょう! WCA ID と WCA
+            プロフィールは最初に出場した大会結果の公開と同時に作成されます。
       '2':
         #original_hash: eb948e7
-        title: How can I find a WCA competition?
+        title: WCA 公式大会はどのように探せますか？
         content:
           #original_hash: d195cec
-          '1': Check out our list of <a href='/competitions'>competitions</a>
+          '1': <a href='/competitions'>大会リスト</a> をご覧ください。
       '3':
         #original_hash: af6ad12
-        title: >-
-          How can I register for a competition? Who can I refer to if I have
-          problems registering for a competition?
+        title: 大会に申し込みたいのですがどうすればいいですか？申し込み時に問題が発生した場合どこに連絡したらよいですか？
         content:
           #original_hash: 7b91db1
           '1': >-
-            Many competitions do registration right here on the WCA website, but
-            some use their own systems. You should contact the organizers of the
-            competition you want to compete in for more details.
-            %{comp_search_form}
+            一部の大会は WCA
+            サイト上で申し込みできますが、専用サイトで申し込む大会もあります。詳細は大会の主催者にお問い合わせください。%{comp_search_form}
       '4':
         #original_hash: 9a5ae28
-        title: >-
-          What are the requirements for attending a WCA competition? What do I
-          need to know before attending a WCA competition?
+        title: WCA 公式大会に参加する資格はありますか？WCA 公式大会に参加する前に知っておくことはありますか？
         content:
           #original_hash: 40aa9c0
           '1': >-
-            In general, there are not many requirements for a person to
-            participate at a WCA competition. However, all participants of a
-            competition are expected to have a good understanding of the <a
-            href='https://www.worldcubeassociation.org/regulations/'>WCA
-            regulations</a>. In addition, we would recommend having a look at <a
+            ほとんどの WCA 公式大会には特別な資格は不要です。ただし、参加者は<a
+            href='https://www.worldcubeassociation.org/regulations/'>大会規則</a>を知っていることが望まれます。特に初参加者の方は、競技の流れ等を理解するために以下のページや動画をご覧ください。<a
             target='_blank' href='http://www.cubingusa.com/ctutorial.php'>Cubing
-            USA's competitor tutorial</a>, which gives several nice hints for
-            newcomers.
+            USA's competitor tutorial</a> (英語)、<a target='_blank'
+            href='https://www.youtube.com/watch?v=xSrw4YO00uo'>tribox
+            による競技の流れチュートリアル動画</a> (日本語)。
       '5':
         #original_hash: 3b657aa
-        title: How can I have a WCA Competition in my hometown?
+        title: 地元で WCA 公式大会を開催できますか？
         content:
           #original_hash: 3d4eb1c
-          '1': >-
-            If you are interested in organizing a competition, it's highly
-            recommended to attend at least one or two competitions as a
-            competitor to learn from the experience.
+          '1': 大会を主催したい場合、経験を積むために最低でも数回は競技者として大会に参加することが強く推奨されます。
           #original_hash: be305b8
           '2': >-
-            WCA Competitions must follow the <a target='_blank'
+            WCA 公式大会は、<a target='_blank'
             href='https://www.worldcubeassociation.org/regulations/'>WCA
-            Regulations</a>. The organization team doesn't have to know the
-            regulations by heart, however, a deep knowledge of the basics of the
-            regulations would definitely help in correctly organizing the
-            competition.
+            大会規則</a>を遵守して開催される必要があります。主催者は大会規則を暗記までする必要はありませんが、大会規則の要点を理解して正当な大会を運営する必要があります。
           #original_hash: dbd72c2
           '3': >-
-            After that, the organization team must contact a nearby <a
-            target='_blank'
+            次のステップとして、大会主催者は身近な<a target='_blank'
             href='https://www.worldcubeassociation.org/delegates'>WCA
-            Delegate</a>. The supervision of a WCA Delegate is required in order
-            to make a competition officially sanctioned by the WCA. The WCA
-            Delegate will help guide the organization on how to host a
-            successful competition.
+            代理人</a>に連絡を取る必要があります。WCA 公式大会として認められるには、WCA 代理人による監督が必須です。
           #original_hash: 809f53a
           '4': >-
-            Visit <a target='_blank'
-            href='https://www.cubingusa.com/cguide.php'>this guide</a> for
-            further information. (Any conflict between the information presented
-            in this supplementary resource and the WCA Regulations is superseded
-            by the WCA Regulations.)
+            より詳細は、<a target='_blank'
+            href='https://www.cubingusa.com/cguide.php'>CubingUSA による大会運営ガイド
+            (英語)</a> をご覧ください。※このガイドの内容と WCA 大会規則が矛盾する場合、WCA 大会規則が優先されます。
       '6':
         #original_hash: 8005a61
-        title: >-
-          What are the WCA accounts for? What is the difference between WCA
-          accounts and WCA profiles?
+        title: WCA アカウントとは何ですか？WCA アカウントと WCA プロフィールは別物ですか？
         content:
           #original_hash: 57a3767
-          '1': >-
-            You are assigned a WCA ID when the results from your first WCA
-            sanctioned competition are published.
+          '1': WCA 公式大会に初めて出場したときに WCA ID が発行されます。
           #original_hash: c5ad7a3
           '2': >-
-            WCA accounts allow you to prove to us who you are. This allows you
-            to add a picture to your WCA profile, and allows you to register for
-            competitions. This will protect you from other people pretending to
-            be you.
+            WCA アカウントとは、WCA ID と連携した WCA サイト上でのアカウントです。WCA アカウントを作成することで、WCA
+            プロフィールに写真を追加したり、大会に申し込むことができます。
           #original_hash: 9ff083a
           '3': '%{current_user_status}'
       '7':
         #original_hash: d7ee9bd
-        title: How do I change my profile picture?
+        title: プロフィール写真を変更したいのですが？
         content:
           #original_hash: e619524
           '1': >-
-            First, you need to <a
-            href='#how-do-i-connect-my-wca-account-with-my-wca-id'>create a WCA
-            account and connect it to your WCA ID.</a>
+            まず、<a href='#how-do-i-connect-my-wca-account-with-my-wca-id'>WCA
+            アカウントを作成して WCA ID を連携</a>してください。
           #original_hash: 56a8f26
           '2': >-
-            After you have connected your WCA account and your WCA ID, go to
-            your <a href='%{profile_edit_path}'>edit profile page</a> to change
-            your profile picture.
+            WCA アカウントに WCA ID を連携したら、<a
+            href='%{profile_edit_path}'>プロフィール編集ページ</a>でプロフィール写真を変更しましょう。
       '8':
         #original_hash: 1d61217
-        title: How do I connect my WCA account with my WCA ID?
+        title: WCA アカウントに WCA ID を連携したいのですが？
         content:
           #original_hash: 07bb6ec
           '1': '%{current_user_claim}'
       results:
         #original_hash: 9aae576
-        title: When are the results of a WCA competition uploaded to the WCA website?
+        title: WCA 公式大会の結果はいつ WCA サイトに反映されますか？
         content:
           #original_hash: 890d879
           '1': >-
-            After a competition has ended, the WCA Delegate has to double-check
-            all score sheets and person data to eliminate possible errors. Once
-            this is done, the results are sent to the WCA Results Team (WRT),
-            which is responsible for uploading competition results and
-            maintaining the WCA database. The WRT finally uploads the results to
-            the WCA database as soon as possible.
+            大会終了後、WCA 代理人は全記録と競技者データを再チェックします。この作業が終了後、競技結果は WCA Results Team
+            (WRT) に送られます。WRT は競技結果のアップロードと WCA データベースを管理するチームで、WRT
+            がデータをアップロードした後に競技結果が公開されます。
           #original_hash: b6a68ab
-          '2': >-
-            Depending on the size of the competition and the delegate's personal
-            schedule, all this can take only a day or up to a week. Please be
-            patient.
+          '2': 大会の規模と代理人の都合により、競技結果の公開に最大 1 週間要することがあります。
           #original_hash: bf8adbe
           '3': >-
-            Additionally, if you have connected your WCA account with your WCA
-            ID (see below), you can enable email notifications about your
-            results submission <a href='%{preferences_edit_path}'>here</a>.
+            WCA アカウントに WCA ID を連携している場合 (以下参照)、自分の競技結果に関する<a
+            href='%{preferences_edit_path}'>電子メールでの通知</a>を受け取ることができます。
   about:
     #original_hash: 9ac918a
-    title: About the WCA
+    title: WCA について
     mission:
       #original_hash: e4698d4
-      title: Mission
+      title: ミッション
       paragraphs:
         #original_hash: 16ad45e
         '1': >-
-          The World Cube Association governs competitions for all puzzles
-          labelled as Rubik puzzles, and all other puzzles that are played by
-          twisting the sides, so-called 'twisty puzzles'. Most famous of these
-          puzzles is the Rubik's Cube, invented by professor Rubik from Hungary.
-          A selection of these puzzles are chosen as official events of the WCA.
+          World Cube Association は全 Rubik ブランドパズルと側面を回転させて揃えるタイプのパズル (いわゆる
+          'twisty puzzle') の大会を管理します。代表的なものは、ハンガリーの Rubik 教授が発明した Rubik's Cube
+          (ルービックキューブ) です。このようなパズルの中から WCA の公式種目が選ばれます。
         #original_hash: c8ecd24
-        '2': >-
-          The World Cube Association organises competitions all over the world,
-          supported by national organizations responsible for organising
-          competitions in their countries.
+        '2': World Cube Association は世界中の大会を組織化します。大会は各国の大会を運営する団体の支援により開催されます。
         #original_hash: 20e0550
         '3': >-
-          The goal of the World Cube Association is to have<br /><strong>more
-          competitions in more countries with more people and more fun, under
-          fair and equal conditions.</strong>
+          World Cube Association の目的は<br
+          /><strong>公平な環境の下、たくさんの大会をたくさんの国々で、たくさんの人々がたくさん楽しめるようにすること</strong>です。
         #original_hash: bee3687
         '4': >-
-          The spirit of the World Cube Association is that<br /> <strong>people
-          from all over the world have fun together in a friendly atmosphere,
-          help each other and behave sportsmanlike.</strong>
+          World Cube Association の精神は<br />
+          <strong>世界中の人々が、友好的な雰囲気の中で楽しみ、お互いに助け合い、正々堂々ふるまうこと</strong>です。
     structure:
       #original_hash: 9482c5d
-      title: Structure
+      title: 組織
       #original_hash: d855b50
       board_html: >-
-        The World Cube Association is led by the <strong>WCA Board</strong>,
-        consisting of the following members:
+        World Cube Association は <strong>WCA 理事</strong>が指揮をとります。WCA
+        理事は以下のメンバーで構成されます:
       #original_hash: b0c72a9
-      committees: >-
-        The following committees are responsible for the operational activities
-        of the WCA:
+      committees: '以下の委員会は WCA の業務活動を担当します:'
       wdc:
         #original_hash: 853bffa
         name_html: <strong>WCA Disciplinary Committee (WDC)</strong>
         #original_hash: 286fdf8
         description: >-
-          This committee advises the WCA Board in special cases, like alleged
-          violations of WCA Regulations, and may be contacted by WCA members in
-          case of important personal matters regarding WCA competitions.
+          この委員会は、WCA 大会規則違反疑いのような特別な事例を WCA 理事に通告し、WCA 公式大会に関する重要な個人的事案がある場合は
+          WCA メンバーと連絡を取ります。
       wrc:
         #original_hash: 4aa147f
         name_html: <strong>WCA Regulations Committee (WRC)</strong>
         #original_hash: 13ada5b
-        description: This committee is responsible for managing the WCA Regulations.
+        description: この委員会は、WCA 大会規則の管理を担当します。
       results:
         #original_hash: 3e819b8
         name_html: <strong>WCA Results team</strong>
         #original_hash: 439ffae
-        description: This team is responsible for managing all competition results.
+        description: このチームは、全競技結果の管理を担当します。
       software:
         #original_hash: ea7f654
         name_html: <strong>WCA Software team</strong>
         #original_hash: ec961e4
-        description: >-
-          This team is responsible for managing the WCA's software (website,
-          scramblers, workbooks, admin tools).
+        description: このチームは、WCA のソフトウェア (ウェブサイト、スクランブル、ワークブック、管理ツール) の管理を担当します。
       #original_hash: f2ceade
       delegates_html: >-
-        <strong>WCA Delegates</strong> are members of the WCA who are
-        responsible for making sure that all WCA competitions are run according
-        to the mission, regulations and spirit of the WCA. The WCA distinguishes
-        between <strong>WCA Senior Delegates</strong>, <strong>WCA
-        Delegates</strong> and <strong>WCA Candidate
-        Delegates</strong>%{see_link}. Additional to the duties of a WCA
-        Delegate, a WCA Senior Delegate is responsible for managing the
-        Delegates in their area and can also be contacted by the community for
-        regional matters. New Delegates are at first listed as WCA Candidate
-        Delegates and need to show that they are capable of managing
-        competitions successfully before being listed as WCA Delegates.
+        <strong>WCA 代理人</strong> は、全 WCA 公式大会が WCA
+        の目的、大会規則、精神に従って開催されているかを確認する責任があります。<strong>WCA Senior
+        Delegates</strong>、<strong>WCA Delegates</strong>、<strong>WCA Candidate
+        Delegates</strong> から構成されます %{see_link}。WCA Senior Delegate は WCA
+        代理人の任務に加えて、その地域の代理人を管理する責任があり、地域の問題に関する連絡を受けることができます。新規の代理人は最初に WCA
+        Candidate Delegate として登録され、WCA 代理人になる前に大会運営能力を評価される必要があります。
       #original_hash: 27d18ac
-      see_link_html: ' (see %{link})'
+      see_link_html: '(参照: %{link})'
       #original_hash: 5b01fcc
-      members_html: >-
-        All competitors automatically become <strong>members</strong> of the WCA
-        in their first WCA competition.
+      members_html: 全競技者は、最初の WCA 公式大会で <strong>WCA メンバー</strong> になります。
   delegates_page:
     #original_hash: d8fd3e4
-    title: WCA Delegates
+    title: WCA 代理人
     #original_hash: 0a89b0f
-    acknowledges: >-
-      The WCA acknowledges the following members as delegates for official WCA
-      competitions:
+    acknowledges: 'WCA は以下のメンバーを WCA 公式大会での代理人として認める:'
     table:
       #original_hash: 709a232
-      name: Name
+      name: 名前
       #original_hash: c3f104d
-      role: Role
+      role: 役職
       #original_hash: 0f21717
-      region: Region
+      region: 国
   national_organizations:
     #original_hash: 0ef06c8
-    title: National Organizations
+    title: 各国の団体
     #original_hash: f9a7f4d
-    content: 'The WCA acknowledges the following national organizations:'
+    content: 'WCA は以下の団体を各国の団体として認める:'
   contact:
     #original_hash: a34b69f
-    title: Contact Information
+    title: 連絡先
     #original_hash: b5c2eaa
-    info_alert_html: >-
-      Before contacting any of the teams on this page, please take a look at our
-      %{link}!
+    info_alert_html: '本ページ記載の連絡先に連絡する前に、%{link} をご覧ください。'
     #original_hash: 2b023eb
     questions_and_comments_html: >-
-      For website questions, comments, and suggestions, use this <a
-      href='/contact/website'>contact form</a>. For inquiries concerning a
-      specific area or competition, please contact your local %{link}.
+      ウェブサイトへの質問、コメント、提案は、<a
+      href='/contact/website'>連絡フォーム</a>からお問い合わせください。特定の地域や大会に関することは、お近くの
+      %{link} にお問い合わせください。
     #original_hash: 4a30d30
-    committees_and_teams_html: <u>Committees and Teams</u>
+    committees_and_teams_html: <u>委員会・チーム</u>
     board:
       #original_hash: ccad374
-      name_html: <strong>WCA Board</strong>
+      name_html: <strong>WCA 理事</strong>
       #original_hash: 7ee8e36
-      info: >-
-        (WCA organization, delegate reports, competition approval, general
-        inquiries)
+      info: '(担当: WCA 組織、代理人レポート、大会の承認、一般的な問い合わせ)'
     wdc:
       #original_hash: 562e197
-      info: >-
-        (independent advice to WCA board, independent investigations, counselor
-        for important personal matters)
+      info: '(担当: WCA 理事に対する中立した立場からの助言・調査、個人的な問題に関する相談)'
     wrc:
       #original_hash: 4a256f0
-      info: (maintenance of the WCA Regulations)
+      info: '(担当: WCA 大会規則の管理)'
     results:
       #original_hash: 899dc9c
-      info: '(competition results, result corrections)'
+      info: '(担当: 競技結果、結果訂正)'
     software:
       #original_hash: 325ab0a
-      info: (maintenance of software of WCA)
+      info: '(担当: WCA のソフトウェアの管理)'
   score_tools:
     #original_hash: ea9d41d
-    title: WCA Score Taking tools
+    title: WCA 記録ツール
     paragraphs:
       #original_hash: ec3e0ab
       '1': >-
-        WCA highly recommends the use of <a href="http://cubecomps.com">Cube
-        Comps</a> before and during a competition. Cube Comps is an online
-        system with live scoring and many interesting features, like scorecard
-        printing and a very efficient multi-user data entry system. Created by
-        Luis J. Iáñez and now under Open Source.
+        WCA は大会準備と大会中に <a href="http://cubecomps.com">Cube Comps</a>
+        を使用することを強く推奨します。Cube Comps
+        は記録入力に加え、記録カードの印刷や複数ユーザによるデータ入力を可能にした便利なオンラインシステムです。Luis J. Iáñez
+        により作成されました。オープンソースです。
       #original_hash: 7438b0d
       '2': >-
-        Score sheets and scrambles should be processed and checked for errors
-        using the %{workbook_link} before sending them to the WCA Results Team.
+        スコアシートとスクランブルは、WCA Results Team に送信する前に、データ生成と %{workbook_link}
+        を用いたエラーチェックする必要があります。
       #original_hash: 975e59b
       '3': >-
-        The latest version of the WCA competition Score sheet can be downloaded
-        here:<br /><a href="/files/results.xls" target="_blank">WCA competition
-        Score sheet</a>.
+        最新バージョンの WCA 公式大会スコアシートはこちらからダウンロードできます: <br /><a
+        href="/files/results.xls" target="_blank">WCA 公式大会スコアシート</a>。
   logo:
     #original_hash: c72c969
-    title: WCA Logo
+    title: WCA ロゴ
     paragraphs:
       #original_hash: c092e13
       '1': >-
-        The WCA logo was designed by Justin Eastman, in a design contest in
-        January 2005.<br />We liked the logo because of its design, the colours,
-        and the fact that it does not specifically show a Rubik's Cube / 3x3x3
-        cube.
+        WCA ロゴは Justin Eastman さんが 2005 年 1 月のデザインコンテストで作成しました。<br
+        />デザイン、色、Rubik's Cube / 3x3x3 キューブだけを特定に表現していない点が採用した理由です。
       #original_hash: f228da2
       '2': >-
-        We have three different versions of the logo: a <a
-        href="/files/WCAlogo_XL.jpg">large version</a> (46 KB, 1756 px by 1068
-        px), a <a href="/files/WCAlogo.svg">vector version</a> and a <a
-        href="/files/WCAlogo_notext.svg">vector version without text</a>.
+        3 種類のロゴがあります: <a href="/files/WCAlogo_XL.jpg">大きいサイズ</a> (46 KB, 1756 px
+        by 1068 px)、<a href="/files/WCAlogo.svg">ベクター画像</a>、<a
+        href="/files/WCAlogo_notext.svg">テキスト無しベクター画像</a>。
       #original_hash: dcb1ad6
       '3': >-
-        3D version of the logo, designed by Vu Minh Tan from Vietnam: <a
-        href="/files/WCALogo3D.png">PNG version</a> (2.1 MB), a <a
-        href="/files/WCALogo3Dsmall.png">small PNG version</a> (0.25 MB).
+        3D バージョンのロゴです。ベトナムの Vu Minh Tan さんがデザインしました: <a
+        href="/files/WCALogo3D.png">PNG 形式</a> (2.1 MB)、<a
+        href="/files/WCALogo3Dsmall.png">PNG 形式 (小さいサイズ)</a> (0.25 MB)。
       #original_hash: 545fcd9
       '4': >-
-        All WCA competition organizers may use the WCA logo for websites,
-        clothing, gifts or decorations, only for official WCA competitions.<br
-        /> For all other persons and purposes using the WCA logo requires an
-        approval by <a href="mailto:board@worldcubeassociation.org">WCA
-        board</a>.
+        WCA 公式大会の主催者は WCA ロゴを WCA 公式大会に限り、ウェブサイト、衣類、ギフト、装飾に使用することができます。<br
+        />その他の方やその他の目的で WCA ロゴを使用する場合は、<a
+        href="mailto:board@worldcubeassociation.org">WCA 理事</a>の承認が必要です。
   workbook_assistant:
     #original_hash: e442ea4
     title: WCA Workbook Assistant
