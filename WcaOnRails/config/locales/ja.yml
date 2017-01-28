@@ -82,7 +82,7 @@ ja:
     #original_hash: 15f86c0
     average: 平均
     #original_hash: e7f6fc5
-    solves: ソルブ
+    solves: 内訳
     user:
       #original_hash: 603a218
       wca_id: WCA ID
@@ -386,7 +386,7 @@ ja:
         #original_hash: da39a3e
         generate_website: ''
         #original_hash: b61cbfa
-        base_entry_fee_lowest_denomination: '最低参加費 (1000)'
+        base_entry_fee_lowest_denomination: '基本参加費 (1000)'
         #original_hash: 866bc05
         currency_code: 通貨単位
         #original_hash: da39a3e
@@ -549,9 +549,9 @@ ja:
       #original_hash: 86a60c9
       let_us_know: 以前に WCA 公式大会に参加したことがありますか？
       #original_hash: f9f512b
-      welcome_back: ようこそ！WCA アカウントの作成には WCA ID が必要です。
+      welcome_back: こんにちは！WCA アカウントの作成には WCA ID が必要です。
       #original_hash: 669fb57
-      welcome: 'ようこそ ! はじめに、個人情報収集についてご確認ください。生年月日は本人の許可なく公開されることはありません。'
+      welcome: 'こんにちは！はじめに、個人情報収集についてご確認ください。生年月日は本人の許可なく公開されることはありません。'
       gender:
         #original_hash: 3f3a489
         male: 男性
@@ -720,7 +720,7 @@ ja:
         #original_hash: b98c0cf
         msg: >-
           氏名、生年月日、性別、国籍は変更できません (理由: %{reason})。変更が必要な場合は、<a
-          href='%{delegate_url}'> WCA 代理人</a>に連絡してください。
+          href='%{delegate_url}'>WCA 代理人</a>に連絡してください。
         reason:
           #original_hash: 370ff12
           assigned: WCA ID が登録されています
@@ -935,7 +935,7 @@ ja:
     #original_hash: ea2b586
     have_registered: '%{comp} に参加申し込み済みです。申し込み情報は下部に記載されています。'
     #original_hash: 4d966e0
-    entry_fee: '参加費:'
+    entry_fee: '基本参加費:'
     #original_hash: 3c9141f
     contact_organizer: 変更が必要な場合は運営チームにお尋ねください。
     #original_hash: 06d52b5
@@ -1001,7 +1001,7 @@ ja:
       #original_hash: b37456c
       contact: 連絡先
       #original_hash: a428739
-      entry_fee: 参加費
+      entry_fee: 基本参加費
       #original_hash: 0eb5ed5
       information: 情報
     index:
@@ -1130,9 +1130,9 @@ ja:
       #original_hash: 3935fd6
       cannot_delete_confirmed: 確定済みの大会は削除できません。
       #original_hash: 191df37
-      must_contain_event: この大会には1個以上の競技種目を追加する必要があります
+      must_contain_event: この大会には 1 個以上の競技種目を追加する必要があります
       #original_hash: 112490b
-      must_contain_delegate: 1人以上のWCA代理人を追加する必要があります
+      must_contain_delegate: 1 人以上の WCA 代理人を追加する必要があります
       #original_hash: 0b2b56b
       not_all_delegates: は全員代理人ではありません
       #original_hash: 43a23c2
@@ -1210,7 +1210,7 @@ ja:
         #original_hash: 612e12d
         results: 大会結果
         #original_hash: 02ae2bd
-        podiums: 表彰台
+        podiums: 入賞者
         #original_hash: 6a72085
         all: 全ての結果
         #original_hash: aaefdb6
@@ -1258,7 +1258,7 @@ ja:
       #original_hash: d523ebb
       country: 国
       #original_hash: 02ae2bd
-      podiums: 表彰台
+      podiums: 入賞者
       #original_hash: 56656a0
       no_persons_found: キーワードにマッチする検索結果はありません。
   posts:
@@ -1343,7 +1343,7 @@ ja:
         title: WCA アカウントとは何ですか？WCA アカウントと WCA プロフィールは別物ですか？
         content:
           #original_hash: 57a3767
-          '1': WCA 公式大会に初めて出場したときに WCA ID を取得します。
+          '1': WCA 公式大会に初めて出場したときに WCA ID が発行されます。
           #original_hash: c5ad7a3
           '2': >-
             WCA アカウントとは、WCA ID と連携した WCA サイト上でのアカウントです。WCA アカウントを作成することで、WCA
@@ -1388,7 +1388,7 @@ ja:
     title: WCA について
     mission:
       #original_hash: e4698d4
-      title: 任務
+      title: ミッション
       paragraphs:
         #original_hash: 16ad45e
         '1': >-
@@ -1400,11 +1400,11 @@ ja:
         #original_hash: 20e0550
         '3': >-
           World Cube Association の目的は<br
-          /><strong>公平な環境の下、たくさんの大会をたくさんの国々で、たくさんの人々がたくさん楽しめるようにすることです。</strong>
+          /><strong>公平な環境の下、たくさんの大会をたくさんの国々で、たくさんの人々がたくさん楽しめるようにすること</strong>です。
         #original_hash: bee3687
         '4': >-
           World Cube Association の精神は<br />
-          <strong>世界中の人々が、友好的な雰囲気の中で楽しみ、お互いに助け合い、正々堂々ふるまうことです。</strong>
+          <strong>世界中の人々が、友好的な雰囲気の中で楽しみ、お互いに助け合い、正々堂々ふるまうこと</strong>です。
     structure:
       #original_hash: 9482c5d
       title: 組織
@@ -1450,9 +1450,9 @@ ja:
       members_html: 全競技者は、最初の WCA 公式大会で <strong>WCA メンバー</strong> になります。
   delegates_page:
     #original_hash: d8fd3e4
-    title: WCA代理人
+    title: WCA 代理人
     #original_hash: 0a89b0f
-    acknowledges: 'WCAは以下のメンバーを WCA 公式大会での代理人として認める:'
+    acknowledges: 'WCA は以下のメンバーを WCA 公式大会での代理人として認める:'
     table:
       #original_hash: 709a232
       name: 名前
@@ -1518,7 +1518,7 @@ ja:
     paragraphs:
       #original_hash: c092e13
       '1': >-
-        WCA ロゴは Justin Eastman が 2005 年 1 月のデザインコンテストで作成しました。<br
+        WCA ロゴは Justin Eastman さんが 2005 年 1 月のデザインコンテストで作成しました。<br
         />デザイン、色、Rubik's Cube / 3x3x3 キューブだけを特定に表現していない点が採用した理由です。
       #original_hash: f228da2
       '2': >-
@@ -1527,9 +1527,9 @@ ja:
         href="/files/WCAlogo_notext.svg">テキスト無しベクター画像</a>。
       #original_hash: dcb1ad6
       '3': >-
-        3D バージョンのロゴです、ベトナムの Vu Minh Tan がデザインしました: <a
+        3D バージョンのロゴです。ベトナムの Vu Minh Tan さんがデザインしました: <a
         href="/files/WCALogo3D.png">PNG 形式</a> (2.1 MB)、<a
-        href="/files/WCALogo3Dsmall.png">PNG バージョン (小さいサイズ)</a> (0.25 MB)。
+        href="/files/WCALogo3Dsmall.png">PNG 形式 (小さいサイズ)</a> (0.25 MB)。
       #original_hash: 545fcd9
       '4': >-
         WCA 公式大会の主催者は WCA ロゴを WCA 公式大会に限り、ウェブサイト、衣類、ギフト、装飾に使用することができます。<br
