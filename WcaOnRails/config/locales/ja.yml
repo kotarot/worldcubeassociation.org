@@ -711,7 +711,7 @@ ja:
       #original_hash: af18820
       edit_thumbnail: クリックでサムネイルの編集
       #original_hash: cf65c6e
-      manage_pending: Manage pending avatars (翻訳TODO)
+      manage_pending: Manage pending avatars
       #original_hash: 2d2ae5d
       have_no_wca_id_html: 'WCA ID が登録されていません。大会に参加したことがある場合は、%{here} で WCA ID をアカウントを登録してください。'
       #original_hash: 29e25b5
@@ -759,11 +759,11 @@ ja:
       #original_hash: 26f70ed
       dob_past: 過去の日付を入力してください
       #original_hash: f599dc5
-      must_be_senior: must be a senior delegate (翻訳TODO)
+      must_be_senior: must be a senior delegate
       #original_hash: 2e582eb
-      must_not_be_present: must not be present (翻訳TODO)
+      must_not_be_present: must not be present
       #original_hash: b2c4ecc
-      senior_has_delegate: cannot demote senior delegate with subordinate delegates (翻訳TODO)
+      senior_has_delegate: cannot demote senior delegate with subordinate delegates
       #original_hash: 48653a9
       already_have_id: '既に WCA ID %{wca_id} が登録されているため、WCA ID が登録できません'
       #original_hash: eeb76a7
@@ -816,7 +816,7 @@ ja:
       #original_hash: e0bb243
       cannot_be_deleted_and_accepted: 参加申し込みの削除と承認を同時に行うことはできません。
       #original_hash: bf9a828
-      can_register: User must be able to register for competition (翻訳TODO)
+      can_register: User must be able to register for competition
       #original_hash: a38d024
       must_register: 1 つ以上の競技種目の選択が必要です
     registration_info_people:
@@ -861,7 +861,7 @@ ja:
       registered: 参加申し込みが完了しました。
     edit_registration:
       #original_hash: 2d15eae
-      title: '%{person} for %{comp} (翻訳TODO)'
+      title: '%{person} for %{comp}'
     list:
       #original_hash: 8b7631c
       title: '%{comp} の参加申し込み一覧'
