@@ -48,11 +48,11 @@ class Registration < ActiveRecord::Base
 
   def checked_status
     if accepted?
-      return :accepted
+      :accepted
     elsif pending?
-      return :pending
+      :pending
     else
-      return :deleted
+      :deleted
     end
   end
 
@@ -75,8 +75,8 @@ class Registration < ActiveRecord::Base
     user.gender
   end
 
-  def countryId
-    user.country&.id
+  def country
+    user.country
   end
 
   def email

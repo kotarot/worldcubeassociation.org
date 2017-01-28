@@ -120,6 +120,7 @@ RSpec.describe User, type: :model do
 
   describe "WCA ID" do
     let(:user) { FactoryGirl.create :user_with_wca_id }
+    let(:birthdayless_person) { FactoryGirl.create :person, :missing_dob }
 
     it "validates WCA ID" do
       user = FactoryGirl.build :user, wca_id: "2005FLEI02"
@@ -146,6 +147,12 @@ RSpec.describe User, type: :model do
       user.person.name = "New name"
       user.person.save!
       expect(user).to be_valid
+    end
+
+    it "does not allow assigning a birthdateless WCA ID to a user" do
+      user.wca_id = birthdayless_person.wca_id
+      expect(user).to be_invalid
+      expect(user.errors.messages[:wca_id]).to eq [ I18n.t('users.errors.wca_id_no_birthdate_html') ]
     end
 
     it "nullifies empty WCA IDs" do
@@ -546,11 +553,36 @@ RSpec.describe User, type: :model do
     end
   end
 
-  describe "#can_edit_users?" do
+  describe "#can_view_all_users?" do
     let(:competition) { FactoryGirl.create(:competition, :registration_open, :with_organizer, starts: 1.month.from_now) }
 
-    it "returns true if a user is an organizer of an upcoming comp using registration system" do
-      expect(competition.organizers.first.can_edit_users?).to eq true
+    it "returns false if the user is an organizer of an upcoming comp using registration system" do
+      organizer = competition.organizers.first
+      expect(organizer.can_view_all_users?).to eq false
+    end
+
+    it "returns true for board" do
+      board_member = FactoryGirl.create :board_member
+      expect(board_member.can_view_all_users?).to eq true
+    end
+
+    it "returns false for normal user" do
+      normal_user = FactoryGirl.create :user
+      expect(normal_user.can_view_all_users?).to eq false
+    end
+  end
+
+  describe "#can_edit_user?" do
+    let(:user) { FactoryGirl.create :user }
+
+    it "returns true for board" do
+      board_member = FactoryGirl.create :board_member
+      expect(board_member.can_edit_user?(user)).to eq true
+    end
+
+    it "returns false for normal user" do
+      normal_user = FactoryGirl.create :user
+      expect(normal_user.can_edit_user?(user)).to eq false
     end
   end
 
@@ -560,6 +592,7 @@ RSpec.describe User, type: :model do
 
     it "allows organizers of upcoming competitions to edit newcomer names" do
       organizer = competition.organizers.first
+      expect(organizer.can_edit_user?(registration.user)).to eq true
       expect(organizer.editable_fields_of_user(registration.user).to_a).to eq [:name]
     end
   end

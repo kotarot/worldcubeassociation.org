@@ -9,8 +9,8 @@ class UsersController < ApplicationController
   def index
     params[:order] = params[:order] == "asc" ? "asc" : "desc"
 
-    unless current_user&.can_edit_users?
-      flash[:danger] = "You cannot edit users"
+    unless current_user&.can_view_all_users?
+      flash[:danger] = "You cannot view users"
       redirect_to root_url
     end
 
@@ -89,7 +89,7 @@ class UsersController < ApplicationController
     if dangerous_change ? @user.update_with_password(user_params) : @user.update_attributes(user_params)
       if current_user == @user
         # Sign in the user by passing validation in case their password changed
-        sign_in @user, bypass: true
+        bypass_sign_in @user
       end
       flash[:success] = if @user.confirmation_sent_at != old_confirmation_sent_at
                           I18n.t('users.successes.messages.account_updated_confirm', email: @user.unconfirmed_email)
@@ -113,7 +113,7 @@ class UsersController < ApplicationController
   end
 
   private def redirect_if_cannot_edit_user(user)
-    unless current_user && (current_user.can_edit_users? || current_user == user)
+    unless current_user&.can_edit_user?(user)
       flash[:danger] = "You cannot edit this user"
       redirect_to root_url
       return true
