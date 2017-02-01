@@ -169,7 +169,7 @@ ja:
       #original_hash: 709a232
       name: アプリ名
       #original_hash: f6f1389
-      callback_url: コールバック Url
+      callback_url: コールバック URL
       #original_hash: 89ff312
       owner: 所有者
       #original_hash: 557031c
@@ -181,7 +181,7 @@ ja:
       #original_hash: c23540e
       scopes: スコープ
       #original_hash: 3b0d449
-      callback_urls: コールバック Urls
+      callback_urls: コールバック URLs
   activerecord:
     attributes:
       user:
@@ -228,7 +228,7 @@ ja:
         #original_hash: 7044004
         notes: メモ
         #original_hash: 57eaf24
-        user_preferred_events: Preferred events
+        user_preferred_events: お気に入り種目
       competition:
         #original_hash: 89f89c0
         id: ID
@@ -285,22 +285,22 @@ ja:
         #original_hash: c305010
         clone_tabs: すべてのタブを追加情報とともに複製する
         #original_hash: c5497bc
-        competition_events: Events
+        competition_events: 競技種目
       registration:
         #original_hash: 3c23a67
         guests: ゲスト
         #original_hash: fce06e2
         comments: コメント
         #original_hash: dc9d458
-        paid_entry_fees: Paid
+        paid_entry_fees: 支払い済
         #original_hash: bae7d5b
         status: ステータス
         #original_hash: 709a232
         name: 名前
         #original_hash: a6b9d69
-        birthday: 誕生日
+        birthday: 生年月日
         #original_hash: c5497bc
-        registration_competition_events: Events
+        registration_competition_events: 競技種目
       competition_tab:
         #original_hash: 4f9be05
         content: 内容
@@ -308,9 +308,9 @@ ja:
         name: 名前
       delegate_report:
         #original_hash: 983d541
-        discussion_url: Google グループ上のディスカッション url
+        discussion_url: Google グループ上のディスカッション URL
         #original_hash: 65a9b28
-        schedule_url: スケジュール url
+        schedule_url: スケジュール URL
         #original_hash: 36155d4
         equipment: 備品
         #original_hash: 67cd406
@@ -441,7 +441,7 @@ ja:
         #original_hash: cabe7fb
         external_website: 大会ウェブサイトの URL
         #original_hash: 9965635
-        registration_open: 申込受付期間 (世界標準時。日本時間 -9 時間)
+        registration_open: 申し込み受付期間 (世界標準時。日本時間 -9 時間)
         #original_hash: f688881
         remarks: WCA 理事へのコメント (大会期日 1 か月以内の申請の場合の理由など、特別必要な場合のみ)
         #original_hash: da39a3e
@@ -578,9 +578,9 @@ ja:
   devise:
     failure:
       #original_hash: 1186218
-      invalid: メールアドレス、 WCA ID 、パスワード内に誤りがあります。
+      invalid: メールアドレス、 WCA ID 、パスワードのいずれかに誤りがあります。
       #original_hash: 1186218
-      not_found_in_database: メールアドレス、 WCA ID 、パスワード内に誤りがあります。
+      not_found_in_database: メールアドレス、 WCA ID 、パスワード内のいずれかに誤りがあります。
   wca:
     errors:
       messages:
@@ -608,13 +608,13 @@ ja:
         email: Access your email address
     devise:
       #original_hash: 06184f5
-      no_account: No account?
+      no_account: アカウントをお持ちでない場合
       #original_hash: a268696
-      have_competed: WCA 公式大会に参加したことがあります (JRCA の大会情報にて告知される大会・公式記録会は WCA 公式大会です) 。
+      have_competed: WCA 公式大会に参加したことがあります
       #original_hash: dcd1d70
-      have_never_competed: WCA 公式大会に参加したことがありません。
+      have_never_competed: WCA 公式大会に参加したことがありません
       #original_hash: 86a60c9
-      let_us_know: 以前に WCA 公式大会に参加したことがありますか？
+      let_us_know: 以前に WCA 公式大会に参加したことがありますか？  (JRCA の大会情報にて告知される大会・公式記録会は WCA 公式大会です)
       #original_hash: f9f512b
       welcome_back: こんにちは！WCA アカウントの作成には WCA ID が必要です。
       #original_hash: 669fb57
@@ -629,7 +629,7 @@ ja:
   layouts:
     navigation:
       #original_hash: 0eb5ed5
-      information: Information
+      information: インフォメーション
       #original_hash: 9ac918a
       about: WCA について
       #original_hash: d8fd3e4
@@ -649,7 +649,7 @@ ja:
       #original_hash: db98a68
       competitions: 大会
       #original_hash: 6a72085
-      all: 全ての大会
+      all: すべての大会
       #original_hash: 775d458
       my_competitions: 自分の大会
       #original_hash: 32fde96
@@ -667,9 +667,9 @@ ja:
       #original_hash: 2086b21
       statistics: 統計情報
       #original_hash: 82dabd0
-      multimedia: Multimedia
+      multimedia: メディア
       #original_hash: 4fd2a7f
-      db_export: Database Export
+      db_export: データベース
       #original_hash: 1fa73f3
       regulations: 大会規則
       #original_hash: 141d1d7
@@ -685,7 +685,7 @@ ja:
       #original_hash: b7ee3c4
       manage_users: ユーザー管理
       #original_hash: 12ab214
-      delegate: 代理人メニュー
+      delegate: 代理人で検索
       #original_hash: 2f4bd74
       panel: Panel
       #original_hash: d3a928c
@@ -924,65 +924,60 @@ ja:
       title: '%{person} for %{comp}'
     mailer:
       #original_hash: 72e2180
-      regards_html: 'Regards, %{people}.'
+      regards_html: '%{people}'
       new:
         #original_hash: 6fb638c
-        mail_subject: 'You have registered for %{comp_name}'
+        mail_subject: '%{comp_name} に申し込み済みです。'
         #original_hash: 8374583
-        registered_html: 'You just registered for %{comp_name}.'
+        registered_html: '%{comp_name} に申し込みました。'
         #original_hash: 9238412
         on_waiting_list: >-
-          Your registration is on the waiting list, which currently has
-          %{n_total} %{people} on it.
+          申し込みはキャンセル待ちです。現在、%{n_total} %{people} 待ちです。
         #original_hash: f5b00be
         approval_info_html: >-
-          You will be emailed when your registration is approved. Please note
-          that registrations are not automatically approved. To see the approval
-          criteria visit the competition website or contact the organisers. You
-          can also check the status of your registration %{here}.
+          参加申し込みが受理された場合、メールでお知らせします。
+          申し込みは自動受理にはなりませんのでご注意ください。
+          申し込み受理の基準は大会ウェブサイトを確認するか、運営チームにお問い合わせください。
+          申し込み状況は%{here}でも確認できます。
       accepted:
         #original_hash: 34515b5
-        mail_subject: 'Your registration for %{comp_name} has been accepted'
+        mail_subject: '%{comp_name} の参加申し込みが受理されました'
         #original_hash: 24d2883
         message_html: >-
-          Your registration for %{comp_name} has been accepted. As always, you
-          can check the status of your registration %{here}.
+          %{comp_name} の参加申し込みが受理されました。申し込み状況は%{here}で確認できます。
         #original_hash: 1852cbf
-        see_you_soon: 'We look forward to seeing you at %{comp_name}!'
+        see_you_soon: '%{comp_name} でお会いできることを楽しみにしております。'
       pending:
         #original_hash: e48d8bd
-        mail_subject: 'You have been moved to the waiting list for %{comp_name}'
+        mail_subject: '%{comp_name} の参加申し込みがキャンセル待ちになりました。'
         #original_hash: 6fd0a8e
         moved_html: >-
-          Your registration for %{comp_name} has been moved to the waiting list.
-          Possible causes are:
+          %{comp_name} の参加申し込みがキャンセル待ちになりました。
+          考えられる理由は次のとおりです。
         causes:
           #original_hash: eadfc0d
-          accepted: Your registration was accidentally accepted
+          accepted: 誤って申し込みが受理されたため。
           #original_hash: 2ac6d84
-          withdrawal: You asked for withdrawal
+          withdrawal: あなたが申し込みの取り消しを申請したため。
         #original_hash: 8f7358f
-        email_if_error: 'If you think this is an error, please reply to this email.'
+        email_if_error: 'これが誤りだと思われる場合は、このメールにご返信ください。'
       deleted:
         #original_hash: 268e248
-        mail_subject: 'Your registration for %{comp_name} has been deleted'
+        mail_subject: '%{comp_name} の申し込みが取り消されました'
         #original_hash: f66ae63
         message_html: >-
-          Your registration for %{comp_name} has been deleted. Possible causes
-          are:
+          {comp_name} の申し込みが取り消されました。考えられる理由は次のとおりです。
         causes:
           #original_hash: 978944c
-          missing_info: You did not submit all the required details
+          missing_info: 申し込みに必要な情報が不足しているため。
           #original_hash: 788f2ec
           incomplete: >-
-            You didn't meet the registration criteria (for example, paying the
-            registration fee in advance)
+            申し込みの条件を満たしていないため (例: 事前支払いなど)。
           #original_hash: 1e225f0
           registrations_full: >-
-            The competitor limit has been reached and there are no more spots
-            available
+            参加申し込みが定員に達したため。
           #original_hash: 0d4cce9
-          multiple_registrations: You registered twice or more times
+          multiple_registrations: 複数回申し込みを行っため。
     list:
       #original_hash: 8b7631c
       title: '%{comp} の参加申し込み一覧'
@@ -1024,7 +1019,7 @@ ja:
     #original_hash: c0063c3
     register: 申し込み実行
     #original_hash: f484f15
-    refund: Refund Payment
+    refund: 参加費の払い戻し
     #original_hash: a9af643
     update: 申し込みが更新されました
     #original_hash: f6fdbe4
@@ -1034,21 +1029,21 @@ ja:
     #original_hash: cfc4865
     delete_registration: 参加申し込みを削除しました。
     #original_hash: e9ddc6e
-    will_open_html: '参加申し込みは <strong>%{days}</strong> 日後 %{time} に開始します。'
+    will_open_html: '参加申し込みは <strong>%{days}</strong> 後 %{time} に開始します。'
     #original_hash: 34eb009
-    will_close_html: '参加申し込みは <strong>%{days}</strong> 日後 %{time} に終了します。'
+    will_close_html: '参加申し込みは <strong>%{days}</strong> 後 %{time} に終了します。'
     #original_hash: dc8a520
-    closed_html: '参加申し込みは <strong>%{days}</strong> 日前の %{time} に終了しました。'
+    closed_html: '参加申し込みは <strong>%{days}</strong> 前の %{time} に終了しました。'
     #original_hash: 2e7024d
     please_sign_in_past_html: >-
-      申し込み状況の確認には%{sign_in}が必要です。WCA アカウントをを持っていない場合は %{here}
+      申し込み状況の確認には%{sign_in}が必要です。WCA アカウントを持っていない場合は %{here}
       で作成できますが、この大会の申し込みは既に終了しています。
     #original_hash: 7753b2e
     please_sign_in_not_yet_open_html: >-
-      申し込み状況の確認には%{sign_in}が必要です。WCA アカウントをを持っていない場合は %{here}
+      申し込み状況の確認には%{sign_in}が必要です。WCA アカウントを持っていない場合は %{here}
       で作成できますが、この大会の申し込みはまだ開始していません。
     #original_hash: e1301c4
-    please_sign_in_html: '%{comp} の参加申し込みには%{sign_in}が必要です。WCA アカウントをを持っていない場合は %{here} で作成できます。'
+    please_sign_in_html: '%{comp} の参加申し込みには%{sign_in}が必要です。WCA アカウントを持っていない場合は %{here} で作成できます。'
     #original_hash: 89b4e7f
     greeting: 'こんにちは、%{name} さん！'
     #original_hash: fb34a17
@@ -1060,7 +1055,7 @@ ja:
     #original_hash: ea2b586
     have_registered: '%{comp} に参加申し込み済みです。申し込み情報は下部に記載されています。'
     #original_hash: fa52a9b
-    entry_fee: '基本参加費:'
+    entry_fee: '基本参加費は %{fee} です。'
     #original_hash: 3c9141f
     contact_organizer: 変更が必要な場合は運営チームにお尋ねください。
     #original_hash: 59354fd
@@ -1069,12 +1064,11 @@ ja:
     accepted: 参加申し込みが完了しました！
     #original_hash: 69cf660
     entry_fees_partially_paid: >-
-      You have currently paid %{paid} of your total %{total_entry_fee} entry
-      fee.
+      現在、参加費 %{total_entry_fee} 中、%{paid} を支払い済みです。
     #original_hash: 9153695
-    entry_fees_fully_paid: 'You have paid your entry fee of %{paid} in full.'
+    entry_fees_fully_paid: '参加費 %{paid} を全額支払い済みです。'
     #original_hash: 05495d6
-    payment_button_text: 'Pay your %{entry_fee} entry fee with card'
+    payment_button_text: '参加費 %{entry_fee} をカードで支払う'
     #original_hash: 4cf01a2
     preferred_events_prompt_html: '参加申し込みを簡単にするため、お気に入り種目を設定できます %{link}。'
   competitions:
@@ -1107,10 +1101,9 @@ ja:
       not_confirmed_not_visible: この大会は未承認で非公開です。
       #original_hash: a821396
       stripe_connected: >-
-        You have now successfully connected your Stripe account and can now
-        receive registration payments for this competition.
+        Stripe アカウントと連携しました。この大会の参加費の支払いをこのアカウントで受け取ることができます。
       #original_hash: 0a4bb53
-      stripe_not_connected: There was a problem and we could not connect your Stripe account.
+      stripe_not_connected: 問題があり、Stripe アカウントを連携できませんでした。
     my_competitions:
       #original_hash: 5c6d3ea
       title: 自分の大会
@@ -1151,7 +1144,7 @@ ja:
       #original_hash: 6a72085
       all_events: 全種目
       #original_hash: 6d76b81
-      all_years: 全ての年
+      all_years: すべての年
       #original_hash: 719ea39
       clear: クリア
       #original_hash: a1fffaa
@@ -1173,14 +1166,14 @@ ja:
       #original_hash: 52c30f8
       past_from: '%{year} 年の大会'
       #original_hash: 7cff459
-      past_all: 過去の全ての大会
+      past_all: 過去のすべての大会
       titles:
         #original_hash: 69447c9
         in_progress: 開催中の大会
         #original_hash: 9e66032
         past: '%{year} 年の大会'
         #original_hash: f628f0e
-        past_all: 過去の全ての大会
+        past_all: 過去のすべての大会
         #original_hash: cbe8a54
         recent: '%{count} 日以内に開催された最近の大会'
         #original_hash: 914742f
@@ -1190,13 +1183,13 @@ ja:
       tooltips:
         hourglass:
           #original_hash: b5183e1
-          ended: '%{days} 日前に終了しました。'
+          ended: '%{days} 前に終了しました。'
           #original_hash: 1dccb27
           in_progress: 開催中！
           #original_hash: 1157462
           posted: 大会結果は送信済みです。
           #original_hash: 89bcc37
-          starts_in: '%{days} 日後に開始します。'
+          starts_in: '%{days} 後に開始します。'
         #original_hash: ccd2db9
         search: 大会名、都市名
         #original_hash: 3bc8082
@@ -1287,7 +1280,7 @@ ja:
       #original_hash: 43a83a9
       end_date_before_start: 終了日は開始日より後である必要があります
       #original_hash: be3933b
-      span_too_many_days: '%{max_days} 日間を超える大会は開催できません。'
+      span_too_many_days: '%{max_days} 間を超える大会は開催できません。'
     new:
       #original_hash: 1208df7
       create_competition: 大会新規作成
@@ -1315,11 +1308,11 @@ ja:
         one: "1 つの大会"
         other: "%{count} 個の大会"
       #original_hash: e3528ec
-      label: '周辺で開催される大会 (%{days} 日以内かつ %{kms} km 以内)'
+      label: '周辺で開催される大会 (%{days} 以内かつ %{kms} km 以内)'
       #original_hash: 3446062
-      label_admin: '過去 %{days} 日'
+      label_admin: '過去 %{days}'
       #original_hash: 07a1cf0
-      nearby_admin: '%{x_competitions} は、%{kms} km 以内かつ %{days} 日以内に開催されます。'
+      nearby_admin: '%{x_competitions} は、%{kms} km 以内かつ %{days} 以内に開催されます。'
       #original_hash: feefb46
       no_comp_nearby: 周辺で開催される大会はありません！
       #original_hash: 7e76950
@@ -1327,7 +1320,7 @@ ja:
       #original_hash: 82a95d2
       no_location_yet: この大会の開催場所が設定されていません。
       #original_hash: 9eb8f46
-      within: '%{days} 日以内'
+      within: '%{days} 以内'
       #original_hash: d97d1ee
       show: 表示
       #original_hash: 709a232
@@ -1360,7 +1353,7 @@ ja:
         #original_hash: 02ae2bd
         podiums: 入賞者
         #original_hash: 6a72085
-        all: 全ての結果
+        all: すべての結果
         #original_hash: aaefdb6
         by_person: 競技者ごと
         #original_hash: 4b631f6
@@ -1556,7 +1549,7 @@ ja:
         content:
           #original_hash: 890d879
           '1': >-
-            大会終了後、WCA 代理人は全記録と競技者データを再チェックします。この作業が終了後、競技結果は WCA Results Team
+            大会終了後、WCA 代理人はすべての記録と競技者データを再チェックします。この作業が終了後、競技結果は WCA Results Team
             (WRT) に送られます。WRT は競技結果のアップロードと WCA データベースを管理するチームで、WRT
             がデータをアップロードした後に競技結果が公開されます。
           #original_hash: b6a68ab
@@ -1574,8 +1567,8 @@ ja:
       paragraphs:
         #original_hash: 16ad45e
         '1': >-
-          World Cube Association は全 Rubik ブランドパズルと側面を回転させて揃えるタイプのパズル (いわゆる
-          'twisty puzzle') の大会を管理します。代表的なものは、ハンガリーの Rubik 教授が発明した Rubik's Cube
+          World Cube Association はすべての Rubik ブランドパズルと側面を回転させて揃えるタイプのパズル
+          の大会を管理します。代表的なものは、ハンガリーの Rubik 教授が発明した Rubik's Cube
           (ルービックキューブ) です。このようなパズルの中から WCA の公式種目が選ばれます。
         #original_hash: c8ecd24
         '2': World Cube Association は世界中の大会を組織化します。大会は各国の大会を運営する団体の支援により開催されます。
@@ -1612,7 +1605,7 @@ ja:
         #original_hash: 3e819b8
         name_html: <strong>WCA Results team</strong>
         #original_hash: 439ffae
-        description: このチームは、全競技結果の管理を担当します。
+        description: このチームは、すべての競技結果の管理を担当します。
       software:
         #original_hash: ea7f654
         name_html: <strong>WCA Software team</strong>
@@ -1620,7 +1613,7 @@ ja:
         description: このチームは、WCA のソフトウェア (ウェブサイト、スクランブル、ワークブック、管理ツール) の管理を担当します。
       #original_hash: f2ceade
       delegates_html: >-
-        <strong>WCA 代理人</strong> は、全 WCA 公式大会が WCA
+        <strong>WCA 代理人</strong> は、すべての WCA 公式大会が WCA
         の目的、大会規則、精神に従って開催されているかを確認する責任があります。<strong>WCA Senior
         Delegates</strong>、<strong>WCA Delegates</strong>、<strong>WCA Candidate
         Delegates</strong> から構成されます %{see_link}。WCA Senior Delegate は WCA
@@ -1629,7 +1622,7 @@ ja:
       #original_hash: 27d18ac
       see_link_html: '(参照: %{link})'
       #original_hash: 5b01fcc
-      members_html: 全競技者は、最初の WCA 公式大会で <strong>WCA メンバー</strong> になります。
+      members_html: すべての競技者は、最初の WCA 公式大会で <strong>WCA メンバー</strong> になります。
   delegates_page:
     #original_hash: d8fd3e4
     title: WCA 代理人
@@ -1649,7 +1642,7 @@ ja:
     content: 'WCA は以下の団体を各国の団体として認める:'
   contact:
     #original_hash: a34b69f
-    title: 連絡先
+    title: お問い合わせ
     #original_hash: b5c2eaa
     info_alert_html: '本ページ記載の連絡先に連絡する前に、%{link} をご覧ください。'
     #original_hash: 2b023eb
