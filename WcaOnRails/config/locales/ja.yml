@@ -139,6 +139,9 @@ ja:
     average: 平均
     #original_hash: e7f6fc5
     solves: 内訳
+    date:
+      #original_hash: acb6273
+      no_date: No date
     user:
       #original_hash: 603a218
       wca_id: WCA ID
@@ -224,6 +227,8 @@ ja:
         phone_number: 電話番号
         #original_hash: 7044004
         notes: メモ
+        #original_hash: 57eaf24
+        user_preferred_events: Preferred events
       competition:
         #original_hash: 89f89c0
         id: ID
@@ -279,17 +284,23 @@ ja:
         remarks: 備考
         #original_hash: c305010
         clone_tabs: すべてのタブを追加情報とともに複製する
+        #original_hash: c5497bc
+        competition_events: Events
       registration:
         #original_hash: 3c23a67
         guests: ゲスト
         #original_hash: fce06e2
         comments: コメント
+        #original_hash: dc9d458
+        paid_entry_fees: Paid
         #original_hash: bae7d5b
         status: ステータス
         #original_hash: 709a232
         name: 名前
         #original_hash: a6b9d69
         birthday: 誕生日
+        #original_hash: c5497bc
+        registration_competition_events: Events
       competition_tab:
         #original_hash: 4f9be05
         content: 内容
@@ -740,8 +751,6 @@ ja:
       password: パスワード
       #original_hash: 3fc6dbe
       member_of: 所属
-      #original_hash: 57eaf24
-      preferred_events: お気に入り種目
       #original_hash: 42619dd
       preferred_events_desc: お気に入り種目を登録しておくと、大会申し込みが簡単です。
       #original_hash: b402e03
@@ -853,8 +862,6 @@ ja:
       #original_hash: 92aa857
       unknown_wca_id_html: 'WCA ID %{link_id} は存在しません'
   registrations:
-    #original_hash: c5497bc
-    events: 競技種目
     errors:
       #original_hash: 44ab952
       need_name: 名前を入力してください
@@ -870,8 +877,6 @@ ja:
       registration_closed: 大会申し込みは終了しています
       #original_hash: e0bb243
       cannot_be_deleted_and_accepted: 参加申し込みの削除と承認を同時に行うことはできません。
-      #original_hash: bf9a828
-      can_register: User must be able to register for competition
       #original_hash: a38d024
       must_register: 1 つ以上の競技種目の選択が必要です
     registration_info_people:
@@ -917,6 +922,67 @@ ja:
     edit_registration:
       #original_hash: 2d15eae
       title: '%{person} for %{comp}'
+    mailer:
+      #original_hash: 72e2180
+      regards_html: 'Regards, %{people}.'
+      new:
+        #original_hash: 6fb638c
+        mail_subject: 'You have registered for %{comp_name}'
+        #original_hash: 8374583
+        registered_html: 'You just registered for %{comp_name}.'
+        #original_hash: 9238412
+        on_waiting_list: >-
+          Your registration is on the waiting list, which currently has
+          %{n_total} %{people} on it.
+        #original_hash: f5b00be
+        approval_info_html: >-
+          You will be emailed when your registration is approved. Please note
+          that registrations are not automatically approved. To see the approval
+          criteria visit the competition website or contact the organisers. You
+          can also check the status of your registration %{here}.
+      accepted:
+        #original_hash: 34515b5
+        mail_subject: 'Your registration for %{comp_name} has been accepted'
+        #original_hash: 24d2883
+        message_html: >-
+          Your registration for %{comp_name} has been accepted. As always, you
+          can check the status of your registration %{here}.
+        #original_hash: 1852cbf
+        see_you_soon: 'We look forward to seeing you at %{comp_name}!'
+      pending:
+        #original_hash: e48d8bd
+        mail_subject: 'You have been moved to the waiting list for %{comp_name}'
+        #original_hash: 6fd0a8e
+        moved_html: >-
+          Your registration for %{comp_name} has been moved to the waiting list.
+          Possible causes are:
+        causes:
+          #original_hash: eadfc0d
+          accepted: Your registration was accidentally accepted
+          #original_hash: 2ac6d84
+          withdrawal: You asked for withdrawal
+        #original_hash: 8f7358f
+        email_if_error: 'If you think this is an error, please reply to this email.'
+      deleted:
+        #original_hash: 268e248
+        mail_subject: 'Your registration for %{comp_name} has been deleted'
+        #original_hash: f66ae63
+        message_html: >-
+          Your registration for %{comp_name} has been deleted. Possible causes
+          are:
+        causes:
+          #original_hash: 978944c
+          missing_info: You did not submit all the required details
+          #original_hash: 788f2ec
+          incomplete: >-
+            You didn't meet the registration criteria (for example, paying the
+            registration fee in advance)
+          #original_hash: 1e225f0
+          registrations_full: >-
+            The competitor limit has been reached and there are no more spots
+            available
+          #original_hash: 0d4cce9
+          multiple_registrations: You registered twice or more times
     list:
       #original_hash: 8b7631c
       title: '%{comp} の参加申し込み一覧'
@@ -957,6 +1023,8 @@ ja:
     profile: プロフィール
     #original_hash: c0063c3
     register: 申し込み実行
+    #original_hash: f484f15
+    refund: Refund Payment
     #original_hash: a9af643
     update: 申し込みが更新されました
     #original_hash: f6fdbe4
@@ -991,7 +1059,7 @@ ja:
     check_registration_information: 申し込み手順を確認して、参加費を支払う必要がある場合等は手順に従ってください。
     #original_hash: ea2b586
     have_registered: '%{comp} に参加申し込み済みです。申し込み情報は下部に記載されています。'
-    #original_hash: 4d966e0
+    #original_hash: fa52a9b
     entry_fee: '基本参加費:'
     #original_hash: 3c9141f
     contact_organizer: 変更が必要な場合は運営チームにお尋ねください。
@@ -999,6 +1067,14 @@ ja:
     waiting_list: 申し込みは承認待ち状態です。参加費を支払う必要がある場合は支払ってください。詳しくは大会ウェブサイトをご覧ください。
     #original_hash: 58b1a3c
     accepted: 参加申し込みが完了しました！
+    #original_hash: 69cf660
+    entry_fees_partially_paid: >-
+      You have currently paid %{paid} of your total %{total_entry_fee} entry
+      fee.
+    #original_hash: 9153695
+    entry_fees_fully_paid: 'You have paid your entry fee of %{paid} in full.'
+    #original_hash: 05495d6
+    payment_button_text: 'Pay your %{entry_fee} entry fee with card'
     #original_hash: 4cf01a2
     preferred_events_prompt_html: '参加申し込みを簡単にするため、お気に入り種目を設定できます %{link}。'
   competitions:
@@ -1029,6 +1105,12 @@ ja:
       not_confirmed_visible: この大会は未承認ですが公開されています。
       #original_hash: 0f44e45
       not_confirmed_not_visible: この大会は未承認で非公開です。
+      #original_hash: a821396
+      stripe_connected: >-
+        You have now successfully connected your Stripe account and can now
+        receive registration payments for this competition.
+      #original_hash: 0a4bb53
+      stripe_not_connected: There was a problem and we could not connect your Stripe account.
     my_competitions:
       #original_hash: 5c6d3ea
       title: 自分の大会
@@ -1206,8 +1288,6 @@ ja:
       end_date_before_start: 終了日は開始日より後である必要があります
       #original_hash: be3933b
       span_too_many_days: '%{max_days} 日間を超える大会は開催できません。'
-    #original_hash: f42a238
-    unscheduled: スケジュール未定
     new:
       #original_hash: 1208df7
       create_competition: 大会新規作成
