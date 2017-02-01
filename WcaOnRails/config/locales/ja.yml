@@ -327,7 +327,7 @@ ja:
         #original_hash: d523ebb
         countryId: 国
         #original_hash: ab58155
-        dob: 誕生日
+        dob: 生年月日
         #original_hash: 8a754c6
         gender: 性別
         #original_hash: 709a232
@@ -724,7 +724,7 @@ ja:
       #original_hash: 1b44f6d
       competition: 大会
       #original_hash: b396bfa
-      already_have_html: '既に WCA ID %{wca_id} が登録されています'
+      already_have_html: '既に WCA ID %{wca_id} が連携されています'
       #original_hash: 87f1062
       already_claimed_html: 'WCA ID %{wca_id} との連携を申請しました。ご不明な点は %{delegate} にお問い合わせください。'
       #original_hash: 0660b5d
@@ -752,7 +752,7 @@ ja:
       #original_hash: 3fc6dbe
       member_of: 所属
       #original_hash: 42619dd
-      preferred_events_desc: お気に入り種目を登録しておくと、大会申し込みが簡単です。
+      preferred_events_desc: お気に入り種目を設定しておくと、大会申し込みが簡単です。
       #original_hash: b402e03
       please_fix_profile: '大会申し込みのためには、以下の問題を修正してください:'
       #original_hash: ff4fc02
@@ -778,9 +778,9 @@ ja:
       #original_hash: cf65c6e
       manage_pending: Manage pending avatars
       #original_hash: 2d2ae5d
-      have_no_wca_id_html: 'WCA ID が登録されていません。大会に参加したことがある場合は、%{here} で WCA ID をアカウントを登録してください。'
+      have_no_wca_id_html: 'WCA ID が連携されていません。大会に参加したことがある場合は、%{here} で WCA ID をアカウントと連携してください。'
       #original_hash: 29e25b5
-      have_wca_id_html: 'あなたの WCA IDは %{link_id} です。'
+      have_wca_id_html: 'あなたの WCA ID は %{link_id} です。'
       cannot_edit:
         #original_hash: 8501c74
         msg: >-
@@ -788,7 +788,7 @@ ja:
           href='%{delegate_url}'>WCA 代理人</a>に連絡してください。
         reason:
           #original_hash: 370ff12
-          assigned: WCA ID が登録されています
+          assigned: WCA ID が連携されています
           #original_hash: 1c4670f
           registered: 大会に参加申し込み済みです
       #original_hash: efc007a
@@ -807,17 +807,17 @@ ja:
         #original_hash: ebbbf8a
         '5': プロフィール画像は文字を含んではいけません (背景に写り込んでいる場合を除く)。
         #original_hash: cc5f23a
-        '6': プロフィール画像は正しい向きで登録しなければいけません。
+        '6': プロフィール画像は正しい向きでアップロードしなければいけません。
     errors:
       #original_hash: 094b763
       not_found: not found
       #original_hash: 49a6fe4
-      already_assigned: 既に他のユーザーに登録されています
+      already_assigned: 既に他のユーザーに連携されています
       #original_hash: 4bef62b
       dob_incorrect_html: >-
-        データベースと一致しません。もし正しい日付を正しい形式 (YYYY-MM-DD) で入力しているのにこのエラーが出る場合は、<a
+        データベースと一致しません。正しい日付を正しい形式 (YYYY-MM-DD) で入力したにもかかわらずこのエラーが出る場合は、<a
         href='mailto:results@worldcubeassociation.org' target='_blank'>WCA
-        Results Team</a> にメールしてください。その際、名前と誕生日の確認できる身分証明書 (運転免許証など)
+        Results Team</a> に電子メールでお問い合わせください。その際、氏名と生年月日を確認できる身分証明書 (運転免許証など)
         の写真を添付してください。
       #original_hash: 0fbcefd
       unique: ユニークな値を入力してください
@@ -830,12 +830,12 @@ ja:
       #original_hash: b2c4ecc
       senior_has_delegate: cannot demote senior delegate with subordinate delegates
       #original_hash: 48653a9
-      already_have_id: '既に WCA ID %{wca_id} が登録されているため、WCA ID が登録できません'
+      already_have_id: '既に WCA ID %{wca_id} が連携されているため、WCA ID の連携申請ができません'
       #original_hash: eeb76a7
       wca_id_no_birthdate_html: >-
-        この WCA ID には生年月日が登録されていません。氏名と生年月日が確認できる身分証明書 (運転免許証など) の写真を <a
+        この WCA ID には生年月日が登録されていません。氏名と生年月日を確認できる身分証明書 (運転免許証など) の写真を <a
         href='mailto:results@worldcubeassociation.org' target='_blank'>WCA
-        Results Team</a> にメールしてください。
+        Results Team</a> に電子メールで送付してください。
       #original_hash: 49083d8
       board_member_cannot_resign: WCA 理事登録を自分自身で解除することはできません。他の理事に依頼してください。
       #original_hash: d02c03b
@@ -851,7 +851,7 @@ ja:
     select_nearby_delegate:
       #original_hash: 2b11120
       select_delegate_html: >-
-        WCA IDの登録には、<a href='%{link_delegate}' target='_blank'>WCA
+        WCA ID の連携には、<a href='%{link_delegate}' target='_blank'>WCA
         代理人</a>による本人確認が必要です。生年月日を入力し、最も身近な WCA 代理人を選択してください。
       #original_hash: d69cf94
       already_assigned_html: >-
@@ -882,12 +882,12 @@ ja:
     registration_info_people:
       #original_hash: bdf1f11
       newcomer:
-        one: 人の初参加者
-        other: 人の初参加者
+        one: 人 (初参加者)
+        other: 人 (初参加者)
       #original_hash: bc010e3
       returner:
-        one: 人の大会経験者
-        other: 人の大会経験者
+        one: 人 (大会経験者)
+        other: 人 (大会経験者)
       #original_hash: b7da17a
       person:
         one: 人
@@ -977,7 +977,7 @@ ja:
           registrations_full: >-
             参加申し込みが定員に達したため。
           #original_hash: 0d4cce9
-          multiple_registrations: 複数回申し込みを行っため。
+          multiple_registrations: 複数回申し込みを行ったため。
     list:
       #original_hash: 8b7631c
       title: '%{comp} の参加申し込み一覧'
@@ -985,8 +985,8 @@ ja:
       edit: 編集
       #original_hash: 0ab725c
       country_plural:
-        one: "国数 1"
-        other: "国数 %{count}"
+        one: "1 か国"
+        other: "%{count} か国"
       #original_hash: 1feee0e
       export_csv: CSV に出力
       #original_hash: 84add5b
@@ -1006,7 +1006,7 @@ ja:
       #original_hash: a844fcf
       registered: 申し込み済み
       #original_hash: b25928c
-      total: トータル
+      total: 合計
     new_registration:
       #original_hash: 8b9f726
       title: '%{comp} 参加申し込み'
@@ -1084,11 +1084,11 @@ ja:
       #original_hash: afe3a23
       results_preview_alert: まだ送信されていない結果を表示しています。
       #original_hash: 07de612
-      upload_results: この大会は終了しています。現在、結果をアップロードする作業中です。
+      upload_results: この大会は終了しています。現在、結果のアップロード作業中です。
       #original_hash: a0168ee
       in_progress: 'この大会は開催中です。%{date} より後に結果が表示されます。'
       #original_hash: 3322400
-      tooltip_registered: すでに登録済みです。
+      tooltip_registered: すでに申し込み済みです。
       #original_hash: f2d092f
       tooltip_waiting_list: 現在キャンセル待ちです。
       #original_hash: 9ecd976
@@ -1133,7 +1133,7 @@ ja:
         one: WCA 代理人
         other: WCA 代理人
       #original_hash: b37456c
-      contact: 連絡先
+      contact: お問い合わせ
       #original_hash: a428739
       entry_fee: 基本参加費
       #original_hash: 0eb5ed5
@@ -1431,9 +1431,9 @@ ja:
       #original_hash: 709a232
       name: 名前
       #original_hash: d523ebb
-      country: 国
+      country: 国籍
       #original_hash: 02ae2bd
-      podiums: 入賞者
+      podiums: 入賞回数
       #original_hash: 56656a0
       no_persons_found: キーワードにマッチする検索結果はありません。
   posts:
@@ -1447,7 +1447,7 @@ ja:
     #original_hash: 6cf2723
     contact_us: お問い合わせください
     #original_hash: 9100be3
-    search_for_competition: '大会を検索するにはここから:'
+    search_for_competition: '大会の検索はこちらから:'
     #original_hash: cba12bc
     already_logged_in: すでに WCA アカウントにログインしています。
     #original_hash: 5b7fa52
@@ -1487,14 +1487,14 @@ ja:
           #original_hash: 40aa9c0
           '1': >-
             ほとんどの WCA 公式大会には特別な資格は不要です。ただし、参加者は<a
-            href='https://www.worldcubeassociation.org/regulations/'>大会規則</a>を知っていることが望まれます。特に初参加者の方は、競技の流れ等を理解するために以下のページや動画をご覧ください。<a
+            href='https://www.worldcubeassociation.org/regulations/'>大会規則 (英語)</a>、<a href='https://www.worldcubeassociation.org/regulations/translations/japanese/'>大会規則 (日本語)</a>を知っていることが望まれます。特に初参加者の方は、競技の流れ等を理解するために以下のページや動画をご覧ください。<a
             target='_blank' href='http://www.cubingusa.com/ctutorial.php'>Cubing
             USA's competitor tutorial</a> (英語)、<a target='_blank'
             href='https://www.youtube.com/watch?v=xSrw4YO00uo'>tribox
             による競技の流れチュートリアル動画</a> (日本語)。
       '5':
         #original_hash: 3b657aa
-        title: 地元で WCA 公式大会を開催できますか？
+        title: 私の地元で WCA 公式大会を開催できますか？
         content:
           #original_hash: 3d4eb1c
           '1': 大会を主催したい場合、経験を積むために最低でも数回は競技者として大会に参加することが強く推奨されます。
@@ -1510,7 +1510,7 @@ ja:
             代理人</a>に連絡を取る必要があります。WCA 公式大会として認められるには、WCA 代理人による監督が必須です。
           #original_hash: 809f53a
           '4': >-
-            より詳細は、<a target='_blank'
+            より詳細な情報は、<a target='_blank'
             href='https://www.cubingusa.com/cguide.php'>CubingUSA による大会運営ガイド
             (英語)</a> をご覧ください。※このガイドの内容と WCA 大会規則が矛盾する場合、WCA 大会規則が優先されます。
       '6':
@@ -1613,7 +1613,7 @@ ja:
         description: このチームは、WCA のソフトウェア (ウェブサイト、スクランブル、ワークブック、管理ツール) の管理を担当します。
       #original_hash: f2ceade
       delegates_html: >-
-        <strong>WCA 代理人</strong> は、すべての WCA 公式大会が WCA
+        <strong>WCA 代理人</strong>は、すべての WCA 公式大会が WCA
         の目的、大会規則、精神に従って開催されているかを確認する責任があります。<strong>WCA Senior
         Delegates</strong>、<strong>WCA Delegates</strong>、<strong>WCA Candidate
         Delegates</strong> から構成されます %{see_link}。WCA Senior Delegate は WCA
@@ -1627,7 +1627,7 @@ ja:
     #original_hash: d8fd3e4
     title: WCA 代理人
     #original_hash: 0a89b0f
-    acknowledges: 'WCA は以下のメンバーを WCA 公式大会での代理人として認める:'
+    acknowledges: 'WCA は以下のメンバーを WCA 公式大会での代理人として認めます:'
     table:
       #original_hash: 709a232
       name: 名前
@@ -1639,16 +1639,16 @@ ja:
     #original_hash: 0ef06c8
     title: 各国の団体
     #original_hash: f9a7f4d
-    content: 'WCA は以下の団体を各国の団体として認める:'
+    content: 'WCA は以下の団体を各国の団体として認めます:'
   contact:
     #original_hash: a34b69f
     title: お問い合わせ
     #original_hash: b5c2eaa
-    info_alert_html: '本ページ記載の連絡先に連絡する前に、%{link} をご覧ください。'
+    info_alert_html: '本ページ記載のお問い合わせ先に連絡する前に、%{link} をご覧ください。'
     #original_hash: 2b023eb
     questions_and_comments_html: >-
       ウェブサイトへの質問、コメント、提案は、<a
-      href='/contact/website'>連絡フォーム</a>からお問い合わせください。特定の地域や大会に関することは、お近くの
+      href='/contact/website'>お問い合わせフォーム</a>からお問い合わせください。特定の地域や大会に関することは、お近くの
       %{link} にお問い合わせください。
     #original_hash: 4a30d30
     committees_and_teams_html: <u>委員会・チーム</u>
@@ -1677,7 +1677,7 @@ ja:
       '1': >-
         WCA は大会準備と大会中に <a href="http://cubecomps.com">Cube Comps</a>
         を使用することを強く推奨します。Cube Comps
-        は記録入力に加え、記録カードの印刷や複数ユーザによるデータ入力を可能にした便利なオンラインシステムです。Luis J. Iáñez
+        は記録入力に加え、記録カードの印刷や複数ユーザによるデータ入力を可能にした便利なオンラインシステムです。Luis J. Iáñez さん
         により作成されました。オープンソースです。
       #original_hash: 7438b0d
       '2': >-
