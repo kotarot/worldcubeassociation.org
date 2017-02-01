@@ -931,51 +931,42 @@ ja:
         #original_hash: 8374583
         registered_html: '%{comp_name} に申し込みました。'
         #original_hash: 9238412
-        on_waiting_list: >-
-          申し込みはキャンセル待ちです。現在、%{n_total} %{people} 待ちです。
+        on_waiting_list: '申し込みはキャンセル待ちです。現在、%{n_total} %{people} 待ちです。'
         #original_hash: f5b00be
         approval_info_html: >-
-          参加申し込みが受理された場合、メールでお知らせします。
-          申し込みは自動受理にはなりませんのでご注意ください。
-          申し込み受理の基準は大会ウェブサイトを確認するか、運営チームにお問い合わせください。
-          申し込み状況は%{here}でも確認できます。
+          参加申し込みが受理された場合、メールでお知らせします。 申し込みは自動受理にはなりませんのでご注意ください。
+          申し込み受理の基準は大会ウェブサイトを確認するか、運営チームにお問い合わせください。 申し込み状況は%{here}でも確認できます。
       accepted:
         #original_hash: 34515b5
         mail_subject: '%{comp_name} の参加申し込みが受理されました'
         #original_hash: 24d2883
-        message_html: >-
-          %{comp_name} の参加申し込みが受理されました。申し込み状況は%{here}で確認できます。
+        message_html: '%{comp_name} の参加申し込みが受理されました。申し込み状況は%{here}で確認できます。'
         #original_hash: 1852cbf
         see_you_soon: '%{comp_name} でお会いできることを楽しみにしております。'
       pending:
         #original_hash: e48d8bd
         mail_subject: '%{comp_name} の参加申し込みがキャンセル待ちになりました。'
         #original_hash: 6fd0a8e
-        moved_html: >-
-          %{comp_name} の参加申し込みがキャンセル待ちになりました。
-          考えられる理由は次のとおりです。
+        moved_html: '%{comp_name} の参加申し込みがキャンセル待ちになりました。 考えられる理由は次のとおりです。'
         causes:
           #original_hash: eadfc0d
           accepted: 誤って申し込みが受理されたため。
           #original_hash: 2ac6d84
           withdrawal: あなたが申し込みの取り消しを申請したため。
         #original_hash: 8f7358f
-        email_if_error: 'これが誤りだと思われる場合は、このメールにご返信ください。'
+        email_if_error: これが誤りだと思われる場合は、このメールにご返信ください。
       deleted:
         #original_hash: 268e248
         mail_subject: '%{comp_name} の申し込みが取り消されました'
         #original_hash: f66ae63
-        message_html: >-
-          {comp_name} の申し込みが取り消されました。考えられる理由は次のとおりです。
+        message_html: '{comp_name} の申し込みが取り消されました。考えられる理由は次のとおりです。'
         causes:
           #original_hash: 978944c
           missing_info: 申し込みに必要な情報が不足しているため。
           #original_hash: 788f2ec
-          incomplete: >-
-            申し込みの条件を満たしていないため (例: 事前支払いなど)。
+          incomplete: '申し込みの条件を満たしていないため (例: 事前支払いなど)。'
           #original_hash: 1e225f0
-          registrations_full: >-
-            参加申し込みが定員に達したため。
+          registrations_full: 参加申し込みが定員に達したため。
           #original_hash: 0d4cce9
           multiple_registrations: 複数回申し込みを行ったため。
     list:
@@ -1063,12 +1054,11 @@ ja:
     #original_hash: 58b1a3c
     accepted: 参加申し込みが完了しました！
     #original_hash: 69cf660
-    entry_fees_partially_paid: >-
-      現在、参加費 %{total_entry_fee} 中、%{paid} を支払い済みです。
+    entry_fees_partially_paid: '現在、参加費 %{total_entry_fee} 中、%{paid} を支払い済みです。'
     #original_hash: 9153695
     entry_fees_fully_paid: '参加費 %{paid} を全額支払い済みです。'
     #original_hash: 05495d6
-    payment_button_text: '参加費 %{entry_fee} をカードで支払う'
+    payment_button_text: '参加費 %{entry_fee} をクレジットカードで支払う'
     #original_hash: 4cf01a2
     preferred_events_prompt_html: '参加申し込みを簡単にするため、お気に入り種目を設定できます %{link}。'
   competitions:
@@ -1100,8 +1090,7 @@ ja:
       #original_hash: 0f44e45
       not_confirmed_not_visible: この大会は未承認で非公開です。
       #original_hash: a821396
-      stripe_connected: >-
-        Stripe アカウントと連携しました。この大会の参加費の支払いをこのアカウントで受け取ることができます。
+      stripe_connected: Stripe アカウントと連携しました。この大会の参加費の支払いをこのアカウントで受け取ることができます。
       #original_hash: 0a4bb53
       stripe_not_connected: 問題があり、Stripe アカウントを連携できませんでした。
     my_competitions:
@@ -1487,7 +1476,10 @@ ja:
           #original_hash: 40aa9c0
           '1': >-
             ほとんどの WCA 公式大会には特別な資格は不要です。ただし、参加者は<a
-            href='https://www.worldcubeassociation.org/regulations/'>大会規則 (英語)</a>、<a href='https://www.worldcubeassociation.org/regulations/translations/japanese/'>大会規則 (日本語)</a>を知っていることが望まれます。特に初参加者の方は、競技の流れ等を理解するために以下のページや動画をご覧ください。<a
+            href='https://www.worldcubeassociation.org/regulations/'>大会規則
+            (英語)</a>、<a
+            href='https://www.worldcubeassociation.org/regulations/translations/japanese/'>大会規則
+            (日本語)</a>を知っていることが望まれます。特に初参加者の方は、競技の流れ等を理解するために以下のページや動画をご覧ください。<a
             target='_blank' href='http://www.cubingusa.com/ctutorial.php'>Cubing
             USA's competitor tutorial</a> (英語)、<a target='_blank'
             href='https://www.youtube.com/watch?v=xSrw4YO00uo'>tribox
@@ -1568,8 +1560,8 @@ ja:
         #original_hash: 16ad45e
         '1': >-
           World Cube Association はすべての Rubik ブランドパズルと側面を回転させて揃えるタイプのパズル
-          の大会を管理します。代表的なものは、ハンガリーの Rubik 教授が発明した Rubik's Cube
-          (ルービックキューブ) です。このようなパズルの中から WCA の公式種目が選ばれます。
+          の大会を管理します。代表的なものは、ハンガリーの Rubik 教授が発明した Rubik's Cube (ルービックキューブ)
+          です。このようなパズルの中から WCA の公式種目が選ばれます。
         #original_hash: c8ecd24
         '2': World Cube Association は世界中の大会を組織化します。大会は各国の大会を運営する団体の支援により開催されます。
         #original_hash: 20e0550
